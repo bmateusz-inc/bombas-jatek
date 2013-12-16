@@ -1,0 +1,135 @@
+\hypertarget{class_game_manager}{\section{Game\-Manager Class Reference}
+\label{class_game_manager}\index{Game\-Manager@{Game\-Manager}}
+}
+
+
+{\ttfamily \#include $<$gamemanager.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_game_manager_a7839921a3c7eaa16052890cbf86b093b}{Game\-Manager} (G\-A\-M\-E\-\_\-\-M\-O\-D\-E i\-Game\-Mode, G\-A\-M\-E\-\_\-\-P\-L\-A\-C\-E i\-Game\-Place, \hyperlink{class_view}{View} \&iview, \hyperlink{class_input}{Input} \&i\-Input, \hyperlink{class_game_table}{Game\-Table} \&i\-Table, \hyperlink{class_network}{Network} \&i\-Network)
+\item 
+void \hyperlink{class_game_manager_ad1dd337b7fc6bae5b9fd3e0de26bb548}{prepare\-Table} ()
+\item 
+void \hyperlink{class_game_manager_a90f35603718489d8070b2adcf625a7cb}{new\-Round} ()
+\item 
+void \hyperlink{class_game_manager_aad88dbf82b379ed4da787c3a5653f247}{check\-State} ()
+\item 
+void \hyperlink{class_game_manager_a5102a79dc2d2785295e0b7771ac5d37a}{check\-Before} ()
+\item 
+void \hyperlink{class_game_manager_aad272d9b3a79d5d75d8e5b0af0b8b2fe}{check\-After} ()
+\item 
+void \hyperlink{class_game_manager_ac91747a627d65c3ac3bc6ef70eed7e5b}{wait\-Round} ()
+\item 
+bool \hyperlink{class_game_manager_aa00720978f30b02d49d31c0ce8f9a01b}{get\-Run} ()
+\item 
+bool \hyperlink{class_game_manager_a9ff7fc6dc088a182b3207d157ceffad8}{get\-Round} ()
+\item 
+bool \hyperlink{class_game_manager_a2edd03773254fce2b264b9f5cc0679ed}{get\-Show\-Score\-Board} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Handle events on the \hyperlink{class_game_table}{Game\-Table}, regarding the game mode 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_game_manager_a7839921a3c7eaa16052890cbf86b093b}{\index{Game\-Manager@{Game\-Manager}!Game\-Manager@{Game\-Manager}}
+\index{Game\-Manager@{Game\-Manager}!GameManager@{Game\-Manager}}
+\subsubsection[{Game\-Manager}]{\setlength{\rightskip}{0pt plus 5cm}Game\-Manager\-::\-Game\-Manager (
+\begin{DoxyParamCaption}
+\item[{G\-A\-M\-E\-\_\-\-M\-O\-D\-E}]{i\-Game\-Mode, }
+\item[{G\-A\-M\-E\-\_\-\-P\-L\-A\-C\-E}]{i\-Game\-Place, }
+\item[{{\bf View} \&}]{iview, }
+\item[{{\bf Input} \&}]{i\-Input, }
+\item[{{\bf Game\-Table} \&}]{i\-Table, }
+\item[{{\bf Network} \&}]{i\-Network}
+\end{DoxyParamCaption}
+)}}\label{class_game_manager_a7839921a3c7eaa16052890cbf86b093b}
+Constructor 
+\begin{DoxyParams}{Parameters}
+{\em i\-Game\-Mode} & game mode \\
+\hline
+{\em i\-Game\-Place} & place of game (local, server, client) \\
+\hline
+{\em iview} & \hyperlink{class_view}{View} class \\
+\hline
+{\em i\-Input} & \hyperlink{class_input}{Input} class \\
+\hline
+{\em i\-Table} & Table class \\
+\hline
+{\em i\-Network} & \hyperlink{class_network}{Network} class \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_game_manager_aad272d9b3a79d5d75d8e5b0af0b8b2fe}{\index{Game\-Manager@{Game\-Manager}!check\-After@{check\-After}}
+\index{check\-After@{check\-After}!GameManager@{Game\-Manager}}
+\subsubsection[{check\-After}]{\setlength{\rightskip}{0pt plus 5cm}void Game\-Manager\-::check\-After (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_game_manager_aad272d9b3a79d5d75d8e5b0af0b8b2fe}
+Check after rounds \hypertarget{class_game_manager_a5102a79dc2d2785295e0b7771ac5d37a}{\index{Game\-Manager@{Game\-Manager}!check\-Before@{check\-Before}}
+\index{check\-Before@{check\-Before}!GameManager@{Game\-Manager}}
+\subsubsection[{check\-Before}]{\setlength{\rightskip}{0pt plus 5cm}void Game\-Manager\-::check\-Before (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_game_manager_a5102a79dc2d2785295e0b7771ac5d37a}
+Check after frames \hypertarget{class_game_manager_aad88dbf82b379ed4da787c3a5653f247}{\index{Game\-Manager@{Game\-Manager}!check\-State@{check\-State}}
+\index{check\-State@{check\-State}!GameManager@{Game\-Manager}}
+\subsubsection[{check\-State}]{\setlength{\rightskip}{0pt plus 5cm}void Game\-Manager\-::check\-State (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_game_manager_aad88dbf82b379ed4da787c3a5653f247}
+Check state of game (score of players) and stop if necessary \hypertarget{class_game_manager_a9ff7fc6dc088a182b3207d157ceffad8}{\index{Game\-Manager@{Game\-Manager}!get\-Round@{get\-Round}}
+\index{get\-Round@{get\-Round}!GameManager@{Game\-Manager}}
+\subsubsection[{get\-Round}]{\setlength{\rightskip}{0pt plus 5cm}bool Game\-Manager\-::get\-Round (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_game_manager_a9ff7fc6dc088a182b3207d157ceffad8}
+End of round \hypertarget{class_game_manager_aa00720978f30b02d49d31c0ce8f9a01b}{\index{Game\-Manager@{Game\-Manager}!get\-Run@{get\-Run}}
+\index{get\-Run@{get\-Run}!GameManager@{Game\-Manager}}
+\subsubsection[{get\-Run}]{\setlength{\rightskip}{0pt plus 5cm}bool Game\-Manager\-::get\-Run (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_game_manager_aa00720978f30b02d49d31c0ce8f9a01b}
+End of this game \hypertarget{class_game_manager_a2edd03773254fce2b264b9f5cc0679ed}{\index{Game\-Manager@{Game\-Manager}!get\-Show\-Score\-Board@{get\-Show\-Score\-Board}}
+\index{get\-Show\-Score\-Board@{get\-Show\-Score\-Board}!GameManager@{Game\-Manager}}
+\subsubsection[{get\-Show\-Score\-Board}]{\setlength{\rightskip}{0pt plus 5cm}bool Game\-Manager\-::get\-Show\-Score\-Board (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_game_manager_a2edd03773254fce2b264b9f5cc0679ed}
+Show scoreboard after round finished or not \hypertarget{class_game_manager_a90f35603718489d8070b2adcf625a7cb}{\index{Game\-Manager@{Game\-Manager}!new\-Round@{new\-Round}}
+\index{new\-Round@{new\-Round}!GameManager@{Game\-Manager}}
+\subsubsection[{new\-Round}]{\setlength{\rightskip}{0pt plus 5cm}void Game\-Manager\-::new\-Round (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_game_manager_a90f35603718489d8070b2adcf625a7cb}
+Start new round, reset table \hypertarget{class_game_manager_ad1dd337b7fc6bae5b9fd3e0de26bb548}{\index{Game\-Manager@{Game\-Manager}!prepare\-Table@{prepare\-Table}}
+\index{prepare\-Table@{prepare\-Table}!GameManager@{Game\-Manager}}
+\subsubsection[{prepare\-Table}]{\setlength{\rightskip}{0pt plus 5cm}void Game\-Manager\-::prepare\-Table (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_game_manager_ad1dd337b7fc6bae5b9fd3e0de26bb548}
+Prepare game table \hypertarget{class_game_manager_ac91747a627d65c3ac3bc6ef70eed7e5b}{\index{Game\-Manager@{Game\-Manager}!wait\-Round@{wait\-Round}}
+\index{wait\-Round@{wait\-Round}!GameManager@{Game\-Manager}}
+\subsubsection[{wait\-Round}]{\setlength{\rightskip}{0pt plus 5cm}void Game\-Manager\-::wait\-Round (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_game_manager_ac91747a627d65c3ac3bc6ef70eed7e5b}
+Wait for round start 
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+gamemanager.\-h\item 
+gamemanager.\-cpp\end{DoxyCompactItemize}

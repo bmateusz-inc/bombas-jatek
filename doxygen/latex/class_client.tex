@@ -1,0 +1,93 @@
+\hypertarget{class_client}{\section{Client Class Reference}
+\label{class_client}\index{Client@{Client}}
+}
+
+
+{\ttfamily \#include $<$client.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_client_a7bfde03c1d803967f143e43f182f12d1}{Client} (std\-::string i\-Server\-Name)
+\item 
+\hyperlink{class_client_a840e519ca781888cbd54181572ebe3a7}{$\sim$\-Client} ()
+\item 
+void \hyperlink{class_client_a654ba5473ed09ebec6ab7c08e7a24c62}{main\-Loop} ()
+\item 
+bool \hyperlink{class_client_a99e1f6991bf2b4621a78ba939646f30f}{send\-Packets} (std\-::vector$<$ \hyperlink{class_network_event}{Network\-Event} $>$ \&packets\-Out)
+\item 
+std\-::vector$<$ \hyperlink{class_network_event}{Network\-Event} $>$ \& \hyperlink{class_client_a4b95752c68427742a66c792fd5885a5c}{get\-Packets} ()
+\item 
+bool \hyperlink{class_client_a9bf1bb055b99eae811954f41533a373d}{get\-Success} () const 
+\item 
+std\-::string \hyperlink{class_client_a056af8a9a28128d017c0b6b280204575}{get\-Host} () const 
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{class_client}{Client} connection and packet handling 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_client_a7bfde03c1d803967f143e43f182f12d1}{\index{Client@{Client}!Client@{Client}}
+\index{Client@{Client}!Client@{Client}}
+\subsubsection[{Client}]{\setlength{\rightskip}{0pt plus 5cm}Client\-::\-Client (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{i\-Server\-Name}
+\end{DoxyParamCaption}
+)}}\label{class_client_a7bfde03c1d803967f143e43f182f12d1}
+Constructor 
+\begin{DoxyParams}{Parameters}
+{\em i\-Server\-Name} & address to connect (can be I\-P or host name) \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_client_a840e519ca781888cbd54181572ebe3a7}{\index{Client@{Client}!$\sim$\-Client@{$\sim$\-Client}}
+\index{$\sim$\-Client@{$\sim$\-Client}!Client@{Client}}
+\subsubsection[{$\sim$\-Client}]{\setlength{\rightskip}{0pt plus 5cm}Client\-::$\sim$\-Client (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_client_a840e519ca781888cbd54181572ebe3a7}
+Desctructor 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_client_a056af8a9a28128d017c0b6b280204575}{\index{Client@{Client}!get\-Host@{get\-Host}}
+\index{get\-Host@{get\-Host}!Client@{Client}}
+\subsubsection[{get\-Host}]{\setlength{\rightskip}{0pt plus 5cm}std\-::string Client\-::get\-Host (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_client_a056af8a9a28128d017c0b6b280204575}
+Get the address we connected to \hypertarget{class_client_a4b95752c68427742a66c792fd5885a5c}{\index{Client@{Client}!get\-Packets@{get\-Packets}}
+\index{get\-Packets@{get\-Packets}!Client@{Client}}
+\subsubsection[{get\-Packets}]{\setlength{\rightskip}{0pt plus 5cm}std\-::vector$<$ {\bf Network\-Event} $>$ \& Client\-::get\-Packets (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_client_a4b95752c68427742a66c792fd5885a5c}
+Get packets (after main\-Loop run) \hypertarget{class_client_a9bf1bb055b99eae811954f41533a373d}{\index{Client@{Client}!get\-Success@{get\-Success}}
+\index{get\-Success@{get\-Success}!Client@{Client}}
+\subsubsection[{get\-Success}]{\setlength{\rightskip}{0pt plus 5cm}bool Client\-::get\-Success (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{class_client_a9bf1bb055b99eae811954f41533a373d}
+False if error occured. \hypertarget{class_client_a654ba5473ed09ebec6ab7c08e7a24c62}{\index{Client@{Client}!main\-Loop@{main\-Loop}}
+\index{main\-Loop@{main\-Loop}!Client@{Client}}
+\subsubsection[{main\-Loop}]{\setlength{\rightskip}{0pt plus 5cm}void Client\-::main\-Loop (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_client_a654ba5473ed09ebec6ab7c08e7a24c62}
+Main loop, receive packets \hypertarget{class_client_a99e1f6991bf2b4621a78ba939646f30f}{\index{Client@{Client}!send\-Packets@{send\-Packets}}
+\index{send\-Packets@{send\-Packets}!Client@{Client}}
+\subsubsection[{send\-Packets}]{\setlength{\rightskip}{0pt plus 5cm}bool Client\-::send\-Packets (
+\begin{DoxyParamCaption}
+\item[{std\-::vector$<$ {\bf Network\-Event} $>$ \&}]{packets\-Out}
+\end{DoxyParamCaption}
+)}}\label{class_client_a99e1f6991bf2b4621a78ba939646f30f}
+Send packets to server 
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+client.\-h\item 
+client.\-cpp\end{DoxyCompactItemize}

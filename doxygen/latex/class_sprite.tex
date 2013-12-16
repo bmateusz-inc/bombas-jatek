@@ -1,0 +1,106 @@
+\hypertarget{class_sprite}{\section{Sprite Class Reference}
+\label{class_sprite}\index{Sprite@{Sprite}}
+}
+
+
+{\ttfamily \#include $<$sprite.\-h$>$}
+
+Inheritance diagram for Sprite\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_sprite}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_sprite_a12cba3ac1868418add3c4d95ce87e615}{Sprite} ()
+\item 
+\hyperlink{class_sprite_a28604acdc189d2f99b4525e2fa12a585}{Sprite} (std\-::string file\-Name)
+\item 
+\hyperlink{class_sprite_a8accab430f9d90ae5117b57d67e32b84}{$\sim$\-Sprite} ()
+\item 
+void \hyperlink{class_sprite_a0d00170fb8cc22361e2c16c4b3818e7e}{draw} (float x, float y, float w, float h, std\-::string param=\char`\"{}\char`\"{})
+\item 
+void \hyperlink{class_sprite_a3689496f6c44c2c6fd9dd6bd92bf1742}{bind} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class for handle single drawable objects. 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_sprite_a12cba3ac1868418add3c4d95ce87e615}{\index{Sprite@{Sprite}!Sprite@{Sprite}}
+\index{Sprite@{Sprite}!Sprite@{Sprite}}
+\subsubsection[{Sprite}]{\setlength{\rightskip}{0pt plus 5cm}Sprite\-::\-Sprite (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_sprite_a12cba3ac1868418add3c4d95ce87e615}
+Default constructor \hypertarget{class_sprite_a28604acdc189d2f99b4525e2fa12a585}{\index{Sprite@{Sprite}!Sprite@{Sprite}}
+\index{Sprite@{Sprite}!Sprite@{Sprite}}
+\subsubsection[{Sprite}]{\setlength{\rightskip}{0pt plus 5cm}Sprite\-::\-Sprite (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{file\-Name}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_sprite_a28604acdc189d2f99b4525e2fa12a585}
+Constructor 
+\begin{DoxyParams}{Parameters}
+{\em file\-Name} & name of graphic file (.png) \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_sprite_a8accab430f9d90ae5117b57d67e32b84}{\index{Sprite@{Sprite}!$\sim$\-Sprite@{$\sim$\-Sprite}}
+\index{$\sim$\-Sprite@{$\sim$\-Sprite}!Sprite@{Sprite}}
+\subsubsection[{$\sim$\-Sprite}]{\setlength{\rightskip}{0pt plus 5cm}Sprite\-::$\sim$\-Sprite (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_sprite_a8accab430f9d90ae5117b57d67e32b84}
+Destructor, free memory 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_sprite_a3689496f6c44c2c6fd9dd6bd92bf1742}{\index{Sprite@{Sprite}!bind@{bind}}
+\index{bind@{bind}!Sprite@{Sprite}}
+\subsubsection[{bind}]{\setlength{\rightskip}{0pt plus 5cm}void Sprite\-::bind (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{class_sprite_a3689496f6c44c2c6fd9dd6bd92bf1742}
+Bind graphic for drawing 
+
+Reimplemented from \hyperlink{class_object_a210c8bac4e5705ffee71d0837e46ab46}{Object}.
+
+\hypertarget{class_sprite_a0d00170fb8cc22361e2c16c4b3818e7e}{\index{Sprite@{Sprite}!draw@{draw}}
+\index{draw@{draw}!Sprite@{Sprite}}
+\subsubsection[{draw}]{\setlength{\rightskip}{0pt plus 5cm}void Sprite\-::draw (
+\begin{DoxyParamCaption}
+\item[{float}]{x, }
+\item[{float}]{y, }
+\item[{float}]{w, }
+\item[{float}]{h, }
+\item[{std\-::string}]{param = {\ttfamily \char`\"{}\char`\"{}}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_sprite_a0d00170fb8cc22361e2c16c4b3818e7e}
+Draw sprite on screen 
+\begin{DoxyParams}{Parameters}
+{\em x} & coordinate \\
+\hline
+{\em y} & coordinate \\
+\hline
+{\em w} & width \\
+\hline
+{\em h} & height \\
+\hline
+{\em param} & full draw string \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \hyperlink{class_object_a13b99ec4da0a1c798104560c492c2a7e}{Object}.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+view/sprite.\-h\item 
+view/sprite.\-cpp\end{DoxyCompactItemize}

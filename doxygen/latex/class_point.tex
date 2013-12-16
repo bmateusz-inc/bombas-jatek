@@ -1,0 +1,174 @@
+\hypertarget{class_point}{\section{Point$<$ T $>$ Class Template Reference}
+\label{class_point}\index{Point$<$ T $>$@{Point$<$ T $>$}}
+}
+
+
+{\ttfamily \#include $<$point.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_point_aea76b1130f1a203722d8f2254ced8e66}{Point} ()
+\item 
+\hyperlink{class_point_a16ffb6ca96dca42871235bb5d0735c1e}{Point} (T ix, T iy)
+\item 
+T \hyperlink{class_point_ae414e3bdd4f00190e7c4a999e9020f6c}{get\-X} () const 
+\item 
+T \hyperlink{class_point_a6b5641f2ef6c44b88f14276150dce919}{get\-Y} () const 
+\item 
+void \hyperlink{class_point_a5bc38f3c20a363567bd3e4ec7f84355d}{set\-X} (T ix)
+\item 
+void \hyperlink{class_point_a9be128a556a05af596e0d98e710e0733}{set\-Y} (T iy)
+\end{DoxyCompactItemize}
+\subsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+bool \hyperlink{class_point_a3022feda6e2cd717d7556545070e5e3d}{operator==} (const \hyperlink{class_point}{Point}$<$ T $>$ \&a, const \hyperlink{class_point}{Point}$<$ T $>$ \&b)
+\item 
+bool \hyperlink{class_point_a0c7ba65875d6a928df1b4c98ce8e1845}{operator!=} (const \hyperlink{class_point}{Point}$<$ T $>$ \&a, const \hyperlink{class_point}{Point}$<$ T $>$ \&b)
+\item 
+\hyperlink{class_point}{Point}$<$ T $>$ \hyperlink{class_point_a1c7429e6e5fcf1384ef4e265619afaa5}{operator+} (const \hyperlink{class_point}{Point}$<$ T $>$ \&a, const \hyperlink{class_point}{Point}$<$ T $>$ \&b)
+\item 
+\hyperlink{class_point}{Point}$<$ T $>$ \hyperlink{class_point_aaff8e9d6aac135ddbb6c6bd38a1d6e62}{operator/} (const \hyperlink{class_point}{Point}$<$ T $>$ \&a, const int \&b)
+\item 
+T \hyperlink{class_point_a216c89dc6b71108a752facddcd5049e6}{distance} (const \hyperlink{class_point}{Point}$<$ T $>$ \&a, const \hyperlink{class_point}{Point}$<$ T $>$ \&b)
+\item 
+W\-A\-Y \hyperlink{class_point_a5693f743fefbc2b3c12a77c99167c88d}{Way} (const \hyperlink{class_point}{Point}$<$ T $>$ \&a, const \hyperlink{class_point}{Point}$<$ T $>$ \&b)
+\item 
+std\-::istream \& \hyperlink{class_point_a58d661e665093b97b37b95c61f172fd3}{operator$>$$>$} (std\-::istream \&input, \hyperlink{class_point}{Point}$<$ T $>$ \&point)
+\item 
+std\-::ostream \& \hyperlink{class_point_a7c2c33adcc5b50243ccd7cb598cfabbf}{operator$<$$<$} (std\-::ostream \&output, const \hyperlink{class_point}{Point}$<$ T $>$ \&point)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\subsubsection*{template$<$typename T$>$class Point$<$ T $>$}
+
+Templace class of point (x, y) 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_point_aea76b1130f1a203722d8f2254ced8e66}{\index{Point@{Point}!Point@{Point}}
+\index{Point@{Point}!Point@{Point}}
+\subsubsection[{Point}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T$>$ {\bf Point}$<$ T $>$\-::{\bf Point} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_point_aea76b1130f1a203722d8f2254ced8e66}
+Default constructor \hypertarget{class_point_a16ffb6ca96dca42871235bb5d0735c1e}{\index{Point@{Point}!Point@{Point}}
+\index{Point@{Point}!Point@{Point}}
+\subsubsection[{Point}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T$>$ {\bf Point}$<$ T $>$\-::{\bf Point} (
+\begin{DoxyParamCaption}
+\item[{T}]{ix, }
+\item[{T}]{iy}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_point_a16ffb6ca96dca42871235bb5d0735c1e}
+Constructor 
+\begin{DoxyParams}{Parameters}
+{\em ix} & coordinate x \\
+\hline
+{\em iy} & coordinate y \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_point_ae414e3bdd4f00190e7c4a999e9020f6c}{\index{Point@{Point}!get\-X@{get\-X}}
+\index{get\-X@{get\-X}!Point@{Point}}
+\subsubsection[{get\-X}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T$>$ T {\bf Point}$<$ T $>$\-::get\-X (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_point_ae414e3bdd4f00190e7c4a999e9020f6c}
+Getter for X coordinate \hypertarget{class_point_a6b5641f2ef6c44b88f14276150dce919}{\index{Point@{Point}!get\-Y@{get\-Y}}
+\index{get\-Y@{get\-Y}!Point@{Point}}
+\subsubsection[{get\-Y}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T$>$ T {\bf Point}$<$ T $>$\-::get\-Y (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_point_a6b5641f2ef6c44b88f14276150dce919}
+Getter for Y coordinate \hypertarget{class_point_a5bc38f3c20a363567bd3e4ec7f84355d}{\index{Point@{Point}!set\-X@{set\-X}}
+\index{set\-X@{set\-X}!Point@{Point}}
+\subsubsection[{set\-X}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T$>$ void {\bf Point}$<$ T $>$\-::set\-X (
+\begin{DoxyParamCaption}
+\item[{T}]{ix}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_point_a5bc38f3c20a363567bd3e4ec7f84355d}
+Setter for X coordinate \hypertarget{class_point_a9be128a556a05af596e0d98e710e0733}{\index{Point@{Point}!set\-Y@{set\-Y}}
+\index{set\-Y@{set\-Y}!Point@{Point}}
+\subsubsection[{set\-Y}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T$>$ void {\bf Point}$<$ T $>$\-::set\-Y (
+\begin{DoxyParamCaption}
+\item[{T}]{iy}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_point_a9be128a556a05af596e0d98e710e0733}
+Setter for Y coordinate 
+
+\subsection{Friends And Related Function Documentation}
+\hypertarget{class_point_a216c89dc6b71108a752facddcd5049e6}{\index{Point@{Point}!distance@{distance}}
+\index{distance@{distance}!Point@{Point}}
+\subsubsection[{distance}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T$>$ T distance (
+\begin{DoxyParamCaption}
+\item[{const {\bf Point}$<$ T $>$ \&}]{a, }
+\item[{const {\bf Point}$<$ T $>$ \&}]{b}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [friend]}}}\label{class_point_a216c89dc6b71108a752facddcd5049e6}
+Distance between two points \hypertarget{class_point_a0c7ba65875d6a928df1b4c98ce8e1845}{\index{Point@{Point}!operator!=@{operator!=}}
+\index{operator!=@{operator!=}!Point@{Point}}
+\subsubsection[{operator!=}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T$>$ bool operator!= (
+\begin{DoxyParamCaption}
+\item[{const {\bf Point}$<$ T $>$ \&}]{a, }
+\item[{const {\bf Point}$<$ T $>$ \&}]{b}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [friend]}}}\label{class_point_a0c7ba65875d6a928df1b4c98ce8e1845}
+Non-\/equality check \hypertarget{class_point_a1c7429e6e5fcf1384ef4e265619afaa5}{\index{Point@{Point}!operator+@{operator+}}
+\index{operator+@{operator+}!Point@{Point}}
+\subsubsection[{operator+}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T$>$ {\bf Point}$<$T$>$ operator+ (
+\begin{DoxyParamCaption}
+\item[{const {\bf Point}$<$ T $>$ \&}]{a, }
+\item[{const {\bf Point}$<$ T $>$ \&}]{b}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [friend]}}}\label{class_point_a1c7429e6e5fcf1384ef4e265619afaa5}
+Addition \hypertarget{class_point_aaff8e9d6aac135ddbb6c6bd38a1d6e62}{\index{Point@{Point}!operator/@{operator/}}
+\index{operator/@{operator/}!Point@{Point}}
+\subsubsection[{operator/}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T$>$ {\bf Point}$<$T$>$ operator/ (
+\begin{DoxyParamCaption}
+\item[{const {\bf Point}$<$ T $>$ \&}]{a, }
+\item[{const int \&}]{b}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [friend]}}}\label{class_point_aaff8e9d6aac135ddbb6c6bd38a1d6e62}
+Division by number \hypertarget{class_point_a7c2c33adcc5b50243ccd7cb598cfabbf}{\index{Point@{Point}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Point@{Point}}
+\subsubsection[{operator$<$$<$}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T$>$ std\-::ostream\& operator$<$$<$ (
+\begin{DoxyParamCaption}
+\item[{std\-::ostream \&}]{output, }
+\item[{const {\bf Point}$<$ T $>$ \&}]{point}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [friend]}}}\label{class_point_a7c2c33adcc5b50243ccd7cb598cfabbf}
+Output stream operator \hypertarget{class_point_a3022feda6e2cd717d7556545070e5e3d}{\index{Point@{Point}!operator==@{operator==}}
+\index{operator==@{operator==}!Point@{Point}}
+\subsubsection[{operator==}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T$>$ bool operator== (
+\begin{DoxyParamCaption}
+\item[{const {\bf Point}$<$ T $>$ \&}]{a, }
+\item[{const {\bf Point}$<$ T $>$ \&}]{b}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [friend]}}}\label{class_point_a3022feda6e2cd717d7556545070e5e3d}
+Equality check \hypertarget{class_point_a58d661e665093b97b37b95c61f172fd3}{\index{Point@{Point}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!Point@{Point}}
+\subsubsection[{operator$>$$>$}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T$>$ std\-::istream\& operator$>$$>$ (
+\begin{DoxyParamCaption}
+\item[{std\-::istream \&}]{input, }
+\item[{{\bf Point}$<$ T $>$ \&}]{point}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [friend]}}}\label{class_point_a58d661e665093b97b37b95c61f172fd3}
+\hyperlink{class_input}{Input} stream operator \hypertarget{class_point_a5693f743fefbc2b3c12a77c99167c88d}{\index{Point@{Point}!Way@{Way}}
+\index{Way@{Way}!Point@{Point}}
+\subsubsection[{Way}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T$>$ W\-A\-Y Way (
+\begin{DoxyParamCaption}
+\item[{const {\bf Point}$<$ T $>$ \&}]{a, }
+\item[{const {\bf Point}$<$ T $>$ \&}]{b}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [friend]}}}\label{class_point_a5693f743fefbc2b3c12a77c99167c88d}
+A special function, calculates the direction of a vector based on previous and current position 
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+point.\-h\end{DoxyCompactItemize}

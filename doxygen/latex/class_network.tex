@@ -1,0 +1,151 @@
+\hypertarget{class_network}{\section{Network Class Reference}
+\label{class_network}\index{Network@{Network}}
+}
+
+
+{\ttfamily \#include $<$network.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_network_a3cc2fb4f8fa4d507077e8da85ce5a1c8}{Network} ()
+\item 
+\hyperlink{class_network_a7a4e19cdb4bf0c7ecf82baa643831492}{$\sim$\-Network} ()
+\item 
+void \hyperlink{class_network_ad14847f8c3d10779a4fcaba08f88b6d6}{get\-Internet\-List} ()
+\item 
+void \hyperlink{class_network_a1b8853bc8d74bdc7e9fde02eacdf8cc2}{get\-Local\-List} ()
+\item 
+void \hyperlink{class_network_ab9fe53ec67f7eae4a1e01fd474590957}{start\-Listen} ()
+\item 
+void \hyperlink{class_network_ac45c78cca08f2123d9394a0a3c70d284}{stop\-Listen} ()
+\item 
+void \hyperlink{class_network_a6764800f1193201780329d32b1f0e10c}{connect} (std\-::string i\-Server\-Name)
+\item 
+void \hyperlink{class_network_ae44f73c87e85de6353c6365e5b86d911}{disconnect} ()
+\item 
+bool \hyperlink{class_network_a2f3a8809597f956dbf0c11a649ccf054}{send\-Packets} (std\-::vector$<$ \hyperlink{class_network_event}{Network\-Event} $>$ \&packets)
+\item 
+std\-::vector$<$ \hyperlink{class_network_event}{Network\-Event} $>$ \& \hyperlink{class_network_a6a85de91153350bca2776e092a524dd1}{get\-Packets} ()
+\item 
+void \hyperlink{class_network_a606848acb944241f270f52cd2a966b3b}{main\-Loop} ()
+\item 
+\hyperlink{class_server}{Server} \& \hyperlink{class_network_a6ec7cd6cb8fe04de45f6bf1e7efa8660}{get\-Server} ()
+\item 
+\hyperlink{class_client}{Client} \& \hyperlink{class_network_ab08b428a2f7cdbdf3cb7fd5e7e32d8ca}{get\-Client} ()
+\item 
+bool \hyperlink{class_network_a614afe83d863bafca483956b1ca43ca0}{get\-Success} () const 
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Helper class to handle \hyperlink{class_server}{Server} and \hyperlink{class_client}{Client} together 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_network_a3cc2fb4f8fa4d507077e8da85ce5a1c8}{\index{Network@{Network}!Network@{Network}}
+\index{Network@{Network}!Network@{Network}}
+\subsubsection[{Network}]{\setlength{\rightskip}{0pt plus 5cm}Network\-::\-Network (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_network_a3cc2fb4f8fa4d507077e8da85ce5a1c8}
+Constructor \hypertarget{class_network_a7a4e19cdb4bf0c7ecf82baa643831492}{\index{Network@{Network}!$\sim$\-Network@{$\sim$\-Network}}
+\index{$\sim$\-Network@{$\sim$\-Network}!Network@{Network}}
+\subsubsection[{$\sim$\-Network}]{\setlength{\rightskip}{0pt plus 5cm}Network\-::$\sim$\-Network (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_network_a7a4e19cdb4bf0c7ecf82baa643831492}
+Destructor 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_network_a6764800f1193201780329d32b1f0e10c}{\index{Network@{Network}!connect@{connect}}
+\index{connect@{connect}!Network@{Network}}
+\subsubsection[{connect}]{\setlength{\rightskip}{0pt plus 5cm}void Network\-::connect (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{i\-Server\-Name}
+\end{DoxyParamCaption}
+)}}\label{class_network_a6764800f1193201780329d32b1f0e10c}
+Connect to server \hypertarget{class_network_ae44f73c87e85de6353c6365e5b86d911}{\index{Network@{Network}!disconnect@{disconnect}}
+\index{disconnect@{disconnect}!Network@{Network}}
+\subsubsection[{disconnect}]{\setlength{\rightskip}{0pt plus 5cm}void Network\-::disconnect (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_network_ae44f73c87e85de6353c6365e5b86d911}
+Disconnect from server \hypertarget{class_network_ab08b428a2f7cdbdf3cb7fd5e7e32d8ca}{\index{Network@{Network}!get\-Client@{get\-Client}}
+\index{get\-Client@{get\-Client}!Network@{Network}}
+\subsubsection[{get\-Client}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Client} \& Network\-::get\-Client (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_network_ab08b428a2f7cdbdf3cb7fd5e7e32d8ca}
+Get client class \hypertarget{class_network_ad14847f8c3d10779a4fcaba08f88b6d6}{\index{Network@{Network}!get\-Internet\-List@{get\-Internet\-List}}
+\index{get\-Internet\-List@{get\-Internet\-List}!Network@{Network}}
+\subsubsection[{get\-Internet\-List}]{\setlength{\rightskip}{0pt plus 5cm}void Network\-::get\-Internet\-List (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_network_ad14847f8c3d10779a4fcaba08f88b6d6}
+Get list of Internet servers \hypertarget{class_network_a1b8853bc8d74bdc7e9fde02eacdf8cc2}{\index{Network@{Network}!get\-Local\-List@{get\-Local\-List}}
+\index{get\-Local\-List@{get\-Local\-List}!Network@{Network}}
+\subsubsection[{get\-Local\-List}]{\setlength{\rightskip}{0pt plus 5cm}void Network\-::get\-Local\-List (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_network_a1b8853bc8d74bdc7e9fde02eacdf8cc2}
+Get lost of servers on local network \hypertarget{class_network_a6a85de91153350bca2776e092a524dd1}{\index{Network@{Network}!get\-Packets@{get\-Packets}}
+\index{get\-Packets@{get\-Packets}!Network@{Network}}
+\subsubsection[{get\-Packets}]{\setlength{\rightskip}{0pt plus 5cm}std\-::vector$<$ {\bf Network\-Event} $>$ \& Network\-::get\-Packets (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_network_a6a85de91153350bca2776e092a524dd1}
+Send packets where it is necessary \hypertarget{class_network_a6ec7cd6cb8fe04de45f6bf1e7efa8660}{\index{Network@{Network}!get\-Server@{get\-Server}}
+\index{get\-Server@{get\-Server}!Network@{Network}}
+\subsubsection[{get\-Server}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Server} \& Network\-::get\-Server (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_network_a6ec7cd6cb8fe04de45f6bf1e7efa8660}
+Get server class \hypertarget{class_network_a614afe83d863bafca483956b1ca43ca0}{\index{Network@{Network}!get\-Success@{get\-Success}}
+\index{get\-Success@{get\-Success}!Network@{Network}}
+\subsubsection[{get\-Success}]{\setlength{\rightskip}{0pt plus 5cm}bool Network\-::get\-Success (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{class_network_a614afe83d863bafca483956b1ca43ca0}
+False if error occured \hypertarget{class_network_a606848acb944241f270f52cd2a966b3b}{\index{Network@{Network}!main\-Loop@{main\-Loop}}
+\index{main\-Loop@{main\-Loop}!Network@{Network}}
+\subsubsection[{main\-Loop}]{\setlength{\rightskip}{0pt plus 5cm}void Network\-::main\-Loop (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_network_a606848acb944241f270f52cd2a966b3b}
+Main loop, for doing the work \hypertarget{class_network_a2f3a8809597f956dbf0c11a649ccf054}{\index{Network@{Network}!send\-Packets@{send\-Packets}}
+\index{send\-Packets@{send\-Packets}!Network@{Network}}
+\subsubsection[{send\-Packets}]{\setlength{\rightskip}{0pt plus 5cm}bool Network\-::send\-Packets (
+\begin{DoxyParamCaption}
+\item[{std\-::vector$<$ {\bf Network\-Event} $>$ \&}]{packets}
+\end{DoxyParamCaption}
+)}}\label{class_network_a2f3a8809597f956dbf0c11a649ccf054}
+Send packets where it is necessary \hypertarget{class_network_ab9fe53ec67f7eae4a1e01fd474590957}{\index{Network@{Network}!start\-Listen@{start\-Listen}}
+\index{start\-Listen@{start\-Listen}!Network@{Network}}
+\subsubsection[{start\-Listen}]{\setlength{\rightskip}{0pt plus 5cm}void Network\-::start\-Listen (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_network_ab9fe53ec67f7eae4a1e01fd474590957}
+Start server \hypertarget{class_network_ac45c78cca08f2123d9394a0a3c70d284}{\index{Network@{Network}!stop\-Listen@{stop\-Listen}}
+\index{stop\-Listen@{stop\-Listen}!Network@{Network}}
+\subsubsection[{stop\-Listen}]{\setlength{\rightskip}{0pt plus 5cm}void Network\-::stop\-Listen (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_network_ac45c78cca08f2123d9394a0a3c70d284}
+Stop server 
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+network.\-h\item 
+network.\-cpp\end{DoxyCompactItemize}

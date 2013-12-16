@@ -1,0 +1,65 @@
+\hypertarget{class_anim_file}{\section{Anim\-File Class Reference}
+\label{class_anim_file}\index{Anim\-File@{Anim\-File}}
+}
+
+
+{\ttfamily \#include $<$animfile.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_anim_file_ab0276fb61fd8950aed68044a807a00ef}{Anim\-File} ()
+\item 
+\hyperlink{class_anim_file_aae98d30636cf9343e068957f6ea27b7a}{Anim\-File} (std\-::string filename)
+\item 
+std\-::string \hyperlink{class_anim_file_a1f05adedf06719b4c41896b02c08fadd}{frame} (T\-I\-M\-E time)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Descriptor of a static animation 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_anim_file_ab0276fb61fd8950aed68044a807a00ef}{\index{Anim\-File@{Anim\-File}!Anim\-File@{Anim\-File}}
+\index{Anim\-File@{Anim\-File}!AnimFile@{Anim\-File}}
+\subsubsection[{Anim\-File}]{\setlength{\rightskip}{0pt plus 5cm}Anim\-File\-::\-Anim\-File (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_anim_file_ab0276fb61fd8950aed68044a807a00ef}
+Default constructor \hypertarget{class_anim_file_aae98d30636cf9343e068957f6ea27b7a}{\index{Anim\-File@{Anim\-File}!Anim\-File@{Anim\-File}}
+\index{Anim\-File@{Anim\-File}!AnimFile@{Anim\-File}}
+\subsubsection[{Anim\-File}]{\setlength{\rightskip}{0pt plus 5cm}Anim\-File\-::\-Anim\-File (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{filename}
+\end{DoxyParamCaption}
+)}}\label{class_anim_file_aae98d30636cf9343e068957f6ea27b7a}
+Constructor, loads animation phases 
+\begin{DoxyParams}{Parameters}
+{\em filename} & name of animation file (.anm) \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_anim_file_a1f05adedf06719b4c41896b02c08fadd}{\index{Anim\-File@{Anim\-File}!frame@{frame}}
+\index{frame@{frame}!AnimFile@{Anim\-File}}
+\subsubsection[{frame}]{\setlength{\rightskip}{0pt plus 5cm}std\-::string Anim\-File\-::frame (
+\begin{DoxyParamCaption}
+\item[{T\-I\-M\-E}]{time}
+\end{DoxyParamCaption}
+)}}\label{class_anim_file_a1f05adedf06719b4c41896b02c08fadd}
+Calculate the current animation phase to show depending on current frame time 
+\begin{DoxyParams}{Parameters}
+{\em time} & frame time \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+graphic name (full draw path) 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+view/animfile.\-h\item 
+view/animfile.\-cpp\end{DoxyCompactItemize}

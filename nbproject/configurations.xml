@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="90">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>bomb.h</itemPath>
+      <itemPath>client.h</itemPath>
+      <itemPath>config.h</itemPath>
+      <itemPath>control.h</itemPath>
+      <itemPath>flame.h</itemPath>
+      <itemPath>game.h</itemPath>
+      <itemPath>gameconfig.h</itemPath>
+      <itemPath>gamemanager.h</itemPath>
+      <itemPath>gamemode.h</itemPath>
+      <itemPath>gametable.h</itemPath>
+      <itemPath>goods.h</itemPath>
+      <itemPath>ground.h</itemPath>
+      <itemPath>input.h</itemPath>
+      <itemPath>logger.h</itemPath>
+      <itemPath>menu.h</itemPath>
+      <itemPath>monster.h</itemPath>
+      <itemPath>msgbox.h</itemPath>
+      <itemPath>network.h</itemPath>
+      <itemPath>networkevent.h</itemPath>
+      <itemPath>player.h</itemPath>
+      <itemPath>point.h</itemPath>
+      <itemPath>scoreboard.h</itemPath>
+      <itemPath>select.h</itemPath>
+      <itemPath>server.h</itemPath>
+      <itemPath>textinput.h</itemPath>
+      <itemPath>translate.h</itemPath>
+      <itemPath>utils.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>client.cpp</itemPath>
+      <itemPath>config.cpp</itemPath>
+      <itemPath>flame.cpp</itemPath>
+      <itemPath>game.cpp</itemPath>
+      <itemPath>gamemanager.cpp</itemPath>
+      <itemPath>gametable.cpp</itemPath>
+      <itemPath>goods.cpp</itemPath>
+      <itemPath>input.cpp</itemPath>
+      <itemPath>main.cpp</itemPath>
+      <itemPath>menu.cpp</itemPath>
+      <itemPath>monster.cpp</itemPath>
+      <itemPath>msgbox.cpp</itemPath>
+      <itemPath>network.cpp</itemPath>
+      <itemPath>player.cpp</itemPath>
+      <itemPath>scoreboard.cpp</itemPath>
+      <itemPath>select.cpp</itemPath>
+      <itemPath>server.cpp</itemPath>
+      <itemPath>textinput.cpp</itemPath>
+      <itemPath>translate.cpp</itemPath>
+      <itemPath>utils.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="view" displayName="view" projectFiles="true">
+      <logicalFolder name="lodepng" displayName="lodepng" projectFiles="true">
+        <itemPath>view/lodepng/lodepng.cpp</itemPath>
+        <itemPath>view/lodepng/lodepng.h</itemPath>
+      </logicalFolder>
+      <itemPath>view/animation.h</itemPath>
+      <itemPath>view/animfile.cpp</itemPath>
+      <itemPath>view/animfile.h</itemPath>
+      <itemPath>view/animobject.h</itemPath>
+      <itemPath>view/gles.cpp</itemPath>
+      <itemPath>view/matrix.h</itemPath>
+      <itemPath>view/multi.cpp</itemPath>
+      <itemPath>view/multi.h</itemPath>
+      <itemPath>view/object.h</itemPath>
+      <itemPath>view/rect.h</itemPath>
+      <itemPath>view/sprite.cpp</itemPath>
+      <itemPath>view/sprite.h</itemPath>
+      <itemPath>view/text.cpp</itemPath>
+      <itemPath>view/text.h</itemPath>
+      <itemPath>view/utf8.h</itemPath>
+      <itemPath>view/view.cpp</itemPath>
+      <itemPath>view/view.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+    <itemPath>icon.rc</itemPath>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>view</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>MinGW|MinGW</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+          <warningLevel>2</warningLevel>
+        </ccTool>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerLibLibItem>OpenGL32</linkerLibLibItem>
+            <linkerLibLibItem>SDL</linkerLibLibItem>
+            <linkerLibLibItem>SDL_net</linkerLibLibItem>
+            <linkerOptionItem>icon.res</linkerOptionItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="bomb.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="client.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="client.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="config.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="config.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="control.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="flame.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="flame.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="game.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="game.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="gameconfig.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="gamemanager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="gamemanager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="gamemode.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="gametable.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="gametable.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="goods.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="goods.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ground.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="icon.rc" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="input.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="input.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="logger.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="menu.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="menu.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="monster.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="monster.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="msgbox.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="msgbox.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="network.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="network.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="networkevent.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="player.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="player.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="point.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="scoreboard.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="scoreboard.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="select.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="select.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="server.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="server.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="textinput.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="textinput.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="translate.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="translate.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="utils.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="utils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="view/animation.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="view/animfile.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="view/animfile.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="view/animobject.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="view/gles.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="view/lodepng/lodepng.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="view/lodepng/lodepng.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="view/matrix.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="view/multi.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="view/multi.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="view/object.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="view/rect.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="view/sprite.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="view/sprite.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="view/text.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="view/text.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="view/utf8.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="view/view.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="view/view.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>MinGW|MinGW</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>6</developmentMode>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <developmentMode>6</developmentMode>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+          <warningLevel>0</warningLevel>
+        </ccTool>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerLibLibItem>OpenGL32</linkerLibLibItem>
+            <linkerLibLibItem>SDL</linkerLibLibItem>
+            <linkerLibLibItem>SDL_net</linkerLibLibItem>
+            <linkerOptionItem>icon.res</linkerOptionItem>
+          </linkerLibItems>
+          <commandLine>-mwindows</commandLine>
+        </linkerTool>
+      </compileType>
+      <item path="bomb.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="client.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="client.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="config.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="config.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="control.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="flame.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="flame.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="game.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="game.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="gameconfig.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="gamemanager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="gamemanager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="gamemode.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="gametable.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="gametable.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="goods.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="goods.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ground.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="input.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="input.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="logger.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="menu.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="menu.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="monster.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="monster.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="msgbox.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="msgbox.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="network.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="network.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="networkevent.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="player.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="player.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="point.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="scoreboard.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="scoreboard.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="select.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="select.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="server.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="server.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="textinput.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="textinput.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="translate.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="translate.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="utils.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="utils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="view/animation.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="view/animfile.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="view/animfile.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="view/animobject.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="view/gles.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="view/lodepng/lodepng.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="view/lodepng/lodepng.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="view/matrix.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="view/multi.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="view/multi.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="view/object.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="view/rect.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="view/sprite.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="view/sprite.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="view/text.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="view/text.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="view/utf8.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="view/view.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="view/view.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

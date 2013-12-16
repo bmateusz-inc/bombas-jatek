@@ -1,0 +1,236 @@
+\hypertarget{class_view}{\section{View Class Reference}
+\label{class_view}\index{View@{View}}
+}
+
+
+{\ttfamily \#include $<$view.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_view_a44ad60a768422d3fa8fbd7576950080a}{View} ()
+\item 
+\hyperlink{class_view_ad0dc854db9aabbea98a334dec89f785c}{$\sim$\-View} ()
+\item 
+void \hyperlink{class_view_ac0b7ffdb316f54013052928c6e2e8ace}{swap} ()
+\item 
+bool \hyperlink{class_view_a2c7a00026247246c1f4b7b18b1cec20e}{load} (std\-::string file\-Name)
+\item 
+bool \hyperlink{class_view_a6edea19c9c4efd1a088d2ebbfbd3a240}{load\-Package} (std\-::string file\-Name)
+\item 
+void \hyperlink{class_view_a133f5487097d796a1b276f8c14f0671c}{draw} (\hyperlink{struct_rect}{Rect} r, std\-::string res)
+\item 
+void \hyperlink{class_view_a2a474840a5d346723e37dd01fd248e4e}{draw} (float x, float y, float w, float h, std\-::string res)
+\item 
+void \hyperlink{class_view_ab756d944d5d8a45c1ce6b365e6b6c27c}{resize\-\_\-event} (int \&w, int \&h)
+\item 
+void \hyperlink{class_view_a81b5809859fda85f39e0faa1b169e6d5}{draw\-Anim} ()
+\item 
+void \hyperlink{class_view_a067c5cbb6e248ae041c13d50da48d699}{stop\-Anim} ()
+\item 
+T\-I\-M\-E \hyperlink{class_view_a9cb2b63e68cff08050892f8d43909bf9}{get\-Now} ()
+\item 
+void \hyperlink{class_view_a33aeee3fb2659af067d1a279a2d96ed7}{set\-Now} ()
+\item 
+void \hyperlink{class_view_a51b9f1d6901753f868242ab9b3334dce}{set\-Tick\-Interval} (int i)
+\item 
+void \hyperlink{class_view_a2299069ba34803c1da65e0b43b6d7f10}{Screenshot} ()
+\item 
+void \hyperlink{class_view_a3f1c78cf35fbbed0019e9b835a118f19}{Toggle} ()
+\item 
+void \hyperlink{class_view_a62c7ef62ba7a4dab206a81ff999a2978}{frame\-Begin} ()
+\item 
+void \hyperlink{class_view_ac63fd1ddfcfb68d11f3a039ae8537765}{frame\-End} ()
+\item 
+T\-I\-M\-E \hyperlink{class_view_a911928e6ed1a440eafe321f2aab1c3e0}{frame\-Delay} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Main class for handling graphics 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_view_a44ad60a768422d3fa8fbd7576950080a}{\index{View@{View}!View@{View}}
+\index{View@{View}!View@{View}}
+\subsubsection[{View}]{\setlength{\rightskip}{0pt plus 5cm}View\-::\-View (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_view_a44ad60a768422d3fa8fbd7576950080a}
+Constructor, initialize screen \hypertarget{class_view_ad0dc854db9aabbea98a334dec89f785c}{\index{View@{View}!$\sim$\-View@{$\sim$\-View}}
+\index{$\sim$\-View@{$\sim$\-View}!View@{View}}
+\subsubsection[{$\sim$\-View}]{\setlength{\rightskip}{0pt plus 5cm}View\-::$\sim$\-View (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_view_ad0dc854db9aabbea98a334dec89f785c}
+Destructor, unload objects 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_view_a133f5487097d796a1b276f8c14f0671c}{\index{View@{View}!draw@{draw}}
+\index{draw@{draw}!View@{View}}
+\subsubsection[{draw}]{\setlength{\rightskip}{0pt plus 5cm}void View\-::draw (
+\begin{DoxyParamCaption}
+\item[{{\bf Rect}}]{r, }
+\item[{std\-::string}]{res}
+\end{DoxyParamCaption}
+)}}\label{class_view_a133f5487097d796a1b276f8c14f0671c}
+Draw on frame 
+\begin{DoxyParams}{Parameters}
+{\em r} & rectangle of drawing position \\
+\hline
+{\em res} & full drawing string \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_view_a2a474840a5d346723e37dd01fd248e4e}{\index{View@{View}!draw@{draw}}
+\index{draw@{draw}!View@{View}}
+\subsubsection[{draw}]{\setlength{\rightskip}{0pt plus 5cm}void View\-::draw (
+\begin{DoxyParamCaption}
+\item[{float}]{x, }
+\item[{float}]{y, }
+\item[{float}]{w, }
+\item[{float}]{h, }
+\item[{std\-::string}]{res}
+\end{DoxyParamCaption}
+)}}\label{class_view_a2a474840a5d346723e37dd01fd248e4e}
+Draw on frame 
+\begin{DoxyParams}{Parameters}
+{\em x} & coordinate \\
+\hline
+{\em y} & coordinate \\
+\hline
+{\em w} & width \\
+\hline
+{\em h} & height \\
+\hline
+{\em res} & full drawing string \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_view_a81b5809859fda85f39e0faa1b169e6d5}{\index{View@{View}!draw\-Anim@{draw\-Anim}}
+\index{draw\-Anim@{draw\-Anim}!View@{View}}
+\subsubsection[{draw\-Anim}]{\setlength{\rightskip}{0pt plus 5cm}void View\-::draw\-Anim (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_view_a81b5809859fda85f39e0faa1b169e6d5}
+Draw animations on frame, delete ended animations \hypertarget{class_view_a62c7ef62ba7a4dab206a81ff999a2978}{\index{View@{View}!frame\-Begin@{frame\-Begin}}
+\index{frame\-Begin@{frame\-Begin}!View@{View}}
+\subsubsection[{frame\-Begin}]{\setlength{\rightskip}{0pt plus 5cm}void View\-::frame\-Begin (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_view_a62c7ef62ba7a4dab206a81ff999a2978}
+Begin of frame, actualilze time variables for current and previous frame \hypertarget{class_view_a911928e6ed1a440eafe321f2aab1c3e0}{\index{View@{View}!frame\-Delay@{frame\-Delay}}
+\index{frame\-Delay@{frame\-Delay}!View@{View}}
+\subsubsection[{frame\-Delay}]{\setlength{\rightskip}{0pt plus 5cm}T\-I\-M\-E View\-::frame\-Delay (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_view_a911928e6ed1a440eafe321f2aab1c3e0}
+Amount of sleep needed for enough frames per second \hypertarget{class_view_ac63fd1ddfcfb68d11f3a039ae8537765}{\index{View@{View}!frame\-End@{frame\-End}}
+\index{frame\-End@{frame\-End}!View@{View}}
+\subsubsection[{frame\-End}]{\setlength{\rightskip}{0pt plus 5cm}void View\-::frame\-End (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_view_ac63fd1ddfcfb68d11f3a039ae8537765}
+End of frame, sleep for a while to save C\-P\-U time \hypertarget{class_view_a9cb2b63e68cff08050892f8d43909bf9}{\index{View@{View}!get\-Now@{get\-Now}}
+\index{get\-Now@{get\-Now}!View@{View}}
+\subsubsection[{get\-Now}]{\setlength{\rightskip}{0pt plus 5cm}T\-I\-M\-E View\-::get\-Now (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_view_a9cb2b63e68cff08050892f8d43909bf9}
+Get current frame time \hypertarget{class_view_a2c7a00026247246c1f4b7b18b1cec20e}{\index{View@{View}!load@{load}}
+\index{load@{load}!View@{View}}
+\subsubsection[{load}]{\setlength{\rightskip}{0pt plus 5cm}bool View\-::load (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{file\-Name}
+\end{DoxyParamCaption}
+)}}\label{class_view_a2c7a00026247246c1f4b7b18b1cec20e}
+Load image, animation or text file 
+\begin{DoxyParams}{Parameters}
+{\em file\-Name} & name of file, extension determines the type \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+success 
+\end{DoxyReturn}
+\hypertarget{class_view_a6edea19c9c4efd1a088d2ebbfbd3a240}{\index{View@{View}!load\-Package@{load\-Package}}
+\index{load\-Package@{load\-Package}!View@{View}}
+\subsubsection[{load\-Package}]{\setlength{\rightskip}{0pt plus 5cm}bool View\-::load\-Package (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{file\-Name}
+\end{DoxyParamCaption}
+)}}\label{class_view_a6edea19c9c4efd1a088d2ebbfbd3a240}
+Load resources from list 
+\begin{DoxyParams}{Parameters}
+{\em file\-Name} & name of package \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+success 
+\end{DoxyReturn}
+\hypertarget{class_view_ab756d944d5d8a45c1ce6b365e6b6c27c}{\index{View@{View}!resize\-\_\-event@{resize\-\_\-event}}
+\index{resize\-\_\-event@{resize\-\_\-event}!View@{View}}
+\subsubsection[{resize\-\_\-event}]{\setlength{\rightskip}{0pt plus 5cm}void View\-::resize\-\_\-event (
+\begin{DoxyParamCaption}
+\item[{int \&}]{w, }
+\item[{int \&}]{h}
+\end{DoxyParamCaption}
+)}}\label{class_view_ab756d944d5d8a45c1ce6b365e6b6c27c}
+Resize callback function 
+\begin{DoxyParams}{Parameters}
+{\em w} & width \\
+\hline
+{\em h} & height \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_view_a2299069ba34803c1da65e0b43b6d7f10}{\index{View@{View}!Screenshot@{Screenshot}}
+\index{Screenshot@{Screenshot}!View@{View}}
+\subsubsection[{Screenshot}]{\setlength{\rightskip}{0pt plus 5cm}void View\-::\-Screenshot (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_view_a2299069ba34803c1da65e0b43b6d7f10}
+Request to take screenshot at the end of frame \hypertarget{class_view_a33aeee3fb2659af067d1a279a2d96ed7}{\index{View@{View}!set\-Now@{set\-Now}}
+\index{set\-Now@{set\-Now}!View@{View}}
+\subsubsection[{set\-Now}]{\setlength{\rightskip}{0pt plus 5cm}void View\-::set\-Now (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_view_a33aeee3fb2659af067d1a279a2d96ed7}
+Set current frame time to actual time \hypertarget{class_view_a51b9f1d6901753f868242ab9b3334dce}{\index{View@{View}!set\-Tick\-Interval@{set\-Tick\-Interval}}
+\index{set\-Tick\-Interval@{set\-Tick\-Interval}!View@{View}}
+\subsubsection[{set\-Tick\-Interval}]{\setlength{\rightskip}{0pt plus 5cm}void View\-::set\-Tick\-Interval (
+\begin{DoxyParamCaption}
+\item[{int}]{i}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_view_a51b9f1d6901753f868242ab9b3334dce}
+Set refresh rate \hypertarget{class_view_a067c5cbb6e248ae041c13d50da48d699}{\index{View@{View}!stop\-Anim@{stop\-Anim}}
+\index{stop\-Anim@{stop\-Anim}!View@{View}}
+\subsubsection[{stop\-Anim}]{\setlength{\rightskip}{0pt plus 5cm}void View\-::stop\-Anim (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_view_a067c5cbb6e248ae041c13d50da48d699}
+Stop all animations \hypertarget{class_view_ac0b7ffdb316f54013052928c6e2e8ace}{\index{View@{View}!swap@{swap}}
+\index{swap@{swap}!View@{View}}
+\subsubsection[{swap}]{\setlength{\rightskip}{0pt plus 5cm}void View\-::swap (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_view_ac0b7ffdb316f54013052928c6e2e8ace}
+Swap buffers, draw on screen \hypertarget{class_view_a3f1c78cf35fbbed0019e9b835a118f19}{\index{View@{View}!Toggle@{Toggle}}
+\index{Toggle@{Toggle}!View@{View}}
+\subsubsection[{Toggle}]{\setlength{\rightskip}{0pt plus 5cm}void View\-::\-Toggle (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_view_a3f1c78cf35fbbed0019e9b835a118f19}
+Request to toggle fullscreen 
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+view/view.\-h\item 
+view/view.\-cpp\end{DoxyCompactItemize}

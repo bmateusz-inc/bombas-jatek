@@ -1,0 +1,420 @@
+\contentsline {chapter}{\numberline {1}Hierarchical Index}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Class Hierarchy}{1}{section.1.1}
+\contentsline {chapter}{\numberline {2}Class Index}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Class List}{3}{section.2.1}
+\contentsline {chapter}{\numberline {3}Class Documentation}{5}{chapter.3}
+\contentsline {section}{\numberline {3.1}Animation Class Reference}{5}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Constructor \& Destructor Documentation}{5}{subsection.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.1.1}Animation}{5}{subsubsection.3.1.1.1}
+\contentsline {subsubsection}{\numberline {3.1.1.2}Animation}{5}{subsubsection.3.1.1.2}
+\contentsline {subsection}{\numberline {3.1.2}Member Function Documentation}{5}{subsection.3.1.2}
+\contentsline {subsubsection}{\numberline {3.1.2.1}draw}{5}{subsubsection.3.1.2.1}
+\contentsline {subsubsection}{\numberline {3.1.2.2}get\discretionary {-}{}{}Rect}{6}{subsubsection.3.1.2.2}
+\contentsline {section}{\numberline {3.2}Anim\discretionary {-}{}{}File Class Reference}{6}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Constructor \& Destructor Documentation}{6}{subsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.1.1}Anim\discretionary {-}{}{}File}{6}{subsubsection.3.2.1.1}
+\contentsline {subsubsection}{\numberline {3.2.1.2}Anim\discretionary {-}{}{}File}{6}{subsubsection.3.2.1.2}
+\contentsline {subsection}{\numberline {3.2.2}Member Function Documentation}{6}{subsection.3.2.2}
+\contentsline {subsubsection}{\numberline {3.2.2.1}frame}{6}{subsubsection.3.2.2.1}
+\contentsline {section}{\numberline {3.3}Anim\discretionary {-}{}{}Object Class Reference}{6}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Constructor \& Destructor Documentation}{7}{subsection.3.3.1}
+\contentsline {subsubsection}{\numberline {3.3.1.1}Anim\discretionary {-}{}{}Object}{7}{subsubsection.3.3.1.1}
+\contentsline {subsubsection}{\numberline {3.3.1.2}Anim\discretionary {-}{}{}Object}{7}{subsubsection.3.3.1.2}
+\contentsline {subsection}{\numberline {3.3.2}Member Function Documentation}{7}{subsection.3.3.2}
+\contentsline {subsubsection}{\numberline {3.3.2.1}draw}{7}{subsubsection.3.3.2.1}
+\contentsline {section}{\numberline {3.4}Bomb Class Reference}{7}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Constructor \& Destructor Documentation}{8}{subsection.3.4.1}
+\contentsline {subsubsection}{\numberline {3.4.1.1}Bomb}{8}{subsubsection.3.4.1.1}
+\contentsline {subsubsection}{\numberline {3.4.1.2}Bomb}{8}{subsubsection.3.4.1.2}
+\contentsline {subsection}{\numberline {3.4.2}Member Function Documentation}{8}{subsection.3.4.2}
+\contentsline {subsubsection}{\numberline {3.4.2.1}boom}{8}{subsubsection.3.4.2.1}
+\contentsline {subsubsection}{\numberline {3.4.2.2}boom}{8}{subsubsection.3.4.2.2}
+\contentsline {subsubsection}{\numberline {3.4.2.3}get\discretionary {-}{}{}Owner}{8}{subsubsection.3.4.2.3}
+\contentsline {subsubsection}{\numberline {3.4.2.4}get\discretionary {-}{}{}Point}{9}{subsubsection.3.4.2.4}
+\contentsline {subsubsection}{\numberline {3.4.2.5}get\discretionary {-}{}{}Size}{9}{subsubsection.3.4.2.5}
+\contentsline {subsubsection}{\numberline {3.4.2.6}get\discretionary {-}{}{}X}{9}{subsubsection.3.4.2.6}
+\contentsline {subsubsection}{\numberline {3.4.2.7}get\discretionary {-}{}{}Y}{9}{subsubsection.3.4.2.7}
+\contentsline {subsubsection}{\numberline {3.4.2.8}state}{9}{subsubsection.3.4.2.8}
+\contentsline {section}{\numberline {3.5}Client Class Reference}{9}{section.3.5}
+\contentsline {section}{\numberline {3.6}Config Struct Reference}{9}{section.3.6}
+\contentsline {subsection}{\numberline {3.6.1}Member Data Documentation}{10}{subsection.3.6.1}
+\contentsline {subsubsection}{\numberline {3.6.1.1}C\discretionary {-}{}{}F\discretionary {-}{}{}G\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}B\discretionary {-}{}{}O\discretionary {-}{}{}M\discretionary {-}{}{}B\discretionary {-}{}{}T\discretionary {-}{}{}I\discretionary {-}{}{}M\discretionary {-}{}{}E}{10}{subsubsection.3.6.1.1}
+\contentsline {subsubsection}{\numberline {3.6.1.2}C\discretionary {-}{}{}F\discretionary {-}{}{}G\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}D\discretionary {-}{}{}E\discretionary {-}{}{}F\discretionary {-}{}{}A\discretionary {-}{}{}U\discretionary {-}{}{}L\discretionary {-}{}{}T\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}S\discretionary {-}{}{}P\discretionary {-}{}{}E\discretionary {-}{}{}E\discretionary {-}{}{}D}{10}{subsubsection.3.6.1.2}
+\contentsline {subsubsection}{\numberline {3.6.1.3}C\discretionary {-}{}{}F\discretionary {-}{}{}G\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}F\discretionary {-}{}{}A\discretionary {-}{}{}S\discretionary {-}{}{}T\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}S\discretionary {-}{}{}P\discretionary {-}{}{}E\discretionary {-}{}{}E\discretionary {-}{}{}D}{10}{subsubsection.3.6.1.3}
+\contentsline {subsubsection}{\numberline {3.6.1.4}C\discretionary {-}{}{}F\discretionary {-}{}{}G\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}F\discretionary {-}{}{}L\discretionary {-}{}{}A\discretionary {-}{}{}M\discretionary {-}{}{}E\discretionary {-}{}{}T\discretionary {-}{}{}I\discretionary {-}{}{}M\discretionary {-}{}{}E}{10}{subsubsection.3.6.1.4}
+\contentsline {subsubsection}{\numberline {3.6.1.5}C\discretionary {-}{}{}F\discretionary {-}{}{}G\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}P\discretionary {-}{}{}O\discretionary {-}{}{}R\discretionary {-}{}{}T}{10}{subsubsection.3.6.1.5}
+\contentsline {subsubsection}{\numberline {3.6.1.6}C\discretionary {-}{}{}F\discretionary {-}{}{}G\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}R\discretionary {-}{}{}E\discretionary {-}{}{}S\discretionary {-}{}{}P\discretionary {-}{}{}A\discretionary {-}{}{}W\discretionary {-}{}{}N\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}M\discretionary {-}{}{}O\discretionary {-}{}{}N\discretionary {-}{}{}S\discretionary {-}{}{}T\discretionary {-}{}{}E\discretionary {-}{}{}R}{10}{subsubsection.3.6.1.6}
+\contentsline {subsubsection}{\numberline {3.6.1.7}C\discretionary {-}{}{}F\discretionary {-}{}{}G\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}R\discretionary {-}{}{}E\discretionary {-}{}{}S\discretionary {-}{}{}P\discretionary {-}{}{}A\discretionary {-}{}{}W\discretionary {-}{}{}N\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}P\discretionary {-}{}{}L\discretionary {-}{}{}A\discretionary {-}{}{}Y\discretionary {-}{}{}E\discretionary {-}{}{}R}{10}{subsubsection.3.6.1.7}
+\contentsline {subsubsection}{\numberline {3.6.1.8}C\discretionary {-}{}{}F\discretionary {-}{}{}G\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}S\discretionary {-}{}{}H\discretionary {-}{}{}O\discretionary {-}{}{}W\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}S\discretionary {-}{}{}C\discretionary {-}{}{}O\discretionary {-}{}{}R\discretionary {-}{}{}E\discretionary {-}{}{}B\discretionary {-}{}{}O\discretionary {-}{}{}A\discretionary {-}{}{}R\discretionary {-}{}{}D}{10}{subsubsection.3.6.1.8}
+\contentsline {subsubsection}{\numberline {3.6.1.9}C\discretionary {-}{}{}F\discretionary {-}{}{}G\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}S\discretionary {-}{}{}L\discretionary {-}{}{}O\discretionary {-}{}{}W\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}S\discretionary {-}{}{}P\discretionary {-}{}{}E\discretionary {-}{}{}E\discretionary {-}{}{}D}{10}{subsubsection.3.6.1.9}
+\contentsline {subsubsection}{\numberline {3.6.1.10}C\discretionary {-}{}{}F\discretionary {-}{}{}G\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}V\discretionary {-}{}{}I\discretionary {-}{}{}R\discretionary {-}{}{}U\discretionary {-}{}{}S\discretionary {-}{}{}T\discretionary {-}{}{}I\discretionary {-}{}{}M\discretionary {-}{}{}E}{10}{subsubsection.3.6.1.10}
+\contentsline {section}{\numberline {3.7}Control Class Reference}{11}{section.3.7}
+\contentsline {subsection}{\numberline {3.7.1}Constructor \& Destructor Documentation}{11}{subsection.3.7.1}
+\contentsline {subsubsection}{\numberline {3.7.1.1}Control}{11}{subsubsection.3.7.1.1}
+\contentsline {subsection}{\numberline {3.7.2}Member Function Documentation}{11}{subsection.3.7.2}
+\contentsline {subsubsection}{\numberline {3.7.2.1}get\discretionary {-}{}{}Delay}{11}{subsubsection.3.7.2.1}
+\contentsline {subsubsection}{\numberline {3.7.2.2}get\discretionary {-}{}{}Put}{11}{subsubsection.3.7.2.2}
+\contentsline {subsubsection}{\numberline {3.7.2.3}get\discretionary {-}{}{}X}{11}{subsubsection.3.7.2.3}
+\contentsline {subsubsection}{\numberline {3.7.2.4}get\discretionary {-}{}{}Y}{11}{subsubsection.3.7.2.4}
+\contentsline {subsubsection}{\numberline {3.7.2.5}px}{11}{subsubsection.3.7.2.5}
+\contentsline {subsubsection}{\numberline {3.7.2.6}py}{12}{subsubsection.3.7.2.6}
+\contentsline {subsubsection}{\numberline {3.7.2.7}set\discretionary {-}{}{}Delay}{13}{subsubsection.3.7.2.7}
+\contentsline {subsubsection}{\numberline {3.7.2.8}set\discretionary {-}{}{}Put}{13}{subsubsection.3.7.2.8}
+\contentsline {subsubsection}{\numberline {3.7.2.9}set\discretionary {-}{}{}X}{13}{subsubsection.3.7.2.9}
+\contentsline {subsubsection}{\numberline {3.7.2.10}set\discretionary {-}{}{}Y}{13}{subsubsection.3.7.2.10}
+\contentsline {section}{\numberline {3.8}Flame Class Reference}{13}{section.3.8}
+\contentsline {subsection}{\numberline {3.8.1}Constructor \& Destructor Documentation}{13}{subsection.3.8.1}
+\contentsline {subsubsection}{\numberline {3.8.1.1}Flame}{13}{subsubsection.3.8.1.1}
+\contentsline {subsubsection}{\numberline {3.8.1.2}Flame}{14}{subsubsection.3.8.1.2}
+\contentsline {subsection}{\numberline {3.8.2}Member Function Documentation}{15}{subsection.3.8.2}
+\contentsline {subsubsection}{\numberline {3.8.2.1}expire}{15}{subsubsection.3.8.2.1}
+\contentsline {subsubsection}{\numberline {3.8.2.2}get\discretionary {-}{}{}Direction}{15}{subsubsection.3.8.2.2}
+\contentsline {subsubsection}{\numberline {3.8.2.3}get\discretionary {-}{}{}Owner}{15}{subsubsection.3.8.2.3}
+\contentsline {subsubsection}{\numberline {3.8.2.4}get\discretionary {-}{}{}Point}{15}{subsubsection.3.8.2.4}
+\contentsline {subsubsection}{\numberline {3.8.2.5}get\discretionary {-}{}{}X}{15}{subsubsection.3.8.2.5}
+\contentsline {subsubsection}{\numberline {3.8.2.6}get\discretionary {-}{}{}Y}{15}{subsubsection.3.8.2.6}
+\contentsline {subsubsection}{\numberline {3.8.2.7}state}{15}{subsubsection.3.8.2.7}
+\contentsline {subsection}{\numberline {3.8.3}Friends And Related Function Documentation}{15}{subsection.3.8.3}
+\contentsline {subsubsection}{\numberline {3.8.3.1}operator==}{15}{subsubsection.3.8.3.1}
+\contentsline {section}{\numberline {3.9}Frame Struct Reference}{16}{section.3.9}
+\contentsline {subsection}{\numberline {3.9.1}Constructor \& Destructor Documentation}{16}{subsection.3.9.1}
+\contentsline {subsubsection}{\numberline {3.9.1.1}Frame}{16}{subsubsection.3.9.1.1}
+\contentsline {subsection}{\numberline {3.9.2}Member Data Documentation}{16}{subsection.3.9.2}
+\contentsline {subsubsection}{\numberline {3.9.2.1}obj}{16}{subsubsection.3.9.2.1}
+\contentsline {subsubsection}{\numberline {3.9.2.2}time}{16}{subsubsection.3.9.2.2}
+\contentsline {section}{\numberline {3.10}Game Class Reference}{16}{section.3.10}
+\contentsline {section}{\numberline {3.11}Game\discretionary {-}{}{}Config Class Reference}{16}{section.3.11}
+\contentsline {subsection}{\numberline {3.11.1}Constructor \& Destructor Documentation}{17}{subsection.3.11.1}
+\contentsline {subsubsection}{\numberline {3.11.1.1}Game\discretionary {-}{}{}Config}{17}{subsubsection.3.11.1.1}
+\contentsline {subsection}{\numberline {3.11.2}Member Data Documentation}{17}{subsection.3.11.2}
+\contentsline {subsubsection}{\numberline {3.11.2.1}gen}{17}{subsubsection.3.11.2.1}
+\contentsline {subsubsection}{\numberline {3.11.2.2}init}{17}{subsubsection.3.11.2.2}
+\contentsline {subsubsection}{\numberline {3.11.2.3}n\discretionary {-}{}{}Bomb}{17}{subsubsection.3.11.2.3}
+\contentsline {subsubsection}{\numberline {3.11.2.4}n\discretionary {-}{}{}Flame}{17}{subsubsection.3.11.2.4}
+\contentsline {subsubsection}{\numberline {3.11.2.5}n\discretionary {-}{}{}Virus}{17}{subsubsection.3.11.2.5}
+\contentsline {subsubsection}{\numberline {3.11.2.6}sb}{17}{subsubsection.3.11.2.6}
+\contentsline {subsubsection}{\numberline {3.11.2.7}sx}{17}{subsubsection.3.11.2.7}
+\contentsline {subsubsection}{\numberline {3.11.2.8}sy}{18}{subsubsection.3.11.2.8}
+\contentsline {section}{\numberline {3.12}Game\discretionary {-}{}{}Manager Class Reference}{18}{section.3.12}
+\contentsline {subsection}{\numberline {3.12.1}Constructor \& Destructor Documentation}{18}{subsection.3.12.1}
+\contentsline {subsubsection}{\numberline {3.12.1.1}Game\discretionary {-}{}{}Manager}{18}{subsubsection.3.12.1.1}
+\contentsline {subsection}{\numberline {3.12.2}Member Function Documentation}{18}{subsection.3.12.2}
+\contentsline {subsubsection}{\numberline {3.12.2.1}check\discretionary {-}{}{}After}{18}{subsubsection.3.12.2.1}
+\contentsline {subsubsection}{\numberline {3.12.2.2}check\discretionary {-}{}{}Before}{18}{subsubsection.3.12.2.2}
+\contentsline {subsubsection}{\numberline {3.12.2.3}check\discretionary {-}{}{}State}{18}{subsubsection.3.12.2.3}
+\contentsline {subsubsection}{\numberline {3.12.2.4}get\discretionary {-}{}{}Round}{18}{subsubsection.3.12.2.4}
+\contentsline {subsubsection}{\numberline {3.12.2.5}get\discretionary {-}{}{}Run}{19}{subsubsection.3.12.2.5}
+\contentsline {subsubsection}{\numberline {3.12.2.6}new\discretionary {-}{}{}Round}{19}{subsubsection.3.12.2.6}
+\contentsline {subsubsection}{\numberline {3.12.2.7}prepare\discretionary {-}{}{}Table}{19}{subsubsection.3.12.2.7}
+\contentsline {subsubsection}{\numberline {3.12.2.8}wait\discretionary {-}{}{}Round}{19}{subsubsection.3.12.2.8}
+\contentsline {section}{\numberline {3.13}Game\discretionary {-}{}{}Table Class Reference}{19}{section.3.13}
+\contentsline {subsection}{\numberline {3.13.1}Constructor \& Destructor Documentation}{19}{subsection.3.13.1}
+\contentsline {subsubsection}{\numberline {3.13.1.1}Game\discretionary {-}{}{}Table}{19}{subsubsection.3.13.1.1}
+\contentsline {subsubsection}{\numberline {3.13.1.2}$\sim $\discretionary {-}{}{}Game\discretionary {-}{}{}Table}{20}{subsubsection.3.13.1.2}
+\contentsline {subsection}{\numberline {3.13.2}Member Function Documentation}{20}{subsection.3.13.2}
+\contentsline {subsubsection}{\numberline {3.13.2.1}bind}{20}{subsubsection.3.13.2.1}
+\contentsline {subsubsection}{\numberline {3.13.2.2}build\discretionary {-}{}{}Walls}{20}{subsubsection.3.13.2.2}
+\contentsline {subsubsection}{\numberline {3.13.2.3}count\discretionary {-}{}{}Monster}{20}{subsubsection.3.13.2.3}
+\contentsline {subsubsection}{\numberline {3.13.2.4}execute}{20}{subsubsection.3.13.2.4}
+\contentsline {subsubsection}{\numberline {3.13.2.5}generate\discretionary {-}{}{}Base}{20}{subsubsection.3.13.2.5}
+\contentsline {subsubsection}{\numberline {3.13.2.6}generate\discretionary {-}{}{}Map}{20}{subsubsection.3.13.2.6}
+\contentsline {subsubsection}{\numberline {3.13.2.7}get\discretionary {-}{}{}Config}{20}{subsubsection.3.13.2.7}
+\contentsline {subsubsection}{\numberline {3.13.2.8}get\discretionary {-}{}{}Movement}{20}{subsubsection.3.13.2.8}
+\contentsline {subsubsection}{\numberline {3.13.2.9}get\discretionary {-}{}{}Players}{20}{subsubsection.3.13.2.9}
+\contentsline {subsubsection}{\numberline {3.13.2.10}inc\discretionary {-}{}{}Score}{21}{subsubsection.3.13.2.10}
+\contentsline {subsubsection}{\numberline {3.13.2.11}load\discretionary {-}{}{}Map}{21}{subsubsection.3.13.2.11}
+\contentsline {subsubsection}{\numberline {3.13.2.12}move}{21}{subsubsection.3.13.2.12}
+\contentsline {subsubsection}{\numberline {3.13.2.13}set\discretionary {-}{}{}Config}{21}{subsubsection.3.13.2.13}
+\contentsline {subsubsection}{\numberline {3.13.2.14}set\discretionary {-}{}{}Players}{21}{subsubsection.3.13.2.14}
+\contentsline {subsubsection}{\numberline {3.13.2.15}set\discretionary {-}{}{}Start}{21}{subsubsection.3.13.2.15}
+\contentsline {subsubsection}{\numberline {3.13.2.16}spawn\discretionary {-}{}{}Monster}{21}{subsubsection.3.13.2.16}
+\contentsline {subsubsection}{\numberline {3.13.2.17}spawn\discretionary {-}{}{}Player}{22}{subsubsection.3.13.2.17}
+\contentsline {subsubsection}{\numberline {3.13.2.18}spawn\discretionary {-}{}{}Walls}{22}{subsubsection.3.13.2.18}
+\contentsline {section}{\numberline {3.14}Goods Class Reference}{22}{section.3.14}
+\contentsline {subsection}{\numberline {3.14.1}Constructor \& Destructor Documentation}{22}{subsection.3.14.1}
+\contentsline {subsubsection}{\numberline {3.14.1.1}Goods}{22}{subsubsection.3.14.1.1}
+\contentsline {subsubsection}{\numberline {3.14.1.2}Goods}{22}{subsubsection.3.14.1.2}
+\contentsline {subsection}{\numberline {3.14.2}Member Function Documentation}{23}{subsection.3.14.2}
+\contentsline {subsubsection}{\numberline {3.14.2.1}effect}{23}{subsubsection.3.14.2.1}
+\contentsline {subsubsection}{\numberline {3.14.2.2}get\discretionary {-}{}{}Point}{23}{subsubsection.3.14.2.2}
+\contentsline {subsubsection}{\numberline {3.14.2.3}get\discretionary {-}{}{}Type}{23}{subsubsection.3.14.2.3}
+\contentsline {subsubsection}{\numberline {3.14.2.4}get\discretionary {-}{}{}X}{23}{subsubsection.3.14.2.4}
+\contentsline {subsubsection}{\numberline {3.14.2.5}get\discretionary {-}{}{}Y}{23}{subsubsection.3.14.2.5}
+\contentsline {subsubsection}{\numberline {3.14.2.6}state}{23}{subsubsection.3.14.2.6}
+\contentsline {section}{\numberline {3.15}Ground Class Reference}{23}{section.3.15}
+\contentsline {subsection}{\numberline {3.15.1}Constructor \& Destructor Documentation}{24}{subsection.3.15.1}
+\contentsline {subsubsection}{\numberline {3.15.1.1}Ground}{24}{subsubsection.3.15.1.1}
+\contentsline {subsubsection}{\numberline {3.15.1.2}Ground}{24}{subsubsection.3.15.1.2}
+\contentsline {subsection}{\numberline {3.15.2}Member Function Documentation}{24}{subsection.3.15.2}
+\contentsline {subsubsection}{\numberline {3.15.2.1}operator=}{24}{subsubsection.3.15.2.1}
+\contentsline {subsubsection}{\numberline {3.15.2.2}state}{24}{subsubsection.3.15.2.2}
+\contentsline {subsection}{\numberline {3.15.3}Friends And Related Function Documentation}{24}{subsection.3.15.3}
+\contentsline {subsubsection}{\numberline {3.15.3.1}operator!=}{24}{subsubsection.3.15.3.1}
+\contentsline {subsubsection}{\numberline {3.15.3.2}operator$<$$<$}{24}{subsubsection.3.15.3.2}
+\contentsline {subsubsection}{\numberline {3.15.3.3}operator==}{24}{subsubsection.3.15.3.3}
+\contentsline {subsubsection}{\numberline {3.15.3.4}operator$>$$>$}{24}{subsubsection.3.15.3.4}
+\contentsline {section}{\numberline {3.16}Input Class Reference}{25}{section.3.16}
+\contentsline {subsection}{\numberline {3.16.1}Constructor \& Destructor Documentation}{25}{subsection.3.16.1}
+\contentsline {subsubsection}{\numberline {3.16.1.1}Input}{25}{subsubsection.3.16.1.1}
+\contentsline {subsubsection}{\numberline {3.16.1.2}$\sim $\discretionary {-}{}{}Input}{25}{subsubsection.3.16.1.2}
+\contentsline {subsection}{\numberline {3.16.2}Member Function Documentation}{25}{subsection.3.16.2}
+\contentsline {subsubsection}{\numberline {3.16.2.1}get\discretionary {-}{}{}N\discretionary {-}{}{}Joy}{25}{subsubsection.3.16.2.1}
+\contentsline {subsubsection}{\numberline {3.16.2.2}get\discretionary {-}{}{}N\discretionary {-}{}{}Players}{25}{subsubsection.3.16.2.2}
+\contentsline {subsubsection}{\numberline {3.16.2.3}get\discretionary {-}{}{}Run}{25}{subsubsection.3.16.2.3}
+\contentsline {subsubsection}{\numberline {3.16.2.4}get\discretionary {-}{}{}Run\discretionary {-}{}{}Soft}{25}{subsubsection.3.16.2.4}
+\contentsline {subsubsection}{\numberline {3.16.2.5}operator()}{25}{subsubsection.3.16.2.5}
+\contentsline {subsubsection}{\numberline {3.16.2.6}poll}{26}{subsubsection.3.16.2.6}
+\contentsline {subsubsection}{\numberline {3.16.2.7}set\discretionary {-}{}{}Delay}{26}{subsubsection.3.16.2.7}
+\contentsline {subsubsection}{\numberline {3.16.2.8}set\discretionary {-}{}{}Mode}{26}{subsubsection.3.16.2.8}
+\contentsline {subsubsection}{\numberline {3.16.2.9}set\discretionary {-}{}{}Run}{26}{subsubsection.3.16.2.9}
+\contentsline {subsubsection}{\numberline {3.16.2.10}set\discretionary {-}{}{}View}{26}{subsubsection.3.16.2.10}
+\contentsline {subsubsection}{\numberline {3.16.2.11}update\discretionary {-}{}{}Joy\discretionary {-}{}{}Sticks}{26}{subsubsection.3.16.2.11}
+\contentsline {section}{\numberline {3.17}Logger Class Reference}{26}{section.3.17}
+\contentsline {subsection}{\numberline {3.17.1}Detailed Description}{26}{subsection.3.17.1}
+\contentsline {subsection}{\numberline {3.17.2}Member Function Documentation}{26}{subsection.3.17.2}
+\contentsline {subsubsection}{\numberline {3.17.2.1}error}{26}{subsubsection.3.17.2.1}
+\contentsline {subsubsection}{\numberline {3.17.2.2}info}{27}{subsubsection.3.17.2.2}
+\contentsline {subsubsection}{\numberline {3.17.2.3}set\discretionary {-}{}{}Level}{27}{subsubsection.3.17.2.3}
+\contentsline {section}{\numberline {3.18}Matrix$<$ T $>$ Class Template Reference}{27}{section.3.18}
+\contentsline {subsection}{\numberline {3.18.1}Constructor \& Destructor Documentation}{27}{subsection.3.18.1}
+\contentsline {subsubsection}{\numberline {3.18.1.1}Matrix}{27}{subsubsection.3.18.1.1}
+\contentsline {subsubsection}{\numberline {3.18.1.2}Matrix}{27}{subsubsection.3.18.1.2}
+\contentsline {subsection}{\numberline {3.18.2}Member Function Documentation}{28}{subsection.3.18.2}
+\contentsline {subsubsection}{\numberline {3.18.2.1}count}{28}{subsubsection.3.18.2.1}
+\contentsline {subsubsection}{\numberline {3.18.2.2}find}{28}{subsubsection.3.18.2.2}
+\contentsline {subsubsection}{\numberline {3.18.2.3}get\discretionary {-}{}{}M}{28}{subsubsection.3.18.2.3}
+\contentsline {subsubsection}{\numberline {3.18.2.4}get\discretionary {-}{}{}N}{28}{subsubsection.3.18.2.4}
+\contentsline {subsubsection}{\numberline {3.18.2.5}operator()}{28}{subsubsection.3.18.2.5}
+\contentsline {subsubsection}{\numberline {3.18.2.6}operator()}{28}{subsubsection.3.18.2.6}
+\contentsline {subsubsection}{\numberline {3.18.2.7}operator()}{28}{subsubsection.3.18.2.7}
+\contentsline {subsubsection}{\numberline {3.18.2.8}operator()}{28}{subsubsection.3.18.2.8}
+\contentsline {subsubsection}{\numberline {3.18.2.9}set\discretionary {-}{}{}Size}{28}{subsubsection.3.18.2.9}
+\contentsline {subsubsection}{\numberline {3.18.2.10}valid}{28}{subsubsection.3.18.2.10}
+\contentsline {subsubsection}{\numberline {3.18.2.11}valid}{28}{subsubsection.3.18.2.11}
+\contentsline {subsection}{\numberline {3.18.3}Friends And Related Function Documentation}{29}{subsection.3.18.3}
+\contentsline {subsubsection}{\numberline {3.18.3.1}operator$<$$<$}{29}{subsubsection.3.18.3.1}
+\contentsline {subsubsection}{\numberline {3.18.3.2}operator$>$$>$}{29}{subsubsection.3.18.3.2}
+\contentsline {section}{\numberline {3.19}Menu Class Reference}{29}{section.3.19}
+\contentsline {subsection}{\numberline {3.19.1}Constructor \& Destructor Documentation}{29}{subsection.3.19.1}
+\contentsline {subsubsection}{\numberline {3.19.1.1}Menu}{29}{subsubsection.3.19.1.1}
+\contentsline {subsection}{\numberline {3.19.2}Member Function Documentation}{29}{subsection.3.19.2}
+\contentsline {subsubsection}{\numberline {3.19.2.1}check}{29}{subsubsection.3.19.2.1}
+\contentsline {subsubsection}{\numberline {3.19.2.2}down}{29}{subsubsection.3.19.2.2}
+\contentsline {subsubsection}{\numberline {3.19.2.3}get\discretionary {-}{}{}Mode}{29}{subsubsection.3.19.2.3}
+\contentsline {subsubsection}{\numberline {3.19.2.4}main\discretionary {-}{}{}Loop}{30}{subsubsection.3.19.2.4}
+\contentsline {subsubsection}{\numberline {3.19.2.5}up}{30}{subsubsection.3.19.2.5}
+\contentsline {section}{\numberline {3.20}Menu\discretionary {-}{}{}Item Class Reference}{30}{section.3.20}
+\contentsline {subsection}{\numberline {3.20.1}Constructor \& Destructor Documentation}{30}{subsection.3.20.1}
+\contentsline {subsubsection}{\numberline {3.20.1.1}Menu\discretionary {-}{}{}Item}{30}{subsubsection.3.20.1.1}
+\contentsline {subsection}{\numberline {3.20.2}Member Data Documentation}{30}{subsection.3.20.2}
+\contentsline {subsubsection}{\numberline {3.20.2.1}mode}{30}{subsubsection.3.20.2.1}
+\contentsline {subsubsection}{\numberline {3.20.2.2}next}{30}{subsubsection.3.20.2.2}
+\contentsline {subsubsection}{\numberline {3.20.2.3}txt}{30}{subsubsection.3.20.2.3}
+\contentsline {section}{\numberline {3.21}Monster Class Reference}{31}{section.3.21}
+\contentsline {subsection}{\numberline {3.21.1}Detailed Description}{31}{subsection.3.21.1}
+\contentsline {subsection}{\numberline {3.21.2}Constructor \& Destructor Documentation}{31}{subsection.3.21.2}
+\contentsline {subsubsection}{\numberline {3.21.2.1}Monster}{31}{subsubsection.3.21.2.1}
+\contentsline {subsection}{\numberline {3.21.3}Member Function Documentation}{31}{subsection.3.21.3}
+\contentsline {subsubsection}{\numberline {3.21.3.1}alive}{31}{subsubsection.3.21.3.1}
+\contentsline {subsubsection}{\numberline {3.21.3.2}change}{31}{subsubsection.3.21.3.2}
+\contentsline {subsubsection}{\numberline {3.21.3.3}collide}{31}{subsubsection.3.21.3.3}
+\contentsline {subsubsection}{\numberline {3.21.3.4}die}{32}{subsubsection.3.21.3.4}
+\contentsline {subsubsection}{\numberline {3.21.3.5}get\discretionary {-}{}{}Point}{32}{subsubsection.3.21.3.5}
+\contentsline {subsubsection}{\numberline {3.21.3.6}get\discretionary {-}{}{}Point\discretionary {-}{}{}Int}{32}{subsubsection.3.21.3.6}
+\contentsline {subsubsection}{\numberline {3.21.3.7}get\discretionary {-}{}{}Wall}{32}{subsubsection.3.21.3.7}
+\contentsline {subsubsection}{\numberline {3.21.3.8}get\discretionary {-}{}{}X}{32}{subsubsection.3.21.3.8}
+\contentsline {subsubsection}{\numberline {3.21.3.9}get\discretionary {-}{}{}Y}{32}{subsubsection.3.21.3.9}
+\contentsline {subsubsection}{\numberline {3.21.3.10}is\discretionary {-}{}{}Active}{32}{subsubsection.3.21.3.10}
+\contentsline {subsubsection}{\numberline {3.21.3.11}move}{32}{subsubsection.3.21.3.11}
+\contentsline {subsubsection}{\numberline {3.21.3.12}set\discretionary {-}{}{}D\discretionary {-}{}{}X}{32}{subsubsection.3.21.3.12}
+\contentsline {subsubsection}{\numberline {3.21.3.13}set\discretionary {-}{}{}D\discretionary {-}{}{}Y}{32}{subsubsection.3.21.3.13}
+\contentsline {subsubsection}{\numberline {3.21.3.14}set\discretionary {-}{}{}X}{32}{subsubsection.3.21.3.14}
+\contentsline {subsubsection}{\numberline {3.21.3.15}set\discretionary {-}{}{}Y}{33}{subsubsection.3.21.3.15}
+\contentsline {subsubsection}{\numberline {3.21.3.16}state}{33}{subsubsection.3.21.3.16}
+\contentsline {section}{\numberline {3.22}Multi Class Reference}{33}{section.3.22}
+\contentsline {subsection}{\numberline {3.22.1}Constructor \& Destructor Documentation}{33}{subsection.3.22.1}
+\contentsline {subsubsection}{\numberline {3.22.1.1}Multi}{33}{subsubsection.3.22.1.1}
+\contentsline {subsubsection}{\numberline {3.22.1.2}Multi}{33}{subsubsection.3.22.1.2}
+\contentsline {subsection}{\numberline {3.22.2}Member Function Documentation}{33}{subsection.3.22.2}
+\contentsline {subsubsection}{\numberline {3.22.2.1}draw}{33}{subsubsection.3.22.2.1}
+\contentsline {section}{\numberline {3.23}Network Class Reference}{34}{section.3.23}
+\contentsline {subsection}{\numberline {3.23.1}Constructor \& Destructor Documentation}{34}{subsection.3.23.1}
+\contentsline {subsubsection}{\numberline {3.23.1.1}Network}{34}{subsubsection.3.23.1.1}
+\contentsline {subsubsection}{\numberline {3.23.1.2}$\sim $\discretionary {-}{}{}Network}{34}{subsubsection.3.23.1.2}
+\contentsline {subsection}{\numberline {3.23.2}Member Function Documentation}{34}{subsection.3.23.2}
+\contentsline {subsubsection}{\numberline {3.23.2.1}get\discretionary {-}{}{}Internet\discretionary {-}{}{}List}{34}{subsubsection.3.23.2.1}
+\contentsline {subsubsection}{\numberline {3.23.2.2}main\discretionary {-}{}{}Loop}{34}{subsubsection.3.23.2.2}
+\contentsline {subsubsection}{\numberline {3.23.2.3}start\discretionary {-}{}{}Listen}{34}{subsubsection.3.23.2.3}
+\contentsline {subsubsection}{\numberline {3.23.2.4}stop\discretionary {-}{}{}Listen}{35}{subsubsection.3.23.2.4}
+\contentsline {section}{\numberline {3.24}Network\discretionary {-}{}{}Event Struct Reference}{35}{section.3.24}
+\contentsline {subsection}{\numberline {3.24.1}Member Data Documentation}{35}{subsection.3.24.1}
+\contentsline {subsubsection}{\numberline {3.24.1.1}e}{35}{subsubsection.3.24.1.1}
+\contentsline {subsubsection}{\numberline {3.24.1.2}id}{35}{subsubsection.3.24.1.2}
+\contentsline {subsubsection}{\numberline {3.24.1.3}x}{35}{subsubsection.3.24.1.3}
+\contentsline {subsubsection}{\numberline {3.24.1.4}y}{35}{subsubsection.3.24.1.4}
+\contentsline {section}{\numberline {3.25}Object Class Reference}{35}{section.3.25}
+\contentsline {subsection}{\numberline {3.25.1}Detailed Description}{36}{subsection.3.25.1}
+\contentsline {subsection}{\numberline {3.25.2}Constructor \& Destructor Documentation}{36}{subsection.3.25.2}
+\contentsline {subsubsection}{\numberline {3.25.2.1}$\sim $\discretionary {-}{}{}Object}{36}{subsubsection.3.25.2.1}
+\contentsline {subsection}{\numberline {3.25.3}Member Function Documentation}{36}{subsection.3.25.3}
+\contentsline {subsubsection}{\numberline {3.25.3.1}bind}{36}{subsubsection.3.25.3.1}
+\contentsline {subsubsection}{\numberline {3.25.3.2}draw}{36}{subsubsection.3.25.3.2}
+\contentsline {section}{\numberline {3.26}Player Class Reference}{36}{section.3.26}
+\contentsline {subsection}{\numberline {3.26.1}Detailed Description}{37}{subsection.3.26.1}
+\contentsline {subsection}{\numberline {3.26.2}Constructor \& Destructor Documentation}{38}{subsection.3.26.2}
+\contentsline {subsubsection}{\numberline {3.26.2.1}Player}{38}{subsubsection.3.26.2.1}
+\contentsline {subsubsection}{\numberline {3.26.2.2}$\sim $\discretionary {-}{}{}Player}{38}{subsubsection.3.26.2.2}
+\contentsline {subsection}{\numberline {3.26.3}Member Function Documentation}{38}{subsection.3.26.3}
+\contentsline {subsubsection}{\numberline {3.26.3.1}alive}{38}{subsubsection.3.26.3.1}
+\contentsline {subsubsection}{\numberline {3.26.3.2}dec\discretionary {-}{}{}Bombs}{38}{subsubsection.3.26.3.2}
+\contentsline {subsubsection}{\numberline {3.26.3.3}dec\discretionary {-}{}{}Kill}{38}{subsubsection.3.26.3.3}
+\contentsline {subsubsection}{\numberline {3.26.3.4}dec\discretionary {-}{}{}Kill}{38}{subsubsection.3.26.3.4}
+\contentsline {subsubsection}{\numberline {3.26.3.5}die}{38}{subsubsection.3.26.3.5}
+\contentsline {subsubsection}{\numberline {3.26.3.6}get\discretionary {-}{}{}Bombs}{38}{subsubsection.3.26.3.6}
+\contentsline {subsubsection}{\numberline {3.26.3.7}get\discretionary {-}{}{}Bomb\discretionary {-}{}{}X}{38}{subsubsection.3.26.3.7}
+\contentsline {subsubsection}{\numberline {3.26.3.8}get\discretionary {-}{}{}Bomb\discretionary {-}{}{}Y}{38}{subsubsection.3.26.3.8}
+\contentsline {subsubsection}{\numberline {3.26.3.9}get\discretionary {-}{}{}Control}{38}{subsubsection.3.26.3.9}
+\contentsline {subsubsection}{\numberline {3.26.3.10}get\discretionary {-}{}{}Die}{39}{subsubsection.3.26.3.10}
+\contentsline {subsubsection}{\numberline {3.26.3.11}get\discretionary {-}{}{}Id}{39}{subsubsection.3.26.3.11}
+\contentsline {subsubsection}{\numberline {3.26.3.12}get\discretionary {-}{}{}Kill}{39}{subsubsection.3.26.3.12}
+\contentsline {subsubsection}{\numberline {3.26.3.13}get\discretionary {-}{}{}Killed}{39}{subsubsection.3.26.3.13}
+\contentsline {subsubsection}{\numberline {3.26.3.14}get\discretionary {-}{}{}Life}{39}{subsubsection.3.26.3.14}
+\contentsline {subsubsection}{\numberline {3.26.3.15}get\discretionary {-}{}{}Point}{39}{subsubsection.3.26.3.15}
+\contentsline {subsubsection}{\numberline {3.26.3.16}get\discretionary {-}{}{}Prev\discretionary {-}{}{}X}{39}{subsubsection.3.26.3.16}
+\contentsline {subsubsection}{\numberline {3.26.3.17}get\discretionary {-}{}{}Prev\discretionary {-}{}{}Y}{39}{subsubsection.3.26.3.17}
+\contentsline {subsubsection}{\numberline {3.26.3.18}get\discretionary {-}{}{}Put}{39}{subsubsection.3.26.3.18}
+\contentsline {subsubsection}{\numberline {3.26.3.19}get\discretionary {-}{}{}Score}{39}{subsubsection.3.26.3.19}
+\contentsline {subsubsection}{\numberline {3.26.3.20}get\discretionary {-}{}{}Show\discretionary {-}{}{}Kills}{39}{subsubsection.3.26.3.20}
+\contentsline {subsubsection}{\numberline {3.26.3.21}get\discretionary {-}{}{}Size}{39}{subsubsection.3.26.3.21}
+\contentsline {subsubsection}{\numberline {3.26.3.22}get\discretionary {-}{}{}Skin}{40}{subsubsection.3.26.3.22}
+\contentsline {subsubsection}{\numberline {3.26.3.23}get\discretionary {-}{}{}X}{40}{subsubsection.3.26.3.23}
+\contentsline {subsubsection}{\numberline {3.26.3.24}get\discretionary {-}{}{}Y}{40}{subsubsection.3.26.3.24}
+\contentsline {subsubsection}{\numberline {3.26.3.25}inc\discretionary {-}{}{}Bombs}{40}{subsubsection.3.26.3.25}
+\contentsline {subsubsection}{\numberline {3.26.3.26}inc\discretionary {-}{}{}Kill}{40}{subsubsection.3.26.3.26}
+\contentsline {subsubsection}{\numberline {3.26.3.27}inc\discretionary {-}{}{}Kill}{40}{subsubsection.3.26.3.27}
+\contentsline {subsubsection}{\numberline {3.26.3.28}inc\discretionary {-}{}{}Killed}{40}{subsubsection.3.26.3.28}
+\contentsline {subsubsection}{\numberline {3.26.3.29}inc\discretionary {-}{}{}Score}{40}{subsubsection.3.26.3.29}
+\contentsline {subsubsection}{\numberline {3.26.3.30}inc\discretionary {-}{}{}Size}{40}{subsubsection.3.26.3.30}
+\contentsline {subsubsection}{\numberline {3.26.3.31}infect}{40}{subsubsection.3.26.3.31}
+\contentsline {subsubsection}{\numberline {3.26.3.32}infect}{40}{subsubsection.3.26.3.32}
+\contentsline {subsubsection}{\numberline {3.26.3.33}init}{41}{subsubsection.3.26.3.33}
+\contentsline {subsubsection}{\numberline {3.26.3.34}move}{41}{subsubsection.3.26.3.34}
+\contentsline {subsubsection}{\numberline {3.26.3.35}move}{41}{subsubsection.3.26.3.35}
+\contentsline {subsubsection}{\numberline {3.26.3.36}novirus}{41}{subsubsection.3.26.3.36}
+\contentsline {subsubsection}{\numberline {3.26.3.37}set\discretionary {-}{}{}Bomb\discretionary {-}{}{}X}{41}{subsubsection.3.26.3.37}
+\contentsline {subsubsection}{\numberline {3.26.3.38}set\discretionary {-}{}{}Bomb\discretionary {-}{}{}Y}{41}{subsubsection.3.26.3.38}
+\contentsline {subsubsection}{\numberline {3.26.3.39}set\discretionary {-}{}{}Control}{41}{subsubsection.3.26.3.39}
+\contentsline {subsubsection}{\numberline {3.26.3.40}set\discretionary {-}{}{}Die}{41}{subsubsection.3.26.3.40}
+\contentsline {subsubsection}{\numberline {3.26.3.41}set\discretionary {-}{}{}Id}{41}{subsubsection.3.26.3.41}
+\contentsline {subsubsection}{\numberline {3.26.3.42}set\discretionary {-}{}{}Kill}{41}{subsubsection.3.26.3.42}
+\contentsline {subsubsection}{\numberline {3.26.3.43}set\discretionary {-}{}{}Killed}{42}{subsubsection.3.26.3.43}
+\contentsline {subsubsection}{\numberline {3.26.3.44}set\discretionary {-}{}{}Life}{42}{subsubsection.3.26.3.44}
+\contentsline {subsubsection}{\numberline {3.26.3.45}set\discretionary {-}{}{}Put}{42}{subsubsection.3.26.3.45}
+\contentsline {subsubsection}{\numberline {3.26.3.46}set\discretionary {-}{}{}Score}{42}{subsubsection.3.26.3.46}
+\contentsline {subsubsection}{\numberline {3.26.3.47}set\discretionary {-}{}{}Show\discretionary {-}{}{}Kills}{42}{subsubsection.3.26.3.47}
+\contentsline {subsubsection}{\numberline {3.26.3.48}set\discretionary {-}{}{}Skin}{42}{subsubsection.3.26.3.48}
+\contentsline {subsubsection}{\numberline {3.26.3.49}set\discretionary {-}{}{}Start}{42}{subsubsection.3.26.3.49}
+\contentsline {subsubsection}{\numberline {3.26.3.50}set\discretionary {-}{}{}Start}{42}{subsubsection.3.26.3.50}
+\contentsline {subsubsection}{\numberline {3.26.3.51}set\discretionary {-}{}{}X}{42}{subsubsection.3.26.3.51}
+\contentsline {subsubsection}{\numberline {3.26.3.52}set\discretionary {-}{}{}Y}{42}{subsubsection.3.26.3.52}
+\contentsline {subsubsection}{\numberline {3.26.3.53}state}{42}{subsubsection.3.26.3.53}
+\contentsline {subsubsection}{\numberline {3.26.3.54}win}{43}{subsubsection.3.26.3.54}
+\contentsline {section}{\numberline {3.27}Point$<$ T $>$ Class Template Reference}{43}{section.3.27}
+\contentsline {subsection}{\numberline {3.27.1}Constructor \& Destructor Documentation}{43}{subsection.3.27.1}
+\contentsline {subsubsection}{\numberline {3.27.1.1}Point}{43}{subsubsection.3.27.1.1}
+\contentsline {subsubsection}{\numberline {3.27.1.2}Point}{43}{subsubsection.3.27.1.2}
+\contentsline {subsection}{\numberline {3.27.2}Member Function Documentation}{43}{subsection.3.27.2}
+\contentsline {subsubsection}{\numberline {3.27.2.1}get\discretionary {-}{}{}X}{43}{subsubsection.3.27.2.1}
+\contentsline {subsubsection}{\numberline {3.27.2.2}get\discretionary {-}{}{}Y}{43}{subsubsection.3.27.2.2}
+\contentsline {subsubsection}{\numberline {3.27.2.3}operator=}{44}{subsubsection.3.27.2.3}
+\contentsline {subsubsection}{\numberline {3.27.2.4}set\discretionary {-}{}{}X}{45}{subsubsection.3.27.2.4}
+\contentsline {subsubsection}{\numberline {3.27.2.5}set\discretionary {-}{}{}Y}{45}{subsubsection.3.27.2.5}
+\contentsline {subsection}{\numberline {3.27.3}Friends And Related Function Documentation}{45}{subsection.3.27.3}
+\contentsline {subsubsection}{\numberline {3.27.3.1}distance}{45}{subsubsection.3.27.3.1}
+\contentsline {subsubsection}{\numberline {3.27.3.2}operator==}{45}{subsubsection.3.27.3.2}
+\contentsline {subsubsection}{\numberline {3.27.3.3}Way}{45}{subsubsection.3.27.3.3}
+\contentsline {section}{\numberline {3.28}Rect Struct Reference}{45}{section.3.28}
+\contentsline {subsection}{\numberline {3.28.1}Detailed Description}{46}{subsection.3.28.1}
+\contentsline {subsection}{\numberline {3.28.2}Constructor \& Destructor Documentation}{46}{subsection.3.28.2}
+\contentsline {subsubsection}{\numberline {3.28.2.1}Rect}{46}{subsubsection.3.28.2.1}
+\contentsline {subsubsection}{\numberline {3.28.2.2}Rect}{46}{subsubsection.3.28.2.2}
+\contentsline {subsection}{\numberline {3.28.3}Member Data Documentation}{46}{subsection.3.28.3}
+\contentsline {subsubsection}{\numberline {3.28.3.1}h}{46}{subsubsection.3.28.3.1}
+\contentsline {subsubsection}{\numberline {3.28.3.2}w}{46}{subsubsection.3.28.3.2}
+\contentsline {subsubsection}{\numberline {3.28.3.3}x}{46}{subsubsection.3.28.3.3}
+\contentsline {subsubsection}{\numberline {3.28.3.4}y}{46}{subsubsection.3.28.3.4}
+\contentsline {section}{\numberline {3.29}Score\discretionary {-}{}{}Board Class Reference}{46}{section.3.29}
+\contentsline {subsection}{\numberline {3.29.1}Constructor \& Destructor Documentation}{47}{subsection.3.29.1}
+\contentsline {subsubsection}{\numberline {3.29.1.1}Score\discretionary {-}{}{}Board}{47}{subsubsection.3.29.1.1}
+\contentsline {subsection}{\numberline {3.29.2}Member Function Documentation}{48}{subsection.3.29.2}
+\contentsline {subsubsection}{\numberline {3.29.2.1}main\discretionary {-}{}{}Loop}{48}{subsubsection.3.29.2.1}
+\contentsline {section}{\numberline {3.30}Select Class Reference}{48}{section.3.30}
+\contentsline {subsection}{\numberline {3.30.1}Detailed Description}{48}{subsection.3.30.1}
+\contentsline {subsection}{\numberline {3.30.2}Constructor \& Destructor Documentation}{48}{subsection.3.30.2}
+\contentsline {subsubsection}{\numberline {3.30.2.1}Select}{48}{subsubsection.3.30.2.1}
+\contentsline {subsection}{\numberline {3.30.3}Member Function Documentation}{48}{subsection.3.30.3}
+\contentsline {subsubsection}{\numberline {3.30.3.1}get\discretionary {-}{}{}N}{48}{subsubsection.3.30.3.1}
+\contentsline {subsubsection}{\numberline {3.30.3.2}get\discretionary {-}{}{}Run}{49}{subsubsection.3.30.3.2}
+\contentsline {subsubsection}{\numberline {3.30.3.3}main\discretionary {-}{}{}Loop}{49}{subsubsection.3.30.3.3}
+\contentsline {section}{\numberline {3.31}Server Class Reference}{49}{section.3.31}
+\contentsline {subsection}{\numberline {3.31.1}Constructor \& Destructor Documentation}{49}{subsection.3.31.1}
+\contentsline {subsubsection}{\numberline {3.31.1.1}Server}{49}{subsubsection.3.31.1.1}
+\contentsline {subsubsection}{\numberline {3.31.1.2}$\sim $\discretionary {-}{}{}Server}{49}{subsubsection.3.31.1.2}
+\contentsline {subsection}{\numberline {3.31.2}Member Function Documentation}{49}{subsection.3.31.2}
+\contentsline {subsubsection}{\numberline {3.31.2.1}main\discretionary {-}{}{}Loop}{49}{subsubsection.3.31.2.1}
+\contentsline {section}{\numberline {3.32}Sprite Class Reference}{49}{section.3.32}
+\contentsline {subsection}{\numberline {3.32.1}Detailed Description}{50}{subsection.3.32.1}
+\contentsline {subsection}{\numberline {3.32.2}Constructor \& Destructor Documentation}{50}{subsection.3.32.2}
+\contentsline {subsubsection}{\numberline {3.32.2.1}Sprite}{50}{subsubsection.3.32.2.1}
+\contentsline {subsubsection}{\numberline {3.32.2.2}Sprite}{50}{subsubsection.3.32.2.2}
+\contentsline {subsubsection}{\numberline {3.32.2.3}$\sim $\discretionary {-}{}{}Sprite}{50}{subsubsection.3.32.2.3}
+\contentsline {subsection}{\numberline {3.32.3}Member Function Documentation}{50}{subsection.3.32.3}
+\contentsline {subsubsection}{\numberline {3.32.3.1}bind}{50}{subsubsection.3.32.3.1}
+\contentsline {subsubsection}{\numberline {3.32.3.2}draw}{50}{subsubsection.3.32.3.2}
+\contentsline {section}{\numberline {3.33}Text Class Reference}{51}{section.3.33}
+\contentsline {subsection}{\numberline {3.33.1}Detailed Description}{51}{subsection.3.33.1}
+\contentsline {subsection}{\numberline {3.33.2}Constructor \& Destructor Documentation}{51}{subsection.3.33.2}
+\contentsline {subsubsection}{\numberline {3.33.2.1}Text}{51}{subsubsection.3.33.2.1}
+\contentsline {subsubsection}{\numberline {3.33.2.2}Text}{51}{subsubsection.3.33.2.2}
+\contentsline {subsection}{\numberline {3.33.3}Member Function Documentation}{52}{subsection.3.33.3}
+\contentsline {subsubsection}{\numberline {3.33.3.1}draw}{52}{subsubsection.3.33.3.1}
+\contentsline {section}{\numberline {3.34}Translate Class Reference}{52}{section.3.34}
+\contentsline {section}{\numberline {3.35}Utf8 Class Reference}{52}{section.3.35}
+\contentsline {subsection}{\numberline {3.35.1}Detailed Description}{52}{subsection.3.35.1}
+\contentsline {subsection}{\numberline {3.35.2}Constructor \& Destructor Documentation}{52}{subsection.3.35.2}
+\contentsline {subsubsection}{\numberline {3.35.2.1}Utf8}{52}{subsubsection.3.35.2.1}
+\contentsline {subsection}{\numberline {3.35.3}Member Function Documentation}{53}{subsection.3.35.3}
+\contentsline {subsubsection}{\numberline {3.35.3.1}is\discretionary {-}{}{}Br}{53}{subsubsection.3.35.3.1}
+\contentsline {subsubsection}{\numberline {3.35.3.2}not\discretionary {-}{}{}Null}{53}{subsubsection.3.35.3.2}
+\contentsline {subsubsection}{\numberline {3.35.3.3}not\discretionary {-}{}{}Space}{53}{subsubsection.3.35.3.3}
+\contentsline {subsection}{\numberline {3.35.4}Friends And Related Function Documentation}{53}{subsection.3.35.4}
+\contentsline {subsubsection}{\numberline {3.35.4.1}operator$<$}{53}{subsubsection.3.35.4.1}
+\contentsline {subsubsection}{\numberline {3.35.4.2}operator$<$$<$}{53}{subsubsection.3.35.4.2}
+\contentsline {subsubsection}{\numberline {3.35.4.3}operator==}{53}{subsubsection.3.35.4.3}
+\contentsline {subsubsection}{\numberline {3.35.4.4}operator$>$}{53}{subsubsection.3.35.4.4}
+\contentsline {subsubsection}{\numberline {3.35.4.5}operator$>$$>$}{53}{subsubsection.3.35.4.5}
+\contentsline {section}{\numberline {3.36}View Class Reference}{53}{section.3.36}
+\contentsline {subsection}{\numberline {3.36.1}Detailed Description}{54}{subsection.3.36.1}
+\contentsline {subsection}{\numberline {3.36.2}Constructor \& Destructor Documentation}{54}{subsection.3.36.2}
+\contentsline {subsubsection}{\numberline {3.36.2.1}View}{54}{subsubsection.3.36.2.1}
+\contentsline {subsubsection}{\numberline {3.36.2.2}$\sim $\discretionary {-}{}{}View}{54}{subsubsection.3.36.2.2}
+\contentsline {subsection}{\numberline {3.36.3}Member Function Documentation}{54}{subsection.3.36.3}
+\contentsline {subsubsection}{\numberline {3.36.3.1}draw}{54}{subsubsection.3.36.3.1}
+\contentsline {subsubsection}{\numberline {3.36.3.2}draw}{54}{subsubsection.3.36.3.2}
+\contentsline {subsubsection}{\numberline {3.36.3.3}draw\discretionary {-}{}{}Anim}{55}{subsubsection.3.36.3.3}
+\contentsline {subsubsection}{\numberline {3.36.3.4}frame\discretionary {-}{}{}Begin}{55}{subsubsection.3.36.3.4}
+\contentsline {subsubsection}{\numberline {3.36.3.5}frame\discretionary {-}{}{}Delay}{55}{subsubsection.3.36.3.5}
+\contentsline {subsubsection}{\numberline {3.36.3.6}frame\discretionary {-}{}{}End}{55}{subsubsection.3.36.3.6}
+\contentsline {subsubsection}{\numberline {3.36.3.7}get\discretionary {-}{}{}H}{55}{subsubsection.3.36.3.7}
+\contentsline {subsubsection}{\numberline {3.36.3.8}get\discretionary {-}{}{}Now}{55}{subsubsection.3.36.3.8}
+\contentsline {subsubsection}{\numberline {3.36.3.9}get\discretionary {-}{}{}W}{55}{subsubsection.3.36.3.9}
+\contentsline {subsubsection}{\numberline {3.36.3.10}load}{55}{subsubsection.3.36.3.10}
+\contentsline {subsubsection}{\numberline {3.36.3.11}load\discretionary {-}{}{}Package}{55}{subsubsection.3.36.3.11}
+\contentsline {subsubsection}{\numberline {3.36.3.12}resize\discretionary {-}{}{}\_\discretionary {-}{}{}event}{56}{subsubsection.3.36.3.12}
+\contentsline {subsubsection}{\numberline {3.36.3.13}Screenshot}{56}{subsubsection.3.36.3.13}
+\contentsline {subsubsection}{\numberline {3.36.3.14}set\discretionary {-}{}{}Now}{56}{subsubsection.3.36.3.14}
+\contentsline {subsubsection}{\numberline {3.36.3.15}set\discretionary {-}{}{}Tick\discretionary {-}{}{}Interval}{56}{subsubsection.3.36.3.15}
+\contentsline {subsubsection}{\numberline {3.36.3.16}swap}{56}{subsubsection.3.36.3.16}
+\contentsline {subsubsection}{\numberline {3.36.3.17}Toggle}{56}{subsubsection.3.36.3.17}
+\contentsline {subsubsection}{\numberline {3.36.3.18}toggle\discretionary {-}{}{}Full\discretionary {-}{}{}Screen}{56}{subsubsection.3.36.3.18}
+\contentsline {part}{Index}{57}{section*.45}

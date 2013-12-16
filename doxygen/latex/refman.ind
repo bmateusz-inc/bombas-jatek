@@ -1,0 +1,847 @@
+\begin{theindex}
+
+  \item {$\sim $\discretionary {-}{}{}Game\discretionary {-}{}{}Table}
+    \subitem {Game\discretionary {-}{}{}Table}, \hyperpage{20}
+  \item {$\sim $\discretionary {-}{}{}Input}
+    \subitem {Input}, \hyperpage{25}
+  \item {$\sim $\discretionary {-}{}{}Network}
+    \subitem {Network}, \hyperpage{34}
+  \item {$\sim $\discretionary {-}{}{}Object}
+    \subitem {Object}, \hyperpage{36}
+  \item {$\sim $\discretionary {-}{}{}Player}
+    \subitem {Player}, \hyperpage{38}
+  \item {$\sim $\discretionary {-}{}{}Server}
+    \subitem {Server}, \hyperpage{49}
+  \item {$\sim $\discretionary {-}{}{}Sprite}
+    \subitem {Sprite}, \hyperpage{50}
+  \item {$\sim $\discretionary {-}{}{}View}
+    \subitem {View}, \hyperpage{54}
+
+  \indexspace
+
+  \item {alive}
+    \subitem {Monster}, \hyperpage{31}
+    \subitem {Player}, \hyperpage{38}
+  \item {Anim\discretionary {-}{}{}File}, \hyperpage{6}
+    \subitem {Anim\discretionary {-}{}{}File}, \hyperpage{6}
+    \subitem {Anim\discretionary {-}{}{}File}, \hyperpage{6}
+    \subitem {frame}, \hyperpage{6}
+  \item {Anim\discretionary {-}{}{}Object}, \hyperpage{6}
+    \subitem {Anim\discretionary {-}{}{}Object}, \hyperpage{7}
+    \subitem {Anim\discretionary {-}{}{}Object}, \hyperpage{7}
+    \subitem {draw}, \hyperpage{7}
+  \item {Animation}, \hyperpage{5}
+    \subitem {Animation}, \hyperpage{5}
+    \subitem {draw}, \hyperpage{5}
+    \subitem {get\discretionary {-}{}{}Rect}, \hyperpage{5}
+
+  \indexspace
+
+  \item {bind}
+    \subitem {Game\discretionary {-}{}{}Table}, \hyperpage{20}
+    \subitem {Object}, \hyperpage{36}
+    \subitem {Sprite}, \hyperpage{50}
+  \item {Bomb}, \hyperpage{7}
+    \subitem {Bomb}, \hyperpage{8}
+    \subitem {boom}, \hyperpage{8}
+    \subitem {get\discretionary {-}{}{}Owner}, \hyperpage{8}
+    \subitem {get\discretionary {-}{}{}Point}, \hyperpage{8}
+    \subitem {get\discretionary {-}{}{}Size}, \hyperpage{9}
+    \subitem {get\discretionary {-}{}{}X}, \hyperpage{9}
+    \subitem {get\discretionary {-}{}{}Y}, \hyperpage{9}
+    \subitem {state}, \hyperpage{9}
+  \item {boom}
+    \subitem {Bomb}, \hyperpage{8}
+  \item {build\discretionary {-}{}{}Walls}
+    \subitem {Game\discretionary {-}{}{}Table}, \hyperpage{20}
+
+  \indexspace
+
+  \item {C\discretionary {-}{}{}F\discretionary {-}{}{}G\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}B\discretionary {-}{}{}O\discretionary {-}{}{}M\discretionary {-}{}{}B\discretionary {-}{}{}T\discretionary {-}{}{}I\discretionary {-}{}{}M\discretionary {-}{}{}E}
+    \subitem {Config}, \hyperpage{10}
+  \item {C\discretionary {-}{}{}F\discretionary {-}{}{}G\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}D\discretionary {-}{}{}E\discretionary {-}{}{}F\discretionary {-}{}{}A\discretionary {-}{}{}U\discretionary {-}{}{}L\discretionary {-}{}{}T\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}S\discretionary {-}{}{}P\discretionary {-}{}{}E\discretionary {-}{}{}E\discretionary {-}{}{}D}
+    \subitem {Config}, \hyperpage{10}
+  \item {C\discretionary {-}{}{}F\discretionary {-}{}{}G\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}F\discretionary {-}{}{}A\discretionary {-}{}{}S\discretionary {-}{}{}T\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}S\discretionary {-}{}{}P\discretionary {-}{}{}E\discretionary {-}{}{}E\discretionary {-}{}{}D}
+    \subitem {Config}, \hyperpage{10}
+  \item {C\discretionary {-}{}{}F\discretionary {-}{}{}G\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}F\discretionary {-}{}{}L\discretionary {-}{}{}A\discretionary {-}{}{}M\discretionary {-}{}{}E\discretionary {-}{}{}T\discretionary {-}{}{}I\discretionary {-}{}{}M\discretionary {-}{}{}E}
+    \subitem {Config}, \hyperpage{10}
+  \item {C\discretionary {-}{}{}F\discretionary {-}{}{}G\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}P\discretionary {-}{}{}O\discretionary {-}{}{}R\discretionary {-}{}{}T}
+    \subitem {Config}, \hyperpage{10}
+  \item {C\discretionary {-}{}{}F\discretionary {-}{}{}G\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}R\discretionary {-}{}{}E\discretionary {-}{}{}S\discretionary {-}{}{}P\discretionary {-}{}{}A\discretionary {-}{}{}W\discretionary {-}{}{}N\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}M\discretionary {-}{}{}O\discretionary {-}{}{}N\discretionary {-}{}{}S\discretionary {-}{}{}T\discretionary {-}{}{}E\discretionary {-}{}{}R}
+    \subitem {Config}, \hyperpage{10}
+  \item {C\discretionary {-}{}{}F\discretionary {-}{}{}G\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}R\discretionary {-}{}{}E\discretionary {-}{}{}S\discretionary {-}{}{}P\discretionary {-}{}{}A\discretionary {-}{}{}W\discretionary {-}{}{}N\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}P\discretionary {-}{}{}L\discretionary {-}{}{}A\discretionary {-}{}{}Y\discretionary {-}{}{}E\discretionary {-}{}{}R}
+    \subitem {Config}, \hyperpage{10}
+  \item {C\discretionary {-}{}{}F\discretionary {-}{}{}G\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}S\discretionary {-}{}{}H\discretionary {-}{}{}O\discretionary {-}{}{}W\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}S\discretionary {-}{}{}C\discretionary {-}{}{}O\discretionary {-}{}{}R\discretionary {-}{}{}E\discretionary {-}{}{}B\discretionary {-}{}{}O\discretionary {-}{}{}A\discretionary {-}{}{}R\discretionary {-}{}{}D}
+    \subitem {Config}, \hyperpage{10}
+  \item {C\discretionary {-}{}{}F\discretionary {-}{}{}G\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}S\discretionary {-}{}{}L\discretionary {-}{}{}O\discretionary {-}{}{}W\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}S\discretionary {-}{}{}P\discretionary {-}{}{}E\discretionary {-}{}{}E\discretionary {-}{}{}D}
+    \subitem {Config}, \hyperpage{10}
+  \item {C\discretionary {-}{}{}F\discretionary {-}{}{}G\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}V\discretionary {-}{}{}I\discretionary {-}{}{}R\discretionary {-}{}{}U\discretionary {-}{}{}S\discretionary {-}{}{}T\discretionary {-}{}{}I\discretionary {-}{}{}M\discretionary {-}{}{}E}
+    \subitem {Config}, \hyperpage{10}
+  \item {change}
+    \subitem {Monster}, \hyperpage{31}
+  \item {check}
+    \subitem {Menu}, \hyperpage{29}
+  \item {check\discretionary {-}{}{}After}
+    \subitem {Game\discretionary {-}{}{}Manager}, \hyperpage{18}
+  \item {check\discretionary {-}{}{}Before}
+    \subitem {Game\discretionary {-}{}{}Manager}, \hyperpage{18}
+  \item {check\discretionary {-}{}{}State}
+    \subitem {Game\discretionary {-}{}{}Manager}, \hyperpage{18}
+  \item {Client}, \hyperpage{9}
+  \item {collide}
+    \subitem {Monster}, \hyperpage{31}
+  \item {Config}, \hyperpage{9}
+    \subitem {C\discretionary {-}{}{}F\discretionary {-}{}{}G\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}B\discretionary {-}{}{}O\discretionary {-}{}{}M\discretionary {-}{}{}B\discretionary {-}{}{}T\discretionary {-}{}{}I\discretionary {-}{}{}M\discretionary {-}{}{}E}, 
+		\hyperpage{10}
+    \subitem {C\discretionary {-}{}{}F\discretionary {-}{}{}G\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}D\discretionary {-}{}{}E\discretionary {-}{}{}F\discretionary {-}{}{}A\discretionary {-}{}{}U\discretionary {-}{}{}L\discretionary {-}{}{}T\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}S\discretionary {-}{}{}P\discretionary {-}{}{}E\discretionary {-}{}{}E\discretionary {-}{}{}D}, 
+		\hyperpage{10}
+    \subitem {C\discretionary {-}{}{}F\discretionary {-}{}{}G\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}F\discretionary {-}{}{}A\discretionary {-}{}{}S\discretionary {-}{}{}T\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}S\discretionary {-}{}{}P\discretionary {-}{}{}E\discretionary {-}{}{}E\discretionary {-}{}{}D}, 
+		\hyperpage{10}
+    \subitem {C\discretionary {-}{}{}F\discretionary {-}{}{}G\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}F\discretionary {-}{}{}L\discretionary {-}{}{}A\discretionary {-}{}{}M\discretionary {-}{}{}E\discretionary {-}{}{}T\discretionary {-}{}{}I\discretionary {-}{}{}M\discretionary {-}{}{}E}, 
+		\hyperpage{10}
+    \subitem {C\discretionary {-}{}{}F\discretionary {-}{}{}G\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}P\discretionary {-}{}{}O\discretionary {-}{}{}R\discretionary {-}{}{}T}, 
+		\hyperpage{10}
+    \subitem {C\discretionary {-}{}{}F\discretionary {-}{}{}G\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}R\discretionary {-}{}{}E\discretionary {-}{}{}S\discretionary {-}{}{}P\discretionary {-}{}{}A\discretionary {-}{}{}W\discretionary {-}{}{}N\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}M\discretionary {-}{}{}O\discretionary {-}{}{}N\discretionary {-}{}{}S\discretionary {-}{}{}T\discretionary {-}{}{}E\discretionary {-}{}{}R}, 
+		\hyperpage{10}
+    \subitem {C\discretionary {-}{}{}F\discretionary {-}{}{}G\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}R\discretionary {-}{}{}E\discretionary {-}{}{}S\discretionary {-}{}{}P\discretionary {-}{}{}A\discretionary {-}{}{}W\discretionary {-}{}{}N\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}P\discretionary {-}{}{}L\discretionary {-}{}{}A\discretionary {-}{}{}Y\discretionary {-}{}{}E\discretionary {-}{}{}R}, 
+		\hyperpage{10}
+    \subitem {C\discretionary {-}{}{}F\discretionary {-}{}{}G\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}S\discretionary {-}{}{}H\discretionary {-}{}{}O\discretionary {-}{}{}W\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}S\discretionary {-}{}{}C\discretionary {-}{}{}O\discretionary {-}{}{}R\discretionary {-}{}{}E\discretionary {-}{}{}B\discretionary {-}{}{}O\discretionary {-}{}{}A\discretionary {-}{}{}R\discretionary {-}{}{}D}, 
+		\hyperpage{10}
+    \subitem {C\discretionary {-}{}{}F\discretionary {-}{}{}G\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}S\discretionary {-}{}{}L\discretionary {-}{}{}O\discretionary {-}{}{}W\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}S\discretionary {-}{}{}P\discretionary {-}{}{}E\discretionary {-}{}{}E\discretionary {-}{}{}D}, 
+		\hyperpage{10}
+    \subitem {C\discretionary {-}{}{}F\discretionary {-}{}{}G\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}V\discretionary {-}{}{}I\discretionary {-}{}{}R\discretionary {-}{}{}U\discretionary {-}{}{}S\discretionary {-}{}{}T\discretionary {-}{}{}I\discretionary {-}{}{}M\discretionary {-}{}{}E}, 
+		\hyperpage{10}
+  \item {Control}, \hyperpage{11}
+    \subitem {Control}, \hyperpage{11}
+    \subitem {get\discretionary {-}{}{}Delay}, \hyperpage{11}
+    \subitem {get\discretionary {-}{}{}Put}, \hyperpage{11}
+    \subitem {get\discretionary {-}{}{}X}, \hyperpage{11}
+    \subitem {get\discretionary {-}{}{}Y}, \hyperpage{11}
+    \subitem {px}, \hyperpage{11}
+    \subitem {py}, \hyperpage{11}
+    \subitem {set\discretionary {-}{}{}Delay}, \hyperpage{13}
+    \subitem {set\discretionary {-}{}{}Put}, \hyperpage{13}
+    \subitem {set\discretionary {-}{}{}X}, \hyperpage{13}
+    \subitem {set\discretionary {-}{}{}Y}, \hyperpage{13}
+  \item {count}
+    \subitem {Matrix}, \hyperpage{28}
+  \item {count\discretionary {-}{}{}Monster}
+    \subitem {Game\discretionary {-}{}{}Table}, \hyperpage{20}
+
+  \indexspace
+
+  \item {dec\discretionary {-}{}{}Bombs}
+    \subitem {Player}, \hyperpage{38}
+  \item {dec\discretionary {-}{}{}Kill}
+    \subitem {Player}, \hyperpage{38}
+  \item {die}
+    \subitem {Monster}, \hyperpage{31}
+    \subitem {Player}, \hyperpage{38}
+  \item {distance}
+    \subitem {Point}, \hyperpage{45}
+  \item {down}
+    \subitem {Menu}, \hyperpage{29}
+  \item {draw}
+    \subitem {Animation}, \hyperpage{5}
+    \subitem {Anim\discretionary {-}{}{}Object}, \hyperpage{7}
+    \subitem {Multi}, \hyperpage{33}
+    \subitem {Object}, \hyperpage{36}
+    \subitem {Sprite}, \hyperpage{50}
+    \subitem {Text}, \hyperpage{52}
+    \subitem {View}, \hyperpage{54}
+  \item {draw\discretionary {-}{}{}Anim}
+    \subitem {View}, \hyperpage{55}
+
+  \indexspace
+
+  \item {e}
+    \subitem {Network\discretionary {-}{}{}Event}, \hyperpage{35}
+  \item {effect}
+    \subitem {Goods}, \hyperpage{23}
+  \item {error}
+    \subitem {Logger}, \hyperpage{26}
+  \item {execute}
+    \subitem {Game\discretionary {-}{}{}Table}, \hyperpage{20}
+  \item {expire}
+    \subitem {Flame}, \hyperpage{15}
+
+  \indexspace
+
+  \item {find}
+    \subitem {Matrix}, \hyperpage{28}
+  \item {Flame}, \hyperpage{13}
+    \subitem {expire}, \hyperpage{15}
+    \subitem {Flame}, \hyperpage{13}
+    \subitem {get\discretionary {-}{}{}Direction}, \hyperpage{15}
+    \subitem {get\discretionary {-}{}{}Owner}, \hyperpage{15}
+    \subitem {get\discretionary {-}{}{}Point}, \hyperpage{15}
+    \subitem {get\discretionary {-}{}{}X}, \hyperpage{15}
+    \subitem {get\discretionary {-}{}{}Y}, \hyperpage{15}
+    \subitem {operator==}, \hyperpage{15}
+    \subitem {state}, \hyperpage{15}
+  \item {Frame}, \hyperpage{16}
+    \subitem {Frame}, \hyperpage{16}
+    \subitem {obj}, \hyperpage{16}
+    \subitem {time}, \hyperpage{16}
+  \item {frame}
+    \subitem {Anim\discretionary {-}{}{}File}, \hyperpage{6}
+  \item {frame\discretionary {-}{}{}Begin}
+    \subitem {View}, \hyperpage{55}
+  \item {frame\discretionary {-}{}{}Delay}
+    \subitem {View}, \hyperpage{55}
+  \item {frame\discretionary {-}{}{}End}
+    \subitem {View}, \hyperpage{55}
+
+  \indexspace
+
+  \item {Game}, \hyperpage{16}
+  \item {Game\discretionary {-}{}{}Config}, \hyperpage{16}
+    \subitem {Game\discretionary {-}{}{}Config}, \hyperpage{17}
+    \subitem {Game\discretionary {-}{}{}Config}, \hyperpage{17}
+    \subitem {gen}, \hyperpage{17}
+    \subitem {init}, \hyperpage{17}
+    \subitem {n\discretionary {-}{}{}Bomb}, \hyperpage{17}
+    \subitem {n\discretionary {-}{}{}Flame}, \hyperpage{17}
+    \subitem {n\discretionary {-}{}{}Virus}, \hyperpage{17}
+    \subitem {sb}, \hyperpage{17}
+    \subitem {sx}, \hyperpage{17}
+    \subitem {sy}, \hyperpage{17}
+  \item {Game\discretionary {-}{}{}Manager}, \hyperpage{18}
+    \subitem {check\discretionary {-}{}{}After}, \hyperpage{18}
+    \subitem {check\discretionary {-}{}{}Before}, \hyperpage{18}
+    \subitem {check\discretionary {-}{}{}State}, \hyperpage{18}
+    \subitem {Game\discretionary {-}{}{}Manager}, \hyperpage{18}
+    \subitem {Game\discretionary {-}{}{}Manager}, \hyperpage{18}
+    \subitem {get\discretionary {-}{}{}Round}, \hyperpage{18}
+    \subitem {get\discretionary {-}{}{}Run}, \hyperpage{18}
+    \subitem {new\discretionary {-}{}{}Round}, \hyperpage{19}
+    \subitem {prepare\discretionary {-}{}{}Table}, \hyperpage{19}
+    \subitem {wait\discretionary {-}{}{}Round}, \hyperpage{19}
+  \item {Game\discretionary {-}{}{}Table}, \hyperpage{19}
+    \subitem {$\sim $\discretionary {-}{}{}Game\discretionary {-}{}{}Table}, 
+		\hyperpage{20}
+    \subitem {bind}, \hyperpage{20}
+    \subitem {build\discretionary {-}{}{}Walls}, \hyperpage{20}
+    \subitem {count\discretionary {-}{}{}Monster}, \hyperpage{20}
+    \subitem {execute}, \hyperpage{20}
+    \subitem {Game\discretionary {-}{}{}Table}, \hyperpage{19}
+    \subitem {Game\discretionary {-}{}{}Table}, \hyperpage{19}
+    \subitem {generate\discretionary {-}{}{}Base}, \hyperpage{20}
+    \subitem {generate\discretionary {-}{}{}Map}, \hyperpage{20}
+    \subitem {get\discretionary {-}{}{}Config}, \hyperpage{20}
+    \subitem {get\discretionary {-}{}{}Movement}, \hyperpage{20}
+    \subitem {get\discretionary {-}{}{}Players}, \hyperpage{20}
+    \subitem {inc\discretionary {-}{}{}Score}, \hyperpage{20}
+    \subitem {load\discretionary {-}{}{}Map}, \hyperpage{21}
+    \subitem {move}, \hyperpage{21}
+    \subitem {set\discretionary {-}{}{}Config}, \hyperpage{21}
+    \subitem {set\discretionary {-}{}{}Players}, \hyperpage{21}
+    \subitem {set\discretionary {-}{}{}Start}, \hyperpage{21}
+    \subitem {spawn\discretionary {-}{}{}Monster}, \hyperpage{21}
+    \subitem {spawn\discretionary {-}{}{}Player}, \hyperpage{22}
+    \subitem {spawn\discretionary {-}{}{}Walls}, \hyperpage{22}
+  \item {gen}
+    \subitem {Game\discretionary {-}{}{}Config}, \hyperpage{17}
+  \item {generate\discretionary {-}{}{}Base}
+    \subitem {Game\discretionary {-}{}{}Table}, \hyperpage{20}
+  \item {generate\discretionary {-}{}{}Map}
+    \subitem {Game\discretionary {-}{}{}Table}, \hyperpage{20}
+  \item {get\discretionary {-}{}{}Bomb\discretionary {-}{}{}X}
+    \subitem {Player}, \hyperpage{38}
+  \item {get\discretionary {-}{}{}Bomb\discretionary {-}{}{}Y}
+    \subitem {Player}, \hyperpage{38}
+  \item {get\discretionary {-}{}{}Bombs}
+    \subitem {Player}, \hyperpage{38}
+  \item {get\discretionary {-}{}{}Config}
+    \subitem {Game\discretionary {-}{}{}Table}, \hyperpage{20}
+  \item {get\discretionary {-}{}{}Control}
+    \subitem {Player}, \hyperpage{38}
+  \item {get\discretionary {-}{}{}Delay}
+    \subitem {Control}, \hyperpage{11}
+  \item {get\discretionary {-}{}{}Die}
+    \subitem {Player}, \hyperpage{38}
+  \item {get\discretionary {-}{}{}Direction}
+    \subitem {Flame}, \hyperpage{15}
+  \item {get\discretionary {-}{}{}H}
+    \subitem {View}, \hyperpage{55}
+  \item {get\discretionary {-}{}{}Id}
+    \subitem {Player}, \hyperpage{39}
+  \item {get\discretionary {-}{}{}Internet\discretionary {-}{}{}List}
+    \subitem {Network}, \hyperpage{34}
+  \item {get\discretionary {-}{}{}Kill}
+    \subitem {Player}, \hyperpage{39}
+  \item {get\discretionary {-}{}{}Killed}
+    \subitem {Player}, \hyperpage{39}
+  \item {get\discretionary {-}{}{}Life}
+    \subitem {Player}, \hyperpage{39}
+  \item {get\discretionary {-}{}{}M}
+    \subitem {Matrix}, \hyperpage{28}
+  \item {get\discretionary {-}{}{}Mode}
+    \subitem {Menu}, \hyperpage{29}
+  \item {get\discretionary {-}{}{}Movement}
+    \subitem {Game\discretionary {-}{}{}Table}, \hyperpage{20}
+  \item {get\discretionary {-}{}{}N}
+    \subitem {Matrix}, \hyperpage{28}
+    \subitem {Select}, \hyperpage{48}
+  \item {get\discretionary {-}{}{}N\discretionary {-}{}{}Joy}
+    \subitem {Input}, \hyperpage{25}
+  \item {get\discretionary {-}{}{}N\discretionary {-}{}{}Players}
+    \subitem {Input}, \hyperpage{25}
+  \item {get\discretionary {-}{}{}Now}
+    \subitem {View}, \hyperpage{55}
+  \item {get\discretionary {-}{}{}Owner}
+    \subitem {Bomb}, \hyperpage{8}
+    \subitem {Flame}, \hyperpage{15}
+  \item {get\discretionary {-}{}{}Players}
+    \subitem {Game\discretionary {-}{}{}Table}, \hyperpage{20}
+  \item {get\discretionary {-}{}{}Point}
+    \subitem {Bomb}, \hyperpage{8}
+    \subitem {Flame}, \hyperpage{15}
+    \subitem {Goods}, \hyperpage{23}
+    \subitem {Monster}, \hyperpage{32}
+    \subitem {Player}, \hyperpage{39}
+  \item {get\discretionary {-}{}{}Point\discretionary {-}{}{}Int}
+    \subitem {Monster}, \hyperpage{32}
+  \item {get\discretionary {-}{}{}Prev\discretionary {-}{}{}X}
+    \subitem {Player}, \hyperpage{39}
+  \item {get\discretionary {-}{}{}Prev\discretionary {-}{}{}Y}
+    \subitem {Player}, \hyperpage{39}
+  \item {get\discretionary {-}{}{}Put}
+    \subitem {Control}, \hyperpage{11}
+    \subitem {Player}, \hyperpage{39}
+  \item {get\discretionary {-}{}{}Rect}
+    \subitem {Animation}, \hyperpage{5}
+  \item {get\discretionary {-}{}{}Round}
+    \subitem {Game\discretionary {-}{}{}Manager}, \hyperpage{18}
+  \item {get\discretionary {-}{}{}Run}
+    \subitem {Game\discretionary {-}{}{}Manager}, \hyperpage{18}
+    \subitem {Input}, \hyperpage{25}
+    \subitem {Select}, \hyperpage{48}
+  \item {get\discretionary {-}{}{}Run\discretionary {-}{}{}Soft}
+    \subitem {Input}, \hyperpage{25}
+  \item {get\discretionary {-}{}{}Score}
+    \subitem {Player}, \hyperpage{39}
+  \item {get\discretionary {-}{}{}Show\discretionary {-}{}{}Kills}
+    \subitem {Player}, \hyperpage{39}
+  \item {get\discretionary {-}{}{}Size}
+    \subitem {Bomb}, \hyperpage{9}
+    \subitem {Player}, \hyperpage{39}
+  \item {get\discretionary {-}{}{}Skin}
+    \subitem {Player}, \hyperpage{39}
+  \item {get\discretionary {-}{}{}Type}
+    \subitem {Goods}, \hyperpage{23}
+  \item {get\discretionary {-}{}{}W}
+    \subitem {View}, \hyperpage{55}
+  \item {get\discretionary {-}{}{}Wall}
+    \subitem {Monster}, \hyperpage{32}
+  \item {get\discretionary {-}{}{}X}
+    \subitem {Bomb}, \hyperpage{9}
+    \subitem {Control}, \hyperpage{11}
+    \subitem {Flame}, \hyperpage{15}
+    \subitem {Goods}, \hyperpage{23}
+    \subitem {Monster}, \hyperpage{32}
+    \subitem {Player}, \hyperpage{40}
+    \subitem {Point}, \hyperpage{43}
+  \item {get\discretionary {-}{}{}Y}
+    \subitem {Bomb}, \hyperpage{9}
+    \subitem {Control}, \hyperpage{11}
+    \subitem {Flame}, \hyperpage{15}
+    \subitem {Goods}, \hyperpage{23}
+    \subitem {Monster}, \hyperpage{32}
+    \subitem {Player}, \hyperpage{40}
+    \subitem {Point}, \hyperpage{43}
+  \item {Goods}, \hyperpage{22}
+    \subitem {effect}, \hyperpage{23}
+    \subitem {get\discretionary {-}{}{}Point}, \hyperpage{23}
+    \subitem {get\discretionary {-}{}{}Type}, \hyperpage{23}
+    \subitem {get\discretionary {-}{}{}X}, \hyperpage{23}
+    \subitem {get\discretionary {-}{}{}Y}, \hyperpage{23}
+    \subitem {Goods}, \hyperpage{22}
+    \subitem {state}, \hyperpage{23}
+  \item {Ground}, \hyperpage{23}
+    \subitem {Ground}, \hyperpage{24}
+    \subitem {operator$<$$<$}, \hyperpage{24}
+    \subitem {operator$>$$>$}, \hyperpage{24}
+    \subitem {operator=}, \hyperpage{24}
+    \subitem {operator==}, \hyperpage{24}
+    \subitem {state}, \hyperpage{24}
+
+  \indexspace
+
+  \item {h}
+    \subitem {Rect}, \hyperpage{46}
+
+  \indexspace
+
+  \item {id}
+    \subitem {Network\discretionary {-}{}{}Event}, \hyperpage{35}
+  \item {inc\discretionary {-}{}{}Bombs}
+    \subitem {Player}, \hyperpage{40}
+  \item {inc\discretionary {-}{}{}Kill}
+    \subitem {Player}, \hyperpage{40}
+  \item {inc\discretionary {-}{}{}Killed}
+    \subitem {Player}, \hyperpage{40}
+  \item {inc\discretionary {-}{}{}Score}
+    \subitem {Game\discretionary {-}{}{}Table}, \hyperpage{20}
+    \subitem {Player}, \hyperpage{40}
+  \item {inc\discretionary {-}{}{}Size}
+    \subitem {Player}, \hyperpage{40}
+  \item {infect}
+    \subitem {Player}, \hyperpage{40}
+  \item {info}
+    \subitem {Logger}, \hyperpage{26}
+  \item {init}
+    \subitem {Game\discretionary {-}{}{}Config}, \hyperpage{17}
+    \subitem {Player}, \hyperpage{40}
+  \item {Input}, \hyperpage{25}
+    \subitem {$\sim $\discretionary {-}{}{}Input}, \hyperpage{25}
+    \subitem {get\discretionary {-}{}{}N\discretionary {-}{}{}Joy}, 
+		\hyperpage{25}
+    \subitem {get\discretionary {-}{}{}N\discretionary {-}{}{}Players}, 
+		\hyperpage{25}
+    \subitem {get\discretionary {-}{}{}Run}, \hyperpage{25}
+    \subitem {get\discretionary {-}{}{}Run\discretionary {-}{}{}Soft}, 
+		\hyperpage{25}
+    \subitem {Input}, \hyperpage{25}
+    \subitem {operator()}, \hyperpage{25}
+    \subitem {poll}, \hyperpage{25}
+    \subitem {set\discretionary {-}{}{}Delay}, \hyperpage{26}
+    \subitem {set\discretionary {-}{}{}Mode}, \hyperpage{26}
+    \subitem {set\discretionary {-}{}{}Run}, \hyperpage{26}
+    \subitem {set\discretionary {-}{}{}View}, \hyperpage{26}
+    \subitem {update\discretionary {-}{}{}Joy\discretionary {-}{}{}Sticks}, 
+		\hyperpage{26}
+  \item {is\discretionary {-}{}{}Active}
+    \subitem {Monster}, \hyperpage{32}
+  \item {is\discretionary {-}{}{}Br}
+    \subitem {Utf8}, \hyperpage{53}
+
+  \indexspace
+
+  \item {load}
+    \subitem {View}, \hyperpage{55}
+  \item {load\discretionary {-}{}{}Map}
+    \subitem {Game\discretionary {-}{}{}Table}, \hyperpage{21}
+  \item {load\discretionary {-}{}{}Package}
+    \subitem {View}, \hyperpage{55}
+  \item {Logger}, \hyperpage{26}
+    \subitem {error}, \hyperpage{26}
+    \subitem {info}, \hyperpage{26}
+    \subitem {set\discretionary {-}{}{}Level}, \hyperpage{27}
+
+  \indexspace
+
+  \item {main\discretionary {-}{}{}Loop}
+    \subitem {Menu}, \hyperpage{29}
+    \subitem {Network}, \hyperpage{34}
+    \subitem {Score\discretionary {-}{}{}Board}, \hyperpage{48}
+    \subitem {Select}, \hyperpage{49}
+    \subitem {Server}, \hyperpage{49}
+  \item {Matrix}
+    \subitem {count}, \hyperpage{28}
+    \subitem {find}, \hyperpage{28}
+    \subitem {get\discretionary {-}{}{}M}, \hyperpage{28}
+    \subitem {get\discretionary {-}{}{}N}, \hyperpage{28}
+    \subitem {Matrix}, \hyperpage{27}
+    \subitem {operator$<$$<$}, \hyperpage{29}
+    \subitem {operator$>$$>$}, \hyperpage{29}
+    \subitem {operator()}, \hyperpage{28}
+    \subitem {set\discretionary {-}{}{}Size}, \hyperpage{28}
+    \subitem {valid}, \hyperpage{28}
+  \item {Matrix$<$ T $>$}, \hyperpage{27}
+  \item {Menu}, \hyperpage{29}
+    \subitem {check}, \hyperpage{29}
+    \subitem {down}, \hyperpage{29}
+    \subitem {get\discretionary {-}{}{}Mode}, \hyperpage{29}
+    \subitem {main\discretionary {-}{}{}Loop}, \hyperpage{29}
+    \subitem {Menu}, \hyperpage{29}
+    \subitem {up}, \hyperpage{30}
+  \item {Menu\discretionary {-}{}{}Item}, \hyperpage{30}
+    \subitem {Menu\discretionary {-}{}{}Item}, \hyperpage{30}
+    \subitem {Menu\discretionary {-}{}{}Item}, \hyperpage{30}
+    \subitem {mode}, \hyperpage{30}
+    \subitem {next}, \hyperpage{30}
+    \subitem {txt}, \hyperpage{30}
+  \item {mode}
+    \subitem {Menu\discretionary {-}{}{}Item}, \hyperpage{30}
+  \item {Monster}, \hyperpage{31}
+    \subitem {alive}, \hyperpage{31}
+    \subitem {change}, \hyperpage{31}
+    \subitem {collide}, \hyperpage{31}
+    \subitem {die}, \hyperpage{31}
+    \subitem {get\discretionary {-}{}{}Point}, \hyperpage{32}
+    \subitem {get\discretionary {-}{}{}Point\discretionary {-}{}{}Int}, 
+		\hyperpage{32}
+    \subitem {get\discretionary {-}{}{}Wall}, \hyperpage{32}
+    \subitem {get\discretionary {-}{}{}X}, \hyperpage{32}
+    \subitem {get\discretionary {-}{}{}Y}, \hyperpage{32}
+    \subitem {is\discretionary {-}{}{}Active}, \hyperpage{32}
+    \subitem {Monster}, \hyperpage{31}
+    \subitem {move}, \hyperpage{32}
+    \subitem {set\discretionary {-}{}{}D\discretionary {-}{}{}X}, 
+		\hyperpage{32}
+    \subitem {set\discretionary {-}{}{}D\discretionary {-}{}{}Y}, 
+		\hyperpage{32}
+    \subitem {set\discretionary {-}{}{}X}, \hyperpage{32}
+    \subitem {set\discretionary {-}{}{}Y}, \hyperpage{32}
+    \subitem {state}, \hyperpage{33}
+  \item {move}
+    \subitem {Game\discretionary {-}{}{}Table}, \hyperpage{21}
+    \subitem {Monster}, \hyperpage{32}
+    \subitem {Player}, \hyperpage{41}
+  \item {Multi}, \hyperpage{33}
+    \subitem {draw}, \hyperpage{33}
+    \subitem {Multi}, \hyperpage{33}
+
+  \indexspace
+
+  \item {n\discretionary {-}{}{}Bomb}
+    \subitem {Game\discretionary {-}{}{}Config}, \hyperpage{17}
+  \item {n\discretionary {-}{}{}Flame}
+    \subitem {Game\discretionary {-}{}{}Config}, \hyperpage{17}
+  \item {n\discretionary {-}{}{}Virus}
+    \subitem {Game\discretionary {-}{}{}Config}, \hyperpage{17}
+  \item {Network}, \hyperpage{34}
+    \subitem {$\sim $\discretionary {-}{}{}Network}, \hyperpage{34}
+    \subitem {get\discretionary {-}{}{}Internet\discretionary {-}{}{}List}, 
+		\hyperpage{34}
+    \subitem {main\discretionary {-}{}{}Loop}, \hyperpage{34}
+    \subitem {Network}, \hyperpage{34}
+    \subitem {start\discretionary {-}{}{}Listen}, \hyperpage{34}
+    \subitem {stop\discretionary {-}{}{}Listen}, \hyperpage{34}
+  \item {Network\discretionary {-}{}{}Event}, \hyperpage{35}
+    \subitem {e}, \hyperpage{35}
+    \subitem {id}, \hyperpage{35}
+    \subitem {x}, \hyperpage{35}
+    \subitem {y}, \hyperpage{35}
+  \item {new\discretionary {-}{}{}Round}
+    \subitem {Game\discretionary {-}{}{}Manager}, \hyperpage{19}
+  \item {next}
+    \subitem {Menu\discretionary {-}{}{}Item}, \hyperpage{30}
+  \item {not\discretionary {-}{}{}Null}
+    \subitem {Utf8}, \hyperpage{53}
+  \item {not\discretionary {-}{}{}Space}
+    \subitem {Utf8}, \hyperpage{53}
+  \item {novirus}
+    \subitem {Player}, \hyperpage{41}
+
+  \indexspace
+
+  \item {obj}
+    \subitem {Frame}, \hyperpage{16}
+  \item {Object}, \hyperpage{35}
+    \subitem {$\sim $\discretionary {-}{}{}Object}, \hyperpage{36}
+    \subitem {bind}, \hyperpage{36}
+    \subitem {draw}, \hyperpage{36}
+  \item {operator$<$}
+    \subitem {Utf8}, \hyperpage{53}
+  \item {operator$<$$<$}
+    \subitem {Ground}, \hyperpage{24}
+    \subitem {Matrix}, \hyperpage{29}
+    \subitem {Utf8}, \hyperpage{53}
+  \item {operator$>$}
+    \subitem {Utf8}, \hyperpage{53}
+  \item {operator$>$$>$}
+    \subitem {Ground}, \hyperpage{24}
+    \subitem {Matrix}, \hyperpage{29}
+    \subitem {Utf8}, \hyperpage{53}
+  \item {operator()}
+    \subitem {Input}, \hyperpage{25}
+    \subitem {Matrix}, \hyperpage{28}
+  \item {operator=}
+    \subitem {Ground}, \hyperpage{24}
+    \subitem {Point}, \hyperpage{43}
+  \item {operator==}
+    \subitem {Flame}, \hyperpage{15}
+    \subitem {Ground}, \hyperpage{24}
+    \subitem {Point}, \hyperpage{45}
+    \subitem {Utf8}, \hyperpage{53}
+
+  \indexspace
+
+  \item {Player}, \hyperpage{36}
+    \subitem {$\sim $\discretionary {-}{}{}Player}, \hyperpage{38}
+    \subitem {alive}, \hyperpage{38}
+    \subitem {dec\discretionary {-}{}{}Bombs}, \hyperpage{38}
+    \subitem {dec\discretionary {-}{}{}Kill}, \hyperpage{38}
+    \subitem {die}, \hyperpage{38}
+    \subitem {get\discretionary {-}{}{}Bomb\discretionary {-}{}{}X}, 
+		\hyperpage{38}
+    \subitem {get\discretionary {-}{}{}Bomb\discretionary {-}{}{}Y}, 
+		\hyperpage{38}
+    \subitem {get\discretionary {-}{}{}Bombs}, \hyperpage{38}
+    \subitem {get\discretionary {-}{}{}Control}, \hyperpage{38}
+    \subitem {get\discretionary {-}{}{}Die}, \hyperpage{38}
+    \subitem {get\discretionary {-}{}{}Id}, \hyperpage{39}
+    \subitem {get\discretionary {-}{}{}Kill}, \hyperpage{39}
+    \subitem {get\discretionary {-}{}{}Killed}, \hyperpage{39}
+    \subitem {get\discretionary {-}{}{}Life}, \hyperpage{39}
+    \subitem {get\discretionary {-}{}{}Point}, \hyperpage{39}
+    \subitem {get\discretionary {-}{}{}Prev\discretionary {-}{}{}X}, 
+		\hyperpage{39}
+    \subitem {get\discretionary {-}{}{}Prev\discretionary {-}{}{}Y}, 
+		\hyperpage{39}
+    \subitem {get\discretionary {-}{}{}Put}, \hyperpage{39}
+    \subitem {get\discretionary {-}{}{}Score}, \hyperpage{39}
+    \subitem {get\discretionary {-}{}{}Show\discretionary {-}{}{}Kills}, 
+		\hyperpage{39}
+    \subitem {get\discretionary {-}{}{}Size}, \hyperpage{39}
+    \subitem {get\discretionary {-}{}{}Skin}, \hyperpage{39}
+    \subitem {get\discretionary {-}{}{}X}, \hyperpage{40}
+    \subitem {get\discretionary {-}{}{}Y}, \hyperpage{40}
+    \subitem {inc\discretionary {-}{}{}Bombs}, \hyperpage{40}
+    \subitem {inc\discretionary {-}{}{}Kill}, \hyperpage{40}
+    \subitem {inc\discretionary {-}{}{}Killed}, \hyperpage{40}
+    \subitem {inc\discretionary {-}{}{}Score}, \hyperpage{40}
+    \subitem {inc\discretionary {-}{}{}Size}, \hyperpage{40}
+    \subitem {infect}, \hyperpage{40}
+    \subitem {init}, \hyperpage{40}
+    \subitem {move}, \hyperpage{41}
+    \subitem {novirus}, \hyperpage{41}
+    \subitem {Player}, \hyperpage{38}
+    \subitem {set\discretionary {-}{}{}Bomb\discretionary {-}{}{}X}, 
+		\hyperpage{41}
+    \subitem {set\discretionary {-}{}{}Bomb\discretionary {-}{}{}Y}, 
+		\hyperpage{41}
+    \subitem {set\discretionary {-}{}{}Control}, \hyperpage{41}
+    \subitem {set\discretionary {-}{}{}Die}, \hyperpage{41}
+    \subitem {set\discretionary {-}{}{}Id}, \hyperpage{41}
+    \subitem {set\discretionary {-}{}{}Kill}, \hyperpage{41}
+    \subitem {set\discretionary {-}{}{}Killed}, \hyperpage{41}
+    \subitem {set\discretionary {-}{}{}Life}, \hyperpage{42}
+    \subitem {set\discretionary {-}{}{}Put}, \hyperpage{42}
+    \subitem {set\discretionary {-}{}{}Score}, \hyperpage{42}
+    \subitem {set\discretionary {-}{}{}Show\discretionary {-}{}{}Kills}, 
+		\hyperpage{42}
+    \subitem {set\discretionary {-}{}{}Skin}, \hyperpage{42}
+    \subitem {set\discretionary {-}{}{}Start}, \hyperpage{42}
+    \subitem {set\discretionary {-}{}{}X}, \hyperpage{42}
+    \subitem {set\discretionary {-}{}{}Y}, \hyperpage{42}
+    \subitem {state}, \hyperpage{42}
+    \subitem {win}, \hyperpage{42}
+  \item {Point}
+    \subitem {distance}, \hyperpage{45}
+    \subitem {get\discretionary {-}{}{}X}, \hyperpage{43}
+    \subitem {get\discretionary {-}{}{}Y}, \hyperpage{43}
+    \subitem {operator=}, \hyperpage{43}
+    \subitem {operator==}, \hyperpage{45}
+    \subitem {Point}, \hyperpage{43}
+    \subitem {set\discretionary {-}{}{}X}, \hyperpage{45}
+    \subitem {set\discretionary {-}{}{}Y}, \hyperpage{45}
+    \subitem {Way}, \hyperpage{45}
+  \item {Point$<$ T $>$}, \hyperpage{43}
+  \item {poll}
+    \subitem {Input}, \hyperpage{25}
+  \item {prepare\discretionary {-}{}{}Table}
+    \subitem {Game\discretionary {-}{}{}Manager}, \hyperpage{19}
+  \item {px}
+    \subitem {Control}, \hyperpage{11}
+  \item {py}
+    \subitem {Control}, \hyperpage{11}
+
+  \indexspace
+
+  \item {Rect}, \hyperpage{45}
+    \subitem {h}, \hyperpage{46}
+    \subitem {Rect}, \hyperpage{46}
+    \subitem {w}, \hyperpage{46}
+    \subitem {x}, \hyperpage{46}
+    \subitem {y}, \hyperpage{46}
+  \item {resize\discretionary {-}{}{}\_\discretionary {-}{}{}event}
+    \subitem {View}, \hyperpage{56}
+
+  \indexspace
+
+  \item {sb}
+    \subitem {Game\discretionary {-}{}{}Config}, \hyperpage{17}
+  \item {Score\discretionary {-}{}{}Board}, \hyperpage{46}
+    \subitem {main\discretionary {-}{}{}Loop}, \hyperpage{48}
+    \subitem {Score\discretionary {-}{}{}Board}, \hyperpage{47}
+    \subitem {Score\discretionary {-}{}{}Board}, \hyperpage{47}
+  \item {Screenshot}
+    \subitem {View}, \hyperpage{56}
+  \item {Select}, \hyperpage{48}
+    \subitem {get\discretionary {-}{}{}N}, \hyperpage{48}
+    \subitem {get\discretionary {-}{}{}Run}, \hyperpage{48}
+    \subitem {main\discretionary {-}{}{}Loop}, \hyperpage{49}
+    \subitem {Select}, \hyperpage{48}
+  \item {Server}, \hyperpage{49}
+    \subitem {$\sim $\discretionary {-}{}{}Server}, \hyperpage{49}
+    \subitem {main\discretionary {-}{}{}Loop}, \hyperpage{49}
+    \subitem {Server}, \hyperpage{49}
+  \item {set\discretionary {-}{}{}Bomb\discretionary {-}{}{}X}
+    \subitem {Player}, \hyperpage{41}
+  \item {set\discretionary {-}{}{}Bomb\discretionary {-}{}{}Y}
+    \subitem {Player}, \hyperpage{41}
+  \item {set\discretionary {-}{}{}Config}
+    \subitem {Game\discretionary {-}{}{}Table}, \hyperpage{21}
+  \item {set\discretionary {-}{}{}Control}
+    \subitem {Player}, \hyperpage{41}
+  \item {set\discretionary {-}{}{}D\discretionary {-}{}{}X}
+    \subitem {Monster}, \hyperpage{32}
+  \item {set\discretionary {-}{}{}D\discretionary {-}{}{}Y}
+    \subitem {Monster}, \hyperpage{32}
+  \item {set\discretionary {-}{}{}Delay}
+    \subitem {Control}, \hyperpage{13}
+    \subitem {Input}, \hyperpage{26}
+  \item {set\discretionary {-}{}{}Die}
+    \subitem {Player}, \hyperpage{41}
+  \item {set\discretionary {-}{}{}Id}
+    \subitem {Player}, \hyperpage{41}
+  \item {set\discretionary {-}{}{}Kill}
+    \subitem {Player}, \hyperpage{41}
+  \item {set\discretionary {-}{}{}Killed}
+    \subitem {Player}, \hyperpage{41}
+  \item {set\discretionary {-}{}{}Level}
+    \subitem {Logger}, \hyperpage{27}
+  \item {set\discretionary {-}{}{}Life}
+    \subitem {Player}, \hyperpage{42}
+  \item {set\discretionary {-}{}{}Mode}
+    \subitem {Input}, \hyperpage{26}
+  \item {set\discretionary {-}{}{}Now}
+    \subitem {View}, \hyperpage{56}
+  \item {set\discretionary {-}{}{}Players}
+    \subitem {Game\discretionary {-}{}{}Table}, \hyperpage{21}
+  \item {set\discretionary {-}{}{}Put}
+    \subitem {Control}, \hyperpage{13}
+    \subitem {Player}, \hyperpage{42}
+  \item {set\discretionary {-}{}{}Run}
+    \subitem {Input}, \hyperpage{26}
+  \item {set\discretionary {-}{}{}Score}
+    \subitem {Player}, \hyperpage{42}
+  \item {set\discretionary {-}{}{}Show\discretionary {-}{}{}Kills}
+    \subitem {Player}, \hyperpage{42}
+  \item {set\discretionary {-}{}{}Size}
+    \subitem {Matrix}, \hyperpage{28}
+  \item {set\discretionary {-}{}{}Skin}
+    \subitem {Player}, \hyperpage{42}
+  \item {set\discretionary {-}{}{}Start}
+    \subitem {Game\discretionary {-}{}{}Table}, \hyperpage{21}
+    \subitem {Player}, \hyperpage{42}
+  \item {set\discretionary {-}{}{}Tick\discretionary {-}{}{}Interval}
+    \subitem {View}, \hyperpage{56}
+  \item {set\discretionary {-}{}{}View}
+    \subitem {Input}, \hyperpage{26}
+  \item {set\discretionary {-}{}{}X}
+    \subitem {Control}, \hyperpage{13}
+    \subitem {Monster}, \hyperpage{32}
+    \subitem {Player}, \hyperpage{42}
+    \subitem {Point}, \hyperpage{45}
+  \item {set\discretionary {-}{}{}Y}
+    \subitem {Control}, \hyperpage{13}
+    \subitem {Monster}, \hyperpage{32}
+    \subitem {Player}, \hyperpage{42}
+    \subitem {Point}, \hyperpage{45}
+  \item {spawn\discretionary {-}{}{}Monster}
+    \subitem {Game\discretionary {-}{}{}Table}, \hyperpage{21}
+  \item {spawn\discretionary {-}{}{}Player}
+    \subitem {Game\discretionary {-}{}{}Table}, \hyperpage{22}
+  \item {spawn\discretionary {-}{}{}Walls}
+    \subitem {Game\discretionary {-}{}{}Table}, \hyperpage{22}
+  \item {Sprite}, \hyperpage{49}
+    \subitem {$\sim $\discretionary {-}{}{}Sprite}, \hyperpage{50}
+    \subitem {bind}, \hyperpage{50}
+    \subitem {draw}, \hyperpage{50}
+    \subitem {Sprite}, \hyperpage{50}
+  \item {start\discretionary {-}{}{}Listen}
+    \subitem {Network}, \hyperpage{34}
+  \item {state}
+    \subitem {Bomb}, \hyperpage{9}
+    \subitem {Flame}, \hyperpage{15}
+    \subitem {Goods}, \hyperpage{23}
+    \subitem {Ground}, \hyperpage{24}
+    \subitem {Monster}, \hyperpage{33}
+    \subitem {Player}, \hyperpage{42}
+  \item {stop\discretionary {-}{}{}Listen}
+    \subitem {Network}, \hyperpage{34}
+  \item {swap}
+    \subitem {View}, \hyperpage{56}
+  \item {sx}
+    \subitem {Game\discretionary {-}{}{}Config}, \hyperpage{17}
+  \item {sy}
+    \subitem {Game\discretionary {-}{}{}Config}, \hyperpage{17}
+
+  \indexspace
+
+  \item {Text}, \hyperpage{51}
+    \subitem {draw}, \hyperpage{52}
+    \subitem {Text}, \hyperpage{51}
+  \item {time}
+    \subitem {Frame}, \hyperpage{16}
+  \item {Toggle}
+    \subitem {View}, \hyperpage{56}
+  \item {toggle\discretionary {-}{}{}Full\discretionary {-}{}{}Screen}
+    \subitem {View}, \hyperpage{56}
+  \item {Translate}, \hyperpage{52}
+  \item {txt}
+    \subitem {Menu\discretionary {-}{}{}Item}, \hyperpage{30}
+
+  \indexspace
+
+  \item {up}
+    \subitem {Menu}, \hyperpage{30}
+  \item {update\discretionary {-}{}{}Joy\discretionary {-}{}{}Sticks}
+    \subitem {Input}, \hyperpage{26}
+  \item {Utf8}, \hyperpage{52}
+    \subitem {is\discretionary {-}{}{}Br}, \hyperpage{53}
+    \subitem {not\discretionary {-}{}{}Null}, \hyperpage{53}
+    \subitem {not\discretionary {-}{}{}Space}, \hyperpage{53}
+    \subitem {operator$<$}, \hyperpage{53}
+    \subitem {operator$<$$<$}, \hyperpage{53}
+    \subitem {operator$>$}, \hyperpage{53}
+    \subitem {operator$>$$>$}, \hyperpage{53}
+    \subitem {operator==}, \hyperpage{53}
+    \subitem {Utf8}, \hyperpage{52}
+
+  \indexspace
+
+  \item {valid}
+    \subitem {Matrix}, \hyperpage{28}
+  \item {View}, \hyperpage{53}
+    \subitem {$\sim $\discretionary {-}{}{}View}, \hyperpage{54}
+    \subitem {draw}, \hyperpage{54}
+    \subitem {draw\discretionary {-}{}{}Anim}, \hyperpage{55}
+    \subitem {frame\discretionary {-}{}{}Begin}, \hyperpage{55}
+    \subitem {frame\discretionary {-}{}{}Delay}, \hyperpage{55}
+    \subitem {frame\discretionary {-}{}{}End}, \hyperpage{55}
+    \subitem {get\discretionary {-}{}{}H}, \hyperpage{55}
+    \subitem {get\discretionary {-}{}{}Now}, \hyperpage{55}
+    \subitem {get\discretionary {-}{}{}W}, \hyperpage{55}
+    \subitem {load}, \hyperpage{55}
+    \subitem {load\discretionary {-}{}{}Package}, \hyperpage{55}
+    \subitem {resize\discretionary {-}{}{}\_\discretionary {-}{}{}event}, 
+		\hyperpage{56}
+    \subitem {Screenshot}, \hyperpage{56}
+    \subitem {set\discretionary {-}{}{}Now}, \hyperpage{56}
+    \subitem {set\discretionary {-}{}{}Tick\discretionary {-}{}{}Interval}, 
+		\hyperpage{56}
+    \subitem {swap}, \hyperpage{56}
+    \subitem {Toggle}, \hyperpage{56}
+    \subitem {toggle\discretionary {-}{}{}Full\discretionary {-}{}{}Screen}, 
+		\hyperpage{56}
+    \subitem {View}, \hyperpage{54}
+
+  \indexspace
+
+  \item {w}
+    \subitem {Rect}, \hyperpage{46}
+  \item {wait\discretionary {-}{}{}Round}
+    \subitem {Game\discretionary {-}{}{}Manager}, \hyperpage{19}
+  \item {Way}
+    \subitem {Point}, \hyperpage{45}
+  \item {win}
+    \subitem {Player}, \hyperpage{42}
+
+  \indexspace
+
+  \item {x}
+    \subitem {Network\discretionary {-}{}{}Event}, \hyperpage{35}
+    \subitem {Rect}, \hyperpage{46}
+
+  \indexspace
+
+  \item {y}
+    \subitem {Network\discretionary {-}{}{}Event}, \hyperpage{35}
+    \subitem {Rect}, \hyperpage{46}
+
+\end{theindex}

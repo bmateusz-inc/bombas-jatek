@@ -1,0 +1,74 @@
+\hypertarget{class_text}{\section{Text Class Reference}
+\label{class_text}\index{Text@{Text}}
+}
+
+
+{\ttfamily \#include $<$text.\-h$>$}
+
+Inheritance diagram for Text\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_text}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_text_ab3e26143fccc52699bcc5149cae852bc}{Text} ()
+\item 
+\hyperlink{class_text_ae78dd646ae9f0380530e4b1e39da7212}{Text} (std\-::string file\-Name, std\-::map$<$ std\-::string, \hyperlink{class_object}{Object} $\ast$ $>$ $\ast$igraphs)
+\item 
+void \hyperlink{class_text_a7eb6b5f04d40c5f3f482413612d0a101}{draw} (float x, float y, float w, float h, std\-::string param)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class for text handling using \hyperlink{class_multi}{Multi} class 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_text_ab3e26143fccc52699bcc5149cae852bc}{\index{Text@{Text}!Text@{Text}}
+\index{Text@{Text}!Text@{Text}}
+\subsubsection[{Text}]{\setlength{\rightskip}{0pt plus 5cm}Text\-::\-Text (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_text_ab3e26143fccc52699bcc5149cae852bc}
+Default constructor \hypertarget{class_text_ae78dd646ae9f0380530e4b1e39da7212}{\index{Text@{Text}!Text@{Text}}
+\index{Text@{Text}!Text@{Text}}
+\subsubsection[{Text}]{\setlength{\rightskip}{0pt plus 5cm}Text\-::\-Text (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{file\-Name, }
+\item[{std\-::map$<$ std\-::string, {\bf Object} $\ast$ $>$ $\ast$}]{igraphs}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_text_ae78dd646ae9f0380530e4b1e39da7212}
+Constructor, load resources 
+\begin{DoxyParams}{Parameters}
+{\em file\-Name} & name of txh file \\
+\hline
+{\em igraphs} & graphics from view class \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_text_a7eb6b5f04d40c5f3f482413612d0a101}{\index{Text@{Text}!draw@{draw}}
+\index{draw@{draw}!Text@{Text}}
+\subsubsection[{draw}]{\setlength{\rightskip}{0pt plus 5cm}void Text\-::draw (
+\begin{DoxyParamCaption}
+\item[{float}]{x, }
+\item[{float}]{y, }
+\item[{float}]{w, }
+\item[{float}]{h, }
+\item[{std\-::string}]{param}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_text_a7eb6b5f04d40c5f3f482413612d0a101}
+Draw text (font.\-txh\-::my\-\_\-text) 
+
+Reimplemented from \hyperlink{class_object_a13b99ec4da0a1c798104560c492c2a7e}{Object}.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+view/text.\-h\item 
+view/text.\-cpp\end{DoxyCompactItemize}

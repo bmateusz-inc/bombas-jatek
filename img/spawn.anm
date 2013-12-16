@@ -1,0 +1,15 @@
+spawn.mlt#0,0 100
+spawn.mlt#0,1 100
+spawn.mlt#1,0 100
+spawn.mlt#0,0,v 100
+spawn.mlt#0,1,v 100
+spawn.mlt#1,0,v 100
+spawn.mlt#0,0,hv 100
+spawn.mlt#0,1,hv 100
+spawn.mlt#1,0,hv 100
+spawn.mlt#1,1 100
+spawn.mlt#1,1,h 100
+spawn.mlt#1,1,v 100
+spawn.mlt#1,0,v 100
+spawn.mlt#0,1,v 100
+spawn.mlt#0,0,v 100

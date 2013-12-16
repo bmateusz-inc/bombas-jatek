@@ -1,0 +1,139 @@
+\hypertarget{class_bomb}{\section{Bomb Class Reference}
+\label{class_bomb}\index{Bomb@{Bomb}}
+}
+
+
+{\ttfamily \#include $<$bomb.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_bomb_a5805401b6cfbb451cf31ebd4851740cf}{Bomb} ()
+\item 
+\hyperlink{class_bomb_a03c2cd4e1bfa472de74d5deb29066f11}{Bomb} (T\-I\-M\-E iactivated, \hyperlink{class_point}{Point}$<$ int $>$ ipoint, \hyperlink{class_player}{Player} $\ast$iplayer)
+\item 
+void \hyperlink{class_bomb_a1e4a85025c5b31a9e1d7e9200e3e4e90}{boom} ()
+\item 
+bool \hyperlink{class_bomb_a60cd514206385870458e02327143070f}{boom} (T\-I\-M\-E inow)
+\item 
+std\-::string \hyperlink{class_bomb_a856d0fab5a4c401a8b3e153dd063d604}{state} ()
+\item 
+int \hyperlink{class_bomb_a3ed5889d36fa63a00162b92b84a7c363}{get\-X} ()
+\item 
+int \hyperlink{class_bomb_a1c07f26ec95a76bfca5ecf633e7913a8}{get\-Y} ()
+\item 
+\hyperlink{class_point}{Point}$<$ int $>$ \hyperlink{class_bomb_a9d2af1296b33a4c06b6b36c8aaf4d45e}{get\-Point} ()
+\item 
+int \hyperlink{class_bomb_acd1ab69615d334bdbe7f43342c8857e4}{get\-Size} ()
+\item 
+int \hyperlink{class_bomb_ab2646fe8e30483a297481e6ee7aa728f}{get\-Owner} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{class_bomb}{Bomb} on the game table 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_bomb_a5805401b6cfbb451cf31ebd4851740cf}{\index{Bomb@{Bomb}!Bomb@{Bomb}}
+\index{Bomb@{Bomb}!Bomb@{Bomb}}
+\subsubsection[{Bomb}]{\setlength{\rightskip}{0pt plus 5cm}Bomb\-::\-Bomb (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_bomb_a5805401b6cfbb451cf31ebd4851740cf}
+Default constructor \hypertarget{class_bomb_a03c2cd4e1bfa472de74d5deb29066f11}{\index{Bomb@{Bomb}!Bomb@{Bomb}}
+\index{Bomb@{Bomb}!Bomb@{Bomb}}
+\subsubsection[{Bomb}]{\setlength{\rightskip}{0pt plus 5cm}Bomb\-::\-Bomb (
+\begin{DoxyParamCaption}
+\item[{T\-I\-M\-E}]{iactivated, }
+\item[{{\bf Point}$<$ int $>$}]{ipoint, }
+\item[{{\bf Player} $\ast$}]{iplayer}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_bomb_a03c2cd4e1bfa472de74d5deb29066f11}
+Constructor 
+\begin{DoxyParams}{Parameters}
+{\em iactivated} & when should it become ignited \\
+\hline
+{\em ipoint} & place of bomb \\
+\hline
+{\em iplayer} & \hyperlink{class_player}{Player} who put it \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_bomb_a1e4a85025c5b31a9e1d7e9200e3e4e90}{\index{Bomb@{Bomb}!boom@{boom}}
+\index{boom@{boom}!Bomb@{Bomb}}
+\subsubsection[{boom}]{\setlength{\rightskip}{0pt plus 5cm}void Bomb\-::boom (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_bomb_a1e4a85025c5b31a9e1d7e9200e3e4e90}
+\hyperlink{class_bomb}{Bomb} ignites by another flame, update player's number of bombs \hypertarget{class_bomb_a60cd514206385870458e02327143070f}{\index{Bomb@{Bomb}!boom@{boom}}
+\index{boom@{boom}!Bomb@{Bomb}}
+\subsubsection[{boom}]{\setlength{\rightskip}{0pt plus 5cm}bool Bomb\-::boom (
+\begin{DoxyParamCaption}
+\item[{T\-I\-M\-E}]{inow}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_bomb_a60cd514206385870458e02327143070f}
+\hyperlink{class_bomb}{Bomb} ignites by time 
+\begin{DoxyParams}{Parameters}
+{\em inow} & current frame time \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+ignites or not 
+\end{DoxyReturn}
+\hypertarget{class_bomb_ab2646fe8e30483a297481e6ee7aa728f}{\index{Bomb@{Bomb}!get\-Owner@{get\-Owner}}
+\index{get\-Owner@{get\-Owner}!Bomb@{Bomb}}
+\subsubsection[{get\-Owner}]{\setlength{\rightskip}{0pt plus 5cm}int Bomb\-::get\-Owner (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_bomb_ab2646fe8e30483a297481e6ee7aa728f}
+Get owner \begin{DoxyReturn}{Returns}
+player I\-D 
+\end{DoxyReturn}
+\hypertarget{class_bomb_a9d2af1296b33a4c06b6b36c8aaf4d45e}{\index{Bomb@{Bomb}!get\-Point@{get\-Point}}
+\index{get\-Point@{get\-Point}!Bomb@{Bomb}}
+\subsubsection[{get\-Point}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Point}$<$int$>$ Bomb\-::get\-Point (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_bomb_a9d2af1296b33a4c06b6b36c8aaf4d45e}
+Get place of bomb \hypertarget{class_bomb_acd1ab69615d334bdbe7f43342c8857e4}{\index{Bomb@{Bomb}!get\-Size@{get\-Size}}
+\index{get\-Size@{get\-Size}!Bomb@{Bomb}}
+\subsubsection[{get\-Size}]{\setlength{\rightskip}{0pt plus 5cm}int Bomb\-::get\-Size (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_bomb_acd1ab69615d334bdbe7f43342c8857e4}
+Get flame size \hypertarget{class_bomb_a3ed5889d36fa63a00162b92b84a7c363}{\index{Bomb@{Bomb}!get\-X@{get\-X}}
+\index{get\-X@{get\-X}!Bomb@{Bomb}}
+\subsubsection[{get\-X}]{\setlength{\rightskip}{0pt plus 5cm}int Bomb\-::get\-X (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_bomb_a3ed5889d36fa63a00162b92b84a7c363}
+Get X coordinate \hypertarget{class_bomb_a1c07f26ec95a76bfca5ecf633e7913a8}{\index{Bomb@{Bomb}!get\-Y@{get\-Y}}
+\index{get\-Y@{get\-Y}!Bomb@{Bomb}}
+\subsubsection[{get\-Y}]{\setlength{\rightskip}{0pt plus 5cm}int Bomb\-::get\-Y (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_bomb_a1c07f26ec95a76bfca5ecf633e7913a8}
+Get Y coordinate \hypertarget{class_bomb_a856d0fab5a4c401a8b3e153dd063d604}{\index{Bomb@{Bomb}!state@{state}}
+\index{state@{state}!Bomb@{Bomb}}
+\subsubsection[{state}]{\setlength{\rightskip}{0pt plus 5cm}std\-::string Bomb\-::state (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_bomb_a856d0fab5a4c401a8b3e153dd063d604}
+\hyperlink{class_animation}{Animation} state \begin{DoxyReturn}{Returns}
+graphic string 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+bomb.\-h\end{DoxyCompactItemize}

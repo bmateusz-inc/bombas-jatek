@@ -1,0 +1,97 @@
+\hypertarget{class_translate}{\section{Translate Class Reference}
+\label{class_translate}\index{Translate@{Translate}}
+}
+
+
+{\ttfamily \#include $<$translate.\-h$>$}
+
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{class_network_event}{Network\-Event} \hyperlink{class_translate_a7f99b4f8bc182e74931ba5b580de0842}{translate} (const char $\ast$buffer)
+\item 
+static void \hyperlink{class_translate_a251bfff8f099675f475fb96cbf629cbc}{translate} (std\-::vector$<$ \hyperlink{class_network_event}{Network\-Event} $>$ \&packets, const char $\ast$buffer, int bytes)
+\item 
+static void \hyperlink{class_translate_a5a0f76442c0c9a1ff0286109270b93da}{pack} (const \hyperlink{class_network_event}{Network\-Event} \&event, char $\ast$buffer)
+\item 
+static std\-::string \hyperlink{class_translate_a02e63cb5dbd8cc0759f5928cb2b435e4}{packet\-To\-String} (const char $\ast$buffer)
+\item 
+static char \hyperlink{class_translate_ab50f2648928eb66ded569f290afe1633}{slice} (char chr, bool first)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Static class, helper for network packet handling 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_translate_a5a0f76442c0c9a1ff0286109270b93da}{\index{Translate@{Translate}!pack@{pack}}
+\index{pack@{pack}!Translate@{Translate}}
+\subsubsection[{pack}]{\setlength{\rightskip}{0pt plus 5cm}void Translate\-::pack (
+\begin{DoxyParamCaption}
+\item[{const {\bf Network\-Event} \&}]{event, }
+\item[{char $\ast$}]{buffer}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_translate_a5a0f76442c0c9a1ff0286109270b93da}
+Make sendable packet from network event 
+\begin{DoxyParams}{Parameters}
+{\em event} & input \\
+\hline
+{\em buffer} & output \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_translate_a02e63cb5dbd8cc0759f5928cb2b435e4}{\index{Translate@{Translate}!packet\-To\-String@{packet\-To\-String}}
+\index{packet\-To\-String@{packet\-To\-String}!Translate@{Translate}}
+\subsubsection[{packet\-To\-String}]{\setlength{\rightskip}{0pt plus 5cm}std\-::string Translate\-::packet\-To\-String (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{buffer}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_translate_a02e63cb5dbd8cc0759f5928cb2b435e4}
+Packet to string, for trace \hypertarget{class_translate_ab50f2648928eb66ded569f290afe1633}{\index{Translate@{Translate}!slice@{slice}}
+\index{slice@{slice}!Translate@{Translate}}
+\subsubsection[{slice}]{\setlength{\rightskip}{0pt plus 5cm}char Translate\-::slice (
+\begin{DoxyParamCaption}
+\item[{char}]{chr, }
+\item[{bool}]{first}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_translate_ab50f2648928eb66ded569f290afe1633}
+Split a char into two chars 
+\begin{DoxyParams}{Parameters}
+{\em chr} & input \\
+\hline
+{\em first} & lower of higher bytes \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{class_translate_a7f99b4f8bc182e74931ba5b580de0842}{\index{Translate@{Translate}!translate@{translate}}
+\index{translate@{translate}!Translate@{Translate}}
+\subsubsection[{translate}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Network\-Event} Translate\-::translate (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{buffer}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_translate_a7f99b4f8bc182e74931ba5b580de0842}
+Make a single event from packet \hypertarget{class_translate_a251bfff8f099675f475fb96cbf629cbc}{\index{Translate@{Translate}!translate@{translate}}
+\index{translate@{translate}!Translate@{Translate}}
+\subsubsection[{translate}]{\setlength{\rightskip}{0pt plus 5cm}void Translate\-::translate (
+\begin{DoxyParamCaption}
+\item[{std\-::vector$<$ {\bf Network\-Event} $>$ \&}]{packets, }
+\item[{const char $\ast$}]{buffer, }
+\item[{int}]{bytes}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_translate_a251bfff8f099675f475fb96cbf629cbc}
+Make network events from packet received 
+\begin{DoxyParams}{Parameters}
+{\em packets} & output \\
+\hline
+{\em buffer} & input \\
+\hline
+{\em bytes} & input, number of bytes received \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+translate.\-h\item 
+translate.\-cpp\end{DoxyCompactItemize}

@@ -1,0 +1,82 @@
+\hypertarget{class_object}{\section{Object Class Reference}
+\label{class_object}\index{Object@{Object}}
+}
+
+
+{\ttfamily \#include $<$object.\-h$>$}
+
+Inheritance diagram for Object\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_object}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \hyperlink{class_object_a13b99ec4da0a1c798104560c492c2a7e}{draw} (float x, float y, float w, float h, std\-::string param=\char`\"{}\char`\"{})
+\item 
+virtual void \hyperlink{class_object_a210c8bac4e5705ffee71d0837e46ab46}{bind} ()
+\item 
+virtual \hyperlink{class_object_aa3e791419d84c4c346ef9499513b8e00}{$\sim$\-Object} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Base class of drawable objects 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_object_aa3e791419d84c4c346ef9499513b8e00}{\index{Object@{Object}!$\sim$\-Object@{$\sim$\-Object}}
+\index{$\sim$\-Object@{$\sim$\-Object}!Object@{Object}}
+\subsubsection[{$\sim$\-Object}]{\setlength{\rightskip}{0pt plus 5cm}virtual Object\-::$\sim$\-Object (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{class_object_aa3e791419d84c4c346ef9499513b8e00}
+Destructor 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_object_a210c8bac4e5705ffee71d0837e46ab46}{\index{Object@{Object}!bind@{bind}}
+\index{bind@{bind}!Object@{Object}}
+\subsubsection[{bind}]{\setlength{\rightskip}{0pt plus 5cm}virtual void Object\-::bind (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{class_object_a210c8bac4e5705ffee71d0837e46ab46}
+Bind graphic to draw texture 
+
+Reimplemented in \hyperlink{class_sprite_a3689496f6c44c2c6fd9dd6bd92bf1742}{Sprite}.
+
+\hypertarget{class_object_a13b99ec4da0a1c798104560c492c2a7e}{\index{Object@{Object}!draw@{draw}}
+\index{draw@{draw}!Object@{Object}}
+\subsubsection[{draw}]{\setlength{\rightskip}{0pt plus 5cm}virtual void Object\-::draw (
+\begin{DoxyParamCaption}
+\item[{float}]{x, }
+\item[{float}]{y, }
+\item[{float}]{w, }
+\item[{float}]{h, }
+\item[{std\-::string}]{param = {\ttfamily \char`\"{}\char`\"{}}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{class_object_a13b99ec4da0a1c798104560c492c2a7e}
+Drawing object on screen 
+\begin{DoxyParams}{Parameters}
+{\em x} & coordinate \\
+\hline
+{\em y} & coordinate \\
+\hline
+{\em w} & width \\
+\hline
+{\em h} & height \\
+\hline
+{\em param} & full drawing string \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented in \hyperlink{class_sprite_a0d00170fb8cc22361e2c16c4b3818e7e}{Sprite}, \hyperlink{class_text_a7eb6b5f04d40c5f3f482413612d0a101}{Text}, \hyperlink{class_anim_object_a93eda4562497de04bf7db6407d74e5aa}{Anim\-Object}, and \hyperlink{class_multi_a0b1957cf59a3d44294ddb35dadba199b}{Multi}.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+view/object.\-h\end{DoxyCompactItemize}

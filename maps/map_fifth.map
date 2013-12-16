@@ -1,0 +1,20 @@
+40 20 20
+15 11
+..xxxxxxxxxxxxx
+..............x
+x.f...f.f.f..fx
+x.f.f.f.f.ff.fx
+x.f.f.f.f.ffffx
+x.f.f.f.f.f.ffx
+x..f.f..f.f..fx
+x.............x
+x..fffffffff..x
+x..............
+xxxxxxxxxxxxx.W
+maps/map_first.map
+0 3 3
+0 5 5
+0 7 7
+0 9 9
+0 9 3
+0 7 5

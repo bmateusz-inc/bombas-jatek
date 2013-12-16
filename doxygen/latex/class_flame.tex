@@ -1,0 +1,147 @@
+\hypertarget{class_flame}{\section{Flame Class Reference}
+\label{class_flame}\index{Flame@{Flame}}
+}
+
+
+{\ttfamily \#include $<$flame.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_flame_a57b7b3fa89daf6286b205747f0d48489}{Flame} ()
+\item 
+\hyperlink{class_flame_adc784ed93fe91e8917d7f4e7cd9562e2}{Flame} (int x, int y, T\-I\-M\-E itime, int idirection, int i\-Owner)
+\item 
+int \hyperlink{class_flame_acaae0ee856fb9053ce7e8b382b995b40}{get\-X} ()
+\item 
+int \hyperlink{class_flame_a8233ffdd2d353d06e3e959c1cf88f892}{get\-Y} ()
+\item 
+\hyperlink{class_point}{Point}$<$ int $>$ \hyperlink{class_flame_adcdcca15ef648dd565bce250136b2504}{get\-Point} ()
+\item 
+int \hyperlink{class_flame_a4aa12557641e6153ba4549d33aa26f69}{get\-Direction} ()
+\item 
+int \hyperlink{class_flame_aa5f15b836fc3b3876f8bf37b9c402fb4}{get\-Owner} ()
+\item 
+std\-::string \hyperlink{class_flame_a8528151fe91174b1f678cf4be16a3142}{state} ()
+\item 
+bool \hyperlink{class_flame_afafbec6ce7f0dbd966faf4a833df4946}{expire} (T\-I\-M\-E now)
+\end{DoxyCompactItemize}
+\subsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+bool \hyperlink{class_flame_a878ec21744cb98bc2d694f698602b9e5}{operator==} (\hyperlink{class_flame}{Flame} \&a, \hyperlink{class_point}{Point}$<$ int $>$ \&b)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{class_flame}{Flame} ignited by bombs, lasts for a few milliseconds 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_flame_a57b7b3fa89daf6286b205747f0d48489}{\index{Flame@{Flame}!Flame@{Flame}}
+\index{Flame@{Flame}!Flame@{Flame}}
+\subsubsection[{Flame}]{\setlength{\rightskip}{0pt plus 5cm}Flame\-::\-Flame (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_flame_a57b7b3fa89daf6286b205747f0d48489}
+Default constructor \hypertarget{class_flame_adc784ed93fe91e8917d7f4e7cd9562e2}{\index{Flame@{Flame}!Flame@{Flame}}
+\index{Flame@{Flame}!Flame@{Flame}}
+\subsubsection[{Flame}]{\setlength{\rightskip}{0pt plus 5cm}Flame\-::\-Flame (
+\begin{DoxyParamCaption}
+\item[{int}]{x, }
+\item[{int}]{y, }
+\item[{T\-I\-M\-E}]{itime, }
+\item[{int}]{idirection, }
+\item[{int}]{i\-Owner}
+\end{DoxyParamCaption}
+)}}\label{class_flame_adc784ed93fe91e8917d7f4e7cd9562e2}
+Constructor, initialize values 
+\begin{DoxyParams}{Parameters}
+{\em x} & coordinate \\
+\hline
+{\em y} & coordinate \\
+\hline
+{\em itime} & flame expire time \\
+\hline
+{\em idirection} & direction, see \hyperlink{class_flame_a4aa12557641e6153ba4549d33aa26f69}{get\-Direction()} \\
+\hline
+{\em i\-Owner} & player I\-D \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_flame_afafbec6ce7f0dbd966faf4a833df4946}{\index{Flame@{Flame}!expire@{expire}}
+\index{expire@{expire}!Flame@{Flame}}
+\subsubsection[{expire}]{\setlength{\rightskip}{0pt plus 5cm}bool Flame\-::expire (
+\begin{DoxyParamCaption}
+\item[{T\-I\-M\-E}]{now}
+\end{DoxyParamCaption}
+)}}\label{class_flame_afafbec6ce7f0dbd966faf4a833df4946}
+Whether flame is expired or not 
+\begin{DoxyParams}{Parameters}
+{\em now} & current frame time \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_flame_a4aa12557641e6153ba4549d33aa26f69}{\index{Flame@{Flame}!get\-Direction@{get\-Direction}}
+\index{get\-Direction@{get\-Direction}!Flame@{Flame}}
+\subsubsection[{get\-Direction}]{\setlength{\rightskip}{0pt plus 5cm}int Flame\-::get\-Direction (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_flame_a4aa12557641e6153ba4549d33aa26f69}
+Get direction defined. \begin{DoxyReturn}{Returns}
+direction 
+\end{DoxyReturn}
+\hypertarget{class_flame_aa5f15b836fc3b3876f8bf37b9c402fb4}{\index{Flame@{Flame}!get\-Owner@{get\-Owner}}
+\index{get\-Owner@{get\-Owner}!Flame@{Flame}}
+\subsubsection[{get\-Owner}]{\setlength{\rightskip}{0pt plus 5cm}int Flame\-::get\-Owner (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_flame_aa5f15b836fc3b3876f8bf37b9c402fb4}
+Return owner of flame \hypertarget{class_flame_adcdcca15ef648dd565bce250136b2504}{\index{Flame@{Flame}!get\-Point@{get\-Point}}
+\index{get\-Point@{get\-Point}!Flame@{Flame}}
+\subsubsection[{get\-Point}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Point}$<$ int $>$ Flame\-::get\-Point (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_flame_adcdcca15ef648dd565bce250136b2504}
+Get point \hypertarget{class_flame_acaae0ee856fb9053ce7e8b382b995b40}{\index{Flame@{Flame}!get\-X@{get\-X}}
+\index{get\-X@{get\-X}!Flame@{Flame}}
+\subsubsection[{get\-X}]{\setlength{\rightskip}{0pt plus 5cm}int Flame\-::get\-X (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_flame_acaae0ee856fb9053ce7e8b382b995b40}
+Get X coordinate \hypertarget{class_flame_a8233ffdd2d353d06e3e959c1cf88f892}{\index{Flame@{Flame}!get\-Y@{get\-Y}}
+\index{get\-Y@{get\-Y}!Flame@{Flame}}
+\subsubsection[{get\-Y}]{\setlength{\rightskip}{0pt plus 5cm}int Flame\-::get\-Y (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_flame_a8233ffdd2d353d06e3e959c1cf88f892}
+Get Y coordinate \hypertarget{class_flame_a8528151fe91174b1f678cf4be16a3142}{\index{Flame@{Flame}!state@{state}}
+\index{state@{state}!Flame@{Flame}}
+\subsubsection[{state}]{\setlength{\rightskip}{0pt plus 5cm}std\-::string Flame\-::state (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_flame_a8528151fe91174b1f678cf4be16a3142}
+Get animation state, returns draw string 
+
+\subsection{Friends And Related Function Documentation}
+\hypertarget{class_flame_a878ec21744cb98bc2d694f698602b9e5}{\index{Flame@{Flame}!operator==@{operator==}}
+\index{operator==@{operator==}!Flame@{Flame}}
+\subsubsection[{operator==}]{\setlength{\rightskip}{0pt plus 5cm}bool operator== (
+\begin{DoxyParamCaption}
+\item[{{\bf Flame} \&}]{a, }
+\item[{{\bf Point}$<$ int $>$ \&}]{b}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [friend]}}}\label{class_flame_a878ec21744cb98bc2d694f698602b9e5}
+Equality operator 
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+flame.\-h\item 
+flame.\-cpp\end{DoxyCompactItemize}

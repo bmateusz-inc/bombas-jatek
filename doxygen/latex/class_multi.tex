@@ -1,0 +1,87 @@
+\hypertarget{class_multi}{\section{Multi Class Reference}
+\label{class_multi}\index{Multi@{Multi}}
+}
+
+
+{\ttfamily \#include $<$multi.\-h$>$}
+
+Inheritance diagram for Multi\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_multi}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_multi_a952193613f07eaeb1b75c7835955f169}{Multi} ()
+\item 
+\hyperlink{class_multi_a7d70368d5229d0ce1b0d735f15fbcd66}{Multi} (std\-::string file\-Name, std\-::map$<$ std\-::string, \hyperlink{class_object}{Object} $\ast$ $>$ $\ast$igraphs)
+\item 
+void \hyperlink{class_multi_a0b1957cf59a3d44294ddb35dadba199b}{draw} (float x, float y, float w, float h, std\-::string param)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Can draw parts of a \hyperlink{class_sprite}{Sprite} 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_multi_a952193613f07eaeb1b75c7835955f169}{\index{Multi@{Multi}!Multi@{Multi}}
+\index{Multi@{Multi}!Multi@{Multi}}
+\subsubsection[{Multi}]{\setlength{\rightskip}{0pt plus 5cm}Multi\-::\-Multi (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_multi_a952193613f07eaeb1b75c7835955f169}
+Default constructor \hypertarget{class_multi_a7d70368d5229d0ce1b0d735f15fbcd66}{\index{Multi@{Multi}!Multi@{Multi}}
+\index{Multi@{Multi}!Multi@{Multi}}
+\subsubsection[{Multi}]{\setlength{\rightskip}{0pt plus 5cm}Multi\-::\-Multi (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{file\-Name, }
+\item[{std\-::map$<$ std\-::string, {\bf Object} $\ast$ $>$ $\ast$}]{igraphs}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_multi_a7d70368d5229d0ce1b0d735f15fbcd66}
+Constructor 
+\begin{DoxyParams}{Parameters}
+{\em file\-Name} & name of multi file (.mlt) \\
+\hline
+{\em igraphs} & list of loaded graphics from \hyperlink{class_view}{View} class \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_multi_a0b1957cf59a3d44294ddb35dadba199b}{\index{Multi@{Multi}!draw@{draw}}
+\index{draw@{draw}!Multi@{Multi}}
+\subsubsection[{draw}]{\setlength{\rightskip}{0pt plus 5cm}void Multi\-::draw (
+\begin{DoxyParamCaption}
+\item[{float}]{x, }
+\item[{float}]{y, }
+\item[{float}]{w, }
+\item[{float}]{h, }
+\item[{std\-::string}]{param}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_multi_a0b1957cf59a3d44294ddb35dadba199b}
+Draw a specific slice of a \hyperlink{class_sprite}{Sprite} 
+\begin{DoxyParams}{Parameters}
+{\em x} & coordinate \\
+\hline
+{\em y} & coordinate \\
+\hline
+{\em w} & width \\
+\hline
+{\em h} & height \\
+\hline
+{\em param} & full string param, determines which slice need to be drawn \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \hyperlink{class_object_a13b99ec4da0a1c798104560c492c2a7e}{Object}.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+view/multi.\-h\item 
+view/multi.\-cpp\end{DoxyCompactItemize}

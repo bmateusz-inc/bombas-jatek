@@ -1,0 +1,467 @@
+elteikthesis
+
+[utf8]inputenc
+[T1]fontenc
+[hungarian]babel
+hungarian
+
+listings
+color
+indentfirst
+epstopdf
+wrapfig
+
+tikz-uml
+fill class=violet!10
+
+[]hyperref
+
+    pdfborder=0 0 0,
+
+
+Bombás játék
+Börcsök Máté
+dr. Gregorics Tibor
+egyetemi docens
+programtervező informatikus BSc
+2013
+Programozáselmélet és Szoftvertechnológiai Tanszék
+
+
+[1]/#1/
+[1]#1
+[1]#1
+[0]C++ 
+
+
+
+
+
+	
+	
+	
+	
+	
+	
+	empty
+	
+
+
+
+
+Bevezetés
+
+
+Témaválasztás
+A dolgozat fő célja a platformfüggetlen technológiák ismertetése a programozási nyelv használatával. Létrehoztam egy keretrendszert, ami alkalmas kétdimenziós játékok implementálására. Ez a keretrendszer semmilyen funkcióban sem kötődik a Bombás játékhoz, amit írtam, viszonylag kevés munkával át lehetne alakítani más kétdimenziós játékra vagy programra. Olyan technológiákat is felhasználtam benne, amit nem az egyetemen tanultam, így még érdekesebb volt az elkészítés folyamata.
+
+
+r0.4
+-14pt
+
+[width = 6cm]pics/original.png
+Az eredeti játék
+-14pt
+
+
+Ebben a játékban több játékos verseng egy véletlenszerűen generált pályán, amin a cél az ellenfelek felrobbantása. Az alapötlet egy 1991-ben készített játékból származik, a Dyna Blaster-ből.
+Azért választottam ezt a témát, mert szerettem volna valami szórakoztató, egy számítógép előtt többen is játszható játékot készíteni, ami mindenki számára elérhető. Az eredeti játék könnyen futtatható a DosBox nevű programmal, ám nehézkes az irányítás kezelése, maximum négy játékos játszhat és nincs lehetőség internetes játékra. Ezen kívül több újítást is kitaláltam a játékmenettel kapcsolatban.
+
+A játék rövid ismertetése
+A játékban egy négyzetekre felosztott pályán járkálhatunk, közben bombákat rakhatunk le.  A cél az ellenfelek felrobbantása. Ebben a pályán lévő szörnyek és falak próbálják megakadályozni a játékost. A bombák négy irányba robbannak: fel, le, jobbra, balra. Kezdéskor a játékosnak kettő nagyságú tüze és egy bombája van. Ezeket növelni lehet a pályán felszedhető bónuszokkal, amiket falak felrobbantásával találhatunk.
+
+Egy játékmenet tipikusan abból áll, hogy az elején mindenki megpróbál minél több bónuszt szerezni, esetleg ellopni a másik elől, majd megküzdenek egymással, amint megnyílt az út köztük. Közben figyelni kell a szörnyekre is, mert könnyen bele lehet futni.
+
+Az irányításához billentyűzeten kívül felismer kontrollereket is. (joystick, gamepad, stb.)
+
+
+r0.5
+
+[width = 6cm]pics/dyna.png
+A Bombás játék
+
+
+Több mód is van a játékban, amit a következő fejezetben fogok részletezni.
+
+
+
+
+Felhasználói dokumentáció
+
+
+
+
+A program használata
+Függőségek
+A program ``Cross-platform'', tehát minden olyan számítógépen, amire van fordító és linker, el lehet indítani. Viszont vannak szoftveres függőségei:
+
+Legalább OpenGL 1.4 verzió. Ezt használom a kirajzoláshoz. A függvénykönyvtárat 3D megjelenítésre tervezték, én mégis ezt használtam, mivel sokkal gyorsabb, mint a szoftveres kirajzolás. A mai modern számítógépekben van 3D gyorsítás, ami a processzor helyett a videokártyát terheli. Ez a különbség még ilyen kevés rajzolást igénylő programoknál is meglátszik a teljesítményben.
+SDL 1.2 verzió. Ezt használom a bemenetek, ablakok kezelésére, idő lekérdezésére, hangok lejátszására. A könyvtár LGPL  licenc alatt áll, így nem lehet statikusan linkelni korlátok nélkül.
+
+
+A megfelelő működéshez úgy tapasztaltam, szüksége van egy viszonylag modern videokártyára is. Hogy az OpenGL megfelelően működjön, a videokártyának szüksége van az operációs rendszerhez tartozó driver (meghajtó) program működésére.
+
+Az SDL függvénykönyvtárat mellékeltem a Windowsos verzióban. A manapság elérhető Linux disztribúciókban telepítés után megtalálható, ezért ide nem mellékeltem. Amennyiben ez még sincs így, külön kell telepíteni az operációs rendszerre.
+
+A internetes játékhoz amellett, hogy internet szükséges, mennie kell a master szervernek is, aminek üzemeltetéséhez nincs kellő anyagi hátterem.
+
+Helyi hálózaton master szerver nélkül is lehet játszani.
+
+Játékmódok
+Ha ezek feltételek teljesültek, működni fog a program. Indításkor a menü jelenik meg először. Itt a következő módok közül választhatunk:
+
+
+A klasszikus mód körökre osztott, és csak egy játékos maradhat életben. A győztes pontot kap. Döntetlen esetén új kör kezdődik, senki nem kap pontot.
+
+Csapat módban a játékosok csapatokat alkotnak, és folyamatosan megy a játék. Ha egy játékost felrobbantanak, az újraéled a csapat kezdőhelyén, és folytatja a játékot, az ellenél pedig pontot kap. Mivel elég gyorsan elfogyna a fal és a bónuszok, így ezek folyamatosan, véletlenszerű helyeken termelődnek újra. Enélkül monoton lenne a játék, csak kergetőznének a játékosok. Ám ez a mód mégis dinamikusabb, mert nem kell megvárni a kör elejét a vesztes játékosnak. Klasszikus módban ez több perc is lehet. Beállíthatunk idő és pont korlátot is. Ha letelik az idő, az a csapat győz, amelyiknek több pontja van. Ha a pont korlátot éri el valamelyik csapat, akkor az győz.
+
+A ``Keresd a zászlót'' (angolul: Capture the flag) mód hasonlít a sima csapat módhoz, ám nem azért kap pontot a csapat, ha felrobbant valakit, hanem az ellenfél bázisából ki kell hozni egy zászlót, és elvinni a saját bázisába. Az idő és pont korlát ugyanúgy vonatkozik erre a módra is.
+
+Az egyjátékos módban egyedül kell végigjutni a pályákon, majd meg kell küzdeni a főellenséggel. Ez a mód  pályából áll, amin folyamatosan egyre nehezebb ellenfelek következnek.
+
+A kooperatív módban két játékosnak kell teljesíteni a küldetést.
+
+Lehetőség van internetes játékra is. 
+
+Játék helyi hálózaton, lényegében ugyanaz, mint az internetes játék, csak helyi hálózatra korlátozva.
+
+
+Irányítás
+Az irányítás történhet billentyűzetről, gamepadről, joystickról. Miután kiválasztottuk a módot, a következő menüponton választhatunk a bemenetek közül. 
+
+
+Billentyűzeten a más játékokban is megszokott nyilakkal, valamint a WASD billentyűkkel irányíthatunk két játékost. Bombát a jobb oldali CTRL és a TAB billentyűvel rakhatnak.
+
+Gamepad vagy Joystick segítségével még négy játékos játszhat egyszerre egy számítógépnél. Kontrollerek esetén nem állítottam külön feltételeket a gombokra. A ``fő'' irányítója felel a mozgásért, bombát pedig bármelyik gomb megnyomásával rakhatunk. Rengetegféle kontroller van a piacon, és mindegyiknek teljesen más a beállítása, a gombjainak az elhelyezkedése.
+
+
+
+
+
+A megoldott problémák rövid ismertetése
+A játék nem egy klasszikus programozási feladat, de elég összetett. Objektum-orientált programozást használtam, így könnyen részekre lehet bontani, és átláthatóbb is.
+A főbb részek felsorolva, röviden a megoldáshoz felhasznált módszereket ismertetve:
+
+Megjelenítés.
+A megjelenítést alacsony szinten implementáltam, csak az OpenGL könyvtárat és egy png fájlokat betöltő osztályt használtam hozzá. Ez még nem elég egy játék megjelenítéséhez. Szükség volt szöveg kiírására, animáció lejátszására és arra, hogy egy képben több képet tároljak (a helyfoglalás miatt). Szintén kezelni kell az ablakot, amit a felhasználó át is méretezhet, ekkor a játékteret is át kell méretezni.
+Játékmódok kezelése, menü.
+Játéktábla kezelése. Ez talán a legbonyolultabb része a programnak. Nyilvántartja a táblán lévő összes objektumot. Ez a rész felel a pozíciók frissítéséért és az ütközésvizsgálatért is. Emiatt szükség van az idő pontos nyilvántartására is, figyelni kell, mennyi idő telt el a képkockák között, hogy megfelelően, egyenletes sebességgel mozogjanak a játékosok. Az ütközésvizsgálat pedig annyiból különleges, hogy a játékosok nagyon keskeny helyeken járkálnak. Így nem elég egy egyszerű vizsgálat, hogy ütközik-e vagy sem, mert akkor használhatatlan lenne a játék.
+Hálózat kezelése.
+
+
+Fejlesztői dokumentáció
+
+
+
+
+
+
+Felhasznált szoftverek
+A dokumentációt LaTeX nyelven írtam, a TexMaker nevű szerkesztővel. Felhasználtam az elteikthesis  nevű kiegészítést, amit Majoros Dániel készített, valamint a legfrissebb magyar szótagoló szótárt (babel csomag). Az UML ábrákat a TikZ-UML  nevű kiegészítéssel rajzoltattam ki.
+
+A programot nyelven írtam, a kódot pedig a GNU-C++ fordítóval fordítottam le.
+
+Több fejlesztői környezetet is használtam a program készítése során. Először a Geany nevű szövegszerkesztőt, és konzolból fordítottam. Később ez nem volt elég az igényeimnek, nehézkes volt kezelni a sok osztályt, ezért átváltottam a CodeBlocks-ra. Végül átváltottam a NetBeans-re, ami jó döntés volt, utólag belegondolva ebben kellett volna kezdeni is. Sokkal több a lehetőség benne, és jobb a felépítése is. Nincs külön projektfájl hozzá, a Makefile-t használja fel a fordításnál.
+
+A grafika elkészítéséhez a GIMP-et használtam. Nagyon jó nyílt forráskódú szoftver.
+
+Az implementációhoz használt technológiák
+SDL
+Az SDL (Simple DirectMedia Layer)  egy kiválóan dokumentált , egyszerűségre és kis méretre törekedő függvénykönyvtár. Multiplatform, rengeteg operációs rendszerre és architektúrára fordították le: Linux, *BSD, MacOS, Win32, BeOS. Ezeken kívül létezik Androidra is, és több, már elavult operációs rendszerre. LGPL licenc alatt áll, aminek a lényege, hogy zárt forráskódú programba nem lehet statikusan fordítani, de dinamikusan korlátok nélkül használható.
+
+Mindent biztosít, amire a programomnak szüksége volt:
+
+Ablakkezelés. Csak egy ablakot tud megnyitni egyszerre. Szerencsére nekem elég is volt ennyi.
+Billentyűzet, egér kezelése eseményeken keresztül.
+Kontrollerek kezelése. Ezt azért vettem külön, mert sok hasonló függvénykönyvtár van az interneten, de amiket próbáltam, azok közül egyik se kezeli ilyen könnyen és gond nélkül ezt a bemenetet.
+OpenGL környezet megnyitása. Az OpenGL ES (Embedded System) támogatása még fejlesztés alatt van, de van megoldás az integrálására. 
+CPU idő lekérdezése. Ha multiplatform fejlesztünk, fel kell készülni rá, hogy minden rendszer másképp működik. Ez különösen igaz a CPU idő kérdésére, a processzorok különböző mértékegységben mérhetnek, és más függvényeket kell használni. Az SDL használatával elég csak egyet.
+Hang lejátszása. Kiegészítések nélkül egyszerre egy hangot és csak WAV formátumban tudja lejátszani.
+Unicode karakterek bevitele billentyűzetről.
+
+
+Ezen kívül még tartalmazza a következő lehetőségeket:
+
+Párhuzamos programozás.
+Szoftveres rajzolás.
+CD-ROM kezelése.
+Kiegészítésekkel ezeken kívül még rengeteg mindent. Például: Rich Text Format szövegek, True Type betűtípusok, hálózat, hangok, képek betöltése különféle formátumokból, több csatornás hangkezelés.
+
+
+
+Képek, hangok betöltése
+Képek betöltéséhez az SDL biztosítja a BMP formátumot. Ez nem volt elegendő számomra, mivel nem kezeli az átlátszóságot és túl nagy a mérete. Az SDLimage képes erre, de mellékelni kell hozzá több függvénykönyvtárat is, és nagy a mérete.
+
+A LodePNG  nevű függvénykönyvtár jelentett erre megoldást. Nagyon kis méretű ( 60 kB lefordítva Linuxon), emellett egy forrás és egy header fájlból áll mindössze. Használható C és nyelven is, utóbbin rendes stílusban, a vector és string konténereket alkalmazva, csak a kiterjesztését kell átírni. Használata nagyon egyszerű, és egyértelmű, néhány függvényt kell csak meghívni. Dokumentálva nincs, de sok példa van hozzá a weboldalán. Szabadon felhasználható bármilyen célra.
+
+Hangok betöltéséhez még nem tudom pontosan mit fogok használni. :)
+
+
+A probléma részletes specifikációja
+
+Főprogram
+A főprogram lényegében példányosítja a Game osztályt, ami az egész játék főosztálya. game.h A Game osztályban van a főciklus (main loop), ami terminálásig folyamatosan fut. Ez a ciklus tartalmaz késleltetést is, mivel fölösleges kihasználni minden erőforrást, elég  képkockát kirajzolni másodpercenként. Ezt a frameBegin, frameEnd, frameDelay függvények biztosítják a következőképpen.
+
+A frameBegin eltárolja az előző időt a  változóban, majd lekérdezi a jelenlegi időt a  változóba.
+
+A frameDelay kiszámítja, mennyi idő telt el a két képkocka kirajzolása között. Erre azért van szükség, mert ez az idő változhat, az objektumok mozgatásánál pedig ezt figyelembe kell venni.
+
+A frameEnd függvény kiszámítja mennyi időt kell várni, tehát a -hoz hozzáadja a TICKINTERVAL változót, ezt pedig eltároljuk a -ban. Az  változóba eltároljuk a jelenlegi időt. Amennyiben  kisebb, mint , a programot késleltetjük (elaltatjuk)  milliszekundummal. Ezt az SDLDelay függvényen keresztül tehetjük meg, de a kompatibilitás, és jövőbeli fejlesztések miatt egy külön header fájlon keresztül. utils.h
+
+Egy nagyon ritkán előforduló, de annál komolyabb hibát kellett kijavítanom a programnak ebben az egyszerű részében. Rossz változót használtam a késleltetésnél, emiatt nagyon ritkán előfordulhatott az, hogy a késleltető függvény negatív paraméterrel került meghívásra. Azonban ez egy előjel nélküli egész szám kell, hogy legyen, tehát a végeredmény túlcsordult. Így a függvény lényegében  milliszekundumra ( nap) elaltatta a programot.
+
+Megjelenítés
+A megjelenítést a View osztály szolgáltatja. view.h A főprogram példányosítja egyszer, ami a program futásának végéig megmarad.
+
+Hogy bármi megjelenjen a képernyőn, először létre kell hoznia a programnak egy ablakot, benne az OpenGL környezettel. Ezt az SDL segítségével valósítja meg. Az ablak lehet teljes képernyős, vagy átméretezhető. Ablak átméretezés esetén az osztály automatikusan átméretezi az OpenGL tartalmat is. Az ablak méretétől függetlenül rajzoláskor úgy kezelem a képernyőt, mintha  méretű lenne, lebegőpontos számokkal.
+
+Ezek után használhatjuk a betöltő load, és kirajzoló draw függvényeket. Mivel elég sok fájl van, amit be kell tölteni, készítettem egy loadPackage nevű függvényt, ami betölti az összes fájlt, ami fel van sorolva egy szöveges fájlban. A fájlok különböző típusúak, mind az Object osztályból származik. object.h
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+A kirajzolható objektumok típusai:
+
+Sprite osztály sprite.h,  kiterjesztése: png
+
+A Sprite osztály egy OpenGL textúrát tölt be PNG fájlból. A betöltés a konstruktor meghívásakor történik, ahol meg kell adni a fájlnevet is. Amikor töröljük az objektumot, a destruktor felszabadítja a textúrát a videomemóriából. Kirajzolni a draw függvénnyel lehet, amit többféleképpen paraméterezhetünk. Meg kell adni az ,  paramétereket, melyek a kép helyét adják meg a képernyőn. Opcionálisan megadhatjuk a ,  szélesség, magasság értékét. Ha nem adunk meg semmit, akkor a betöltött kép méretét fogja használni. Végül megadhatjuk az std::string param értékét, amivel transzformációkat hajthatunk végre. Ezek a transzformációk működnek a többi objektumon is, mivel lényegében mindegyik ezt az osztályt használja.
+
+Transzformációk:
+
+h: Vízszintes tükrözés
+v: Függőleges tükrözés
+l: Forgatás balra
+r: Forgatás jobbra
+
+
+Multi multi.h,  kiterjesztése: mlt
+
+A Multi osztály egy egyszerű fájlt tölt be, ami tartalmazza egy Sprite nevét, és hogy hány részre van feldarabolva. Kirajzoláskor a draw függvény std::string param paraméterében adjuk meg, melyik részletet szeretnénk kirajzolni a képből, két egymás után következő számmal. Ezt a formátumot stringstream segítségével könnyen előállíthatjuk, és az öröklődésben sem okoz gondot, hogy különbözőek a paraméterek.
+
+Text text.h,  kiterjesztése: txh
+
+A Text osztály felel a szövegek kiírásáért. Ezzel a témakörrel részletesebben is foglalkozok a következő fejezetben. Betölti a betűkhöz tartozó adatokat, ami egy karaktereket tartalmazó mátrix képként (Multi osztályt használva), és UTF-8 szövegként reprezentálva. A draw függvény std::string param paraméterében lévő szöveget írja ki a karakterek mátrixban való megkeresésével és kirajzolásával.
+
+AnimObject animobject.h,  kiterjesztése: anm
+
+Az AnimObject osztállyal időzített statikus animációkat rajzolhatunk ki. Mivel az animáció nem csak egy képkockáig él, így a View osztálynak el kell tárolnia külön is. Egy .anm fájl Sprite-ként betöltött képek nevéből, és milliszekundumban megadott idők sorozatából áll, ami a késleltetést jelenti a következő képhez képest.
+
+
+
+Hogy milyen típusú az objektum, betöltéskor a kiterjesztés alapján dől el. Egy Object típusú elemeket tároló vector-ban tároljuk őket.
+
+
+Szövegek kezelése
+Szövegek kezelésére, például a menüben, szerverek, játékosok listájánál, számok kiírására a következő lehetőségeket találtam:
+
+Minden szöveghez külön képet készíteni.
+Az operációs rendszer saját függvényeit használni.
+A FreeType függvénykönyvtárat használni, esetleg az SDLttf-el kiegészítve az egyszerűbb használat érdekében.
+Mátrixot készíteni a fontosabb betűkből, elmenteni képként és szövegként is, majd egy ezeket kezelő osztállyal mindig kirajzolni a megfelelőt.
+
+
+Az első lehetőség nem működik dinamikus tartalmakkal, emellett nagyon sok helyet foglalhat. A második jó ötletnek tűnik, de mivel én platformfüggetlen kódot szeretnék, nagy munka lenne minden operációs rendszeren megtalálni, hogy is érhetjük el ezt a funkcióját. Erre kínál megoldást a FreeType, amit az SDLttf is felhasznál, így a használata sem okozott volna gondot. Viszont ez sem tökéles módszer, mivel a szövegeket nem szabad állandóan kiszámoltatni, el kell tárolni a memóriában képként.
+Végül a negyedik lehetőség mellett döntöttem és érdekes kihívás volt leprogramozni. Emellett nem növeltem a függőségek számát sem és kisebb maradt a méret. Ellene szól, hogy csak azokat a betűket tudja kirajzolni, amiket beleégettünk. Össze lehetne kombinálni az előző lehetőségekkel, hogy minden betűt ismerjen, mégis nagyon kevés memóriát foglalna.
+
+Az implementációhoz először írni kellett egy Unicode  karaktereket kezelő osztályt utf8.h. Az UTF-8 karakterek nem feltétlenül férnek el egy byte-on. A  tartományon lévő karakterek megegyeznek az ASCII kódtábla karaktereivel. Ha ezen a tartományon felüli karaktert szeretnénk reprezentálni, akkor azt két (vagy több) byte-on kell eltárolni. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Az osztályom két byte-ig támogatja a karaktereket, de ebben az összes fontos karakter benne van a  intervallumon. A beolvasás és kiírás stream-eken keresztül történik.
+A kirajzoláshoz a korábban ismertetett Multi osztályt használja. Megkeresi a szöveges reprezentációban a koordinátákat, majd kirajzolja a megfelelő helyre a nagy kép abban a pozícióban lévő részét text.h.
+
+Bemenetek kezelése
+
+A bemenetek az SDL függvénykönyvtáron keresztül érkeznek az Input osztályba. input.h Az SDLPollEvent(event) függvény olvassa be, amit utána elágazásokkal kezelhetünk. Itt tudjuk lekezelni, ha átméretezik, bezárják az ablakot, lenyomnak vagy felengednek egy billentyűt a billentyűzeten, vagy egy joystickon. A joystickoknak egyedi azonosítójuk van.
+
+A hálózathoz kapcsolódás TODO.
+
+A játéktábla szempontjából mindegy, hogy egy játékost hogyan irányítanak, távolról, billentyűzetről vagy joystickról. Ezért, hogy egyszerre tudjam kezelni őket, elkészítettem a Control control.h osztályt. Ezt használja fel a GameTable, amit a következő szakaszban ismertetek.
+
+Játéktábla kezelése
+A játéktábla kezelését a GameTable gametable.h osztály végzi. Ennek az osztálynak rengeteg alosztálya van.
+
+Ténylegesen a táblát egy Matrix matrix.h típusú template osztályban tárolom, amiben Ground ground.h típusú elemek vannak. A Ground osztály lényegében három állapotú lehet, út, fal, beton. Ezt tárolom egy  mátrixban. A játékosok ezen járkálhatnak, és módosíthatják bombák lerakásával.
+
+A játékosok a Player player.h osztályban vannak definiálva. Sok információt kell róluk eltárolni. Felsorolva:
+
+Mi az azonosítója.
+Ki vezérli őket (Control osztályra mutató pointer).
+Hol vannak és hol voltak az előző képkockán, utóbbira az ütközésvizsgálat és az animáció miatt van szükség.
+Sebességük, bombáik száma, tüzük nagysága.
+Élnek-e még.
+Pontjainak száma, hányat ölt, hányszor halt meg.
+Mikor fertőződött meg melyik vírussal, ez mikor fog lejárni, ekkor visszaállítani a tulajdonságokat.
+Melyik ``bábuval'' van, melyik animációs fázisban tart, mikor kell a következőbe lépnie, amennyiben megáll, az visszaváltani az alapállapotra.
+
+
+Kezelni kell a játékosok mozgását is. Van az osztálynak egy move függvénye, ami lekérdezi a Control osztályból, ami hozzá van rendelve, hogy a játékos milyen parancsokat adott neki. Ezt a képkockák között eltelt idő függvényében teszi, tehát ugyanolyan sebességű lesz egy játékos, bármilyen számítógépen játsszák.
+
+A pályán véletlenszerűen mozgó szörnyeket a Monster monster.h osztály tartalmaz. Egy szörnyről tudni kell:
+
+Milyen típusú, melyik animációt kell hozzárendelni.
+Hol van jelenleg, hol volt előzőleg (hogy tudjuk, mikor vált mezőt), melyik irányba tart éppen.
+Melyik animációs fázisban van, mikor kell váltania.
+
+
+A falak felrobbantásával megjelenő bónuszokat a Goods goods.h osztály tartalmazza. Ezeknek csak a típusa és helye számít. Típus szerint lehet bomba növelő, tűz nagyság növelő, vagy vírus. Ezek alapján a Player osztály meg tudja határozni, milyen módosítások szükségesek.
+
+A játéktáblára a játékosok bombákat rakhatnak le. A bombákat a Bomb bomb.h osztállyal reprezentálom.
+Egy bombáról ismerni kell:
+
+Az elhelyezkedésének helyét.
+Ki rakta le.
+Mikor kell felrobbannia.
+Mekkora a mérete.
+
+
+Amikor a játékos lerak egy bombát, csökkenteni kell a bombáinak számát. Amikor felrobban, növeljük egyel. A robbanás a játéktáblán jelenik meg, és lángnyelveket generál, amit a Flame flame.h osztály ír le. Erre azért van szükség, mert a robbanás nem csak egy pillanatig tart, pár tizedmásodpercig a robbanás után is van hatása. Ennek az osztálynak is tároljuk a helyét, hogy mikor jár le, és az animáció állapotát, ami abból különleges, hogy a lángnyelv vége másmilyen, lekerekített animációt kapott. A lángnyelveknek is tudnia kell, melyik játékos indította, különben nem tudnánk számolni a pontokat. Egy robbanás láncreakciót indíthat be, ha egy lángnyelv elér egy másik bombát, akkor az attól függetlenül, mikor fog lejárni (aktiválódni), azonnal felrobban. Az eredeti tulajdonosa is felül lesz definiálva, az számít, kinek a bombája indította el a folyamatot. A bomba felrobbanásakor a bombExplode függvény hívódik meg. Ha a bomba azért robbant, mert lejárt, négy irányba, ha egy másik bomba aktiválta, három irányba (ahonnan beérkezett a lángnyelv, abba az irányba nem) hívja meg a flame függvényt. Ez egy rekurzív függvény, melynek paraméterei: x, y, méret, honnan, ki. Irány szerint az x vagy y változót egyel növelve vagy csökkentve, a méretet egyel csökkentve, a honnan és ki paramétert megőrizve hívjuk meg újra a függvényt. Megvizsgálja, nem ütközött-e falba vagy betonba a láng. Ha falba ütközik, akkor azt felrobbantja, és megáll a rekurzió. Ha betonba, akkor is megáll, de azt nem robbantja fel. Ha bónuszba ütközik, azt is megsemmisíti, és megáll.
+
+A játéktábla és elemeinek a kirajzolása már egyszerű, mivel minden objektumról tudjuk, hol helyezkedik el és milyen képet kell kirajzolni róla, animáció esetén is. Utóbbit a state függvény segítségével tudhatjuk meg. Mivel a View osztály jól kezeli a paramétereket, ennek a függvénynek csak egy string a visszatérési értéke, ahol a kép nevén kívül a transzformációkat és egyéb paramétereket is megadhatunk a  karakter után.
+
+A játékosok ütközésvizsgálata nehéz feladat volt. Nem működött az egyszerű elgondolás, miszerint ha a játékos falba ütközik, akkor nem mehet tovább. Ki kellett számítani, hogy vajon merre szeretett volna továbbmenni, a játékos sebességét is figyelembe véve így mozgatni a megfelelő helyre. Ehhez fel kellett használni a játékos előző pozícióját is. Ha az egyszerű elgondolást használtam volna, a játékos csak akkor tudott volna irányt váltani, ha pixel pontosan a kereszteződésben állt volna meg. Ez nyilvánvalóan nem engedhető meg egy ilyen gyors játékban.
+
+A hálózat kezeléséhez a játéktáblának nincs köze, csak a helyi játékos szemszögéből. Róla tudni kell, elmozdult-e, mert ha nem, akkor fölösleges a pozícióját frissíteni. Tudni kell mikor rakott le bombát, és az mikor fog felrobbanni.
+
+A játékosok és szörnyek mozgatása, az ütközésvizsgálat és a bombák kezelése, valamint a kirajzolás a játéktábla move függvényében kerül meghívásra.
+
+Eredetileg csak annyit terveztem, hogy a pálya mindig véletlenszerűen lesz legenerálva és a táblát vezérlő osztály határozza meg a paramétereit. De miután megírtam a Ground és Matrix osztályokat beolvasó operátorokkal együtt, rájöttem, hogy pár sor lenne egy pályabetöltő függvény megírása. A pályákat szövegszerkesztővel lehet megszerkeszteni, a következő formátumban:
+
+
+
+
+
+
+
+Opcionálisan tehetünk bele szóközöket, soremeléseket, például a sorok végére.
+
+Hálózat kezelése
+
+A hálózat kezeléséhez végül az SDLnet függvénykönyvtárat választottam. Eredetileg BSD socketeket akartam használni, de semmi sem garantálja, hogy minden rendszeren ugyanúgy működjön. Főleg a Little/Big-Endian processzorok közötti különbség okozott gondot. 
+
+Játékmódok kezelése
+A játékmódok kezelését a GameManager osztály végzi. gamemanager.h Ez az osztály hívja meg a GameTable inicializáló utasításait, majd minden képkockán megnézi, történt-e valami a játék számára fontos dolog.
+
+
+Tesztelés
+Játszottunk vele sokat.
+
+
+
+
+
+9
+
+
+Majoros Dániel,
+elteikthesis class for LaTeX, 2010. Letöltés ideje: 2012.09.17.
+http://www.ctan.org/tex-archive/macros/latex/contrib/elteikthesis
+
+
+Az SDL hivatalos oldala Letöltés ideje: 2012.09.18.
+http://www.libsdl.org/index.php
+
+
+Az SDL dokumentációja Letöltés ideje: 2012.09.18.
+http://www.libsdl.org/cgi/docwiki.cgi/SDL_API
+
+
+GNU Lesser General Public License Letöltés ideje: 2012.09.18.
+http://www.gnu.org/licenses/lgpl.html
+
+
+A LodePNG hivatalos weboldala Letöltés ideje: 2012.09.18.
+http://lodev.org/lodepng/
+
+
+Combining OpenGL ES 1.1 and SDL Letöltés ideje: 2012.09.18.
+http://pandorawiki.org/Combining_OpenGL_ES_1.1_and_SDL_
+to_create_a_window_on_the_Pandora
+
+
+UTF-8 (UCS Transformation Format—8-bit) Letöltés ideje: 2012.09.25.
+http://en.wikipedia.org/wiki/UTF-8
+
+
+Maurice Diamantini,
+TikZ-UML for LaTeX Letöltés ideje: 2012.09.27.
+http://www.ensta-paristech.fr/ kielbasi/tikzuml
+
+
+
+
+*TODO lista
+
+Csapat és CTF mód
+bomb->setOwner(who);
+Ütközésvizsgálat (még van mit csiszolni)
+Hálózat kliens
+Hálózat szerver
+Master szerver
+Szépítés
+Egyjátákos mód
+
+*DONE lista
+
+Játék manager (módokra)
+Menü
+Szöveg, számok kiírása
+Screenshot tükrözése
+
+

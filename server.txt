@@ -1,0 +1,263 @@
+Allocated socket set with size:  16, of which 15 are availble for use by clients.
+Successfully resolved server host to IP: 0.0.0.0 port 1324
+
+Sucessfully created server socket.
+Awaiting clients...
+Client connected to 0. There are now 1 client(s) connected.
+
+Retransmitting message: 2: set_nplayers [0, 0] to client number: 0
+Retransmitting message: 2: set_mode [0, 0] to client number: 0
+Retransmitting message: 0: set_team [0, 0] to client number: 0
+Received: 6 bytes >>>> 1: set_team [2, 0] from client number: 0
+no transmit to 0
+no transmit to 0
+no transmit to 0
+no transmit to 0
+no transmit to 0
+no transmit to 0
+no transmit to 0
+no transmit to 0
+no transmit to 0
+no transmit to 0
+no transmit to 0
+no transmit to 0
+no transmit to 0
+no transmit to 0
+no transmit to 0
+no transmit to 0
+no transmit to 0
+no transmit to 0
+no transmit to 0
+no transmit to 0
+no transmit to 0
+no transmit to 0
+no transmit to 0
+no transmit to 0
+no transmit to 0
+no transmit to 0
+no transmit to 0
+no transmit to 0
+no transmit to 0
+no transmit to 0
+no transmit to 0
+no transmit to 0
+no transmit to 0
+no transmit to 0
+no transmit to 0
+no transmit to 0
+no transmit to 0
+no transmit to 0
+no transmit to 0
+no transmit to 0
+no transmit to 0
+no transmit to 0
+no transmit to 0
+no transmit to 0
+no transmit to 0
+no transmit to 0
+no transmit to 0
+no transmit to 0
+no transmit to 0
+no transmit to 0
+no transmit to 0
+no transmit to 0
+no transmit to 0
+no transmit to 0
+no transmit to 0
+no transmit to 0
+no transmit to 0
+no transmit to 0
+no transmit to 0
+no transmit to 0
+no transmit to 0
+no transmit to 0
+no transmit to 0
+no transmit to 0
+Retransmitting message: 2: set_start [0, 0] to client number: 0
+no transmit to 0
+Retransmitting message: 102: map_build [0, 3] to client number: 0
+Retransmitting message: 102: map_build [0, 7] to client number: 0
+Retransmitting message: 102: map_build [0, 10] to client number: 0
+Retransmitting message: 120: map_build [1, 1] to client number: 0
+Retransmitting message: 120: map_build [1, 3] to client number: 0
+Retransmitting message: 102: map_build [1, 4] to client number: 0
+Retransmitting message: 120: map_build [1, 5] to client number: 0
+Retransmitting message: 102: map_build [1, 6] to client number: 0
+Retransmitting message: 120: map_build [1, 7] to client number: 0
+Retransmitting message: 102: map_build [1, 8] to client number: 0
+Retransmitting message: 120: map_build [1, 9] to client number: 0
+Retransmitting message: 102: map_build [2, 0] to client number: 0
+Retransmitting message: 102: map_build [2, 1] to client number: 0
+Retransmitting message: 102: map_build [2, 2] to client number: 0
+Retransmitting message: 102: map_build [2, 5] to client number: 0
+Retransmitting message: 102: map_build [2, 6] to client number: 0
+Retransmitting message: 102: map_build [2, 8] to client number: 0
+Retransmitting message: 102: map_build [2, 10] to client number: 0
+Retransmitting message: 102: map_build [3, 0] to client number: 0
+Retransmitting message: 120: map_build [3, 1] to client number: 0
+Retransmitting message: 102: map_build [3, 2] to client number: 0
+Retransmitting message: 120: map_build [3, 3] to client number: 0
+Retransmitting message: 120: map_build [3, 5] to client number: 0
+Retransmitting message: 102: map_build [3, 6] to client number: 0
+Retransmitting message: 120: map_build [3, 7] to client number: 0
+Retransmitting message: 120: map_build [3, 9] to client number: 0
+Retransmitting message: 102: map_build [3, 10] to client number: 0
+Retransmitting message: 102: map_build [4, 1] to client number: 0
+Retransmitting message: 102: map_build [4, 2] to client number: 0
+Retransmitting message: 102: map_build [4, 3] to client number: 0
+Retransmitting message: 102: map_build [4, 5] to client number: 0
+Retransmitting message: 102: map_build [4, 7] to client number: 0
+Retransmitting message: 102: map_build [4, 8] to client number: 0
+Retransmitting message: 102: map_build [4, 9] to client number: 0
+Retransmitting message: 102: map_build [4, 10] to client number: 0
+Retransmitting message: 120: map_build [5, 1] to client number: 0
+Retransmitting message: 120: map_build [5, 3] to client number: 0
+Retransmitting message: 102: map_build [5, 4] to client number: 0
+Retransmitting message: 120: map_build [5, 5] to client number: 0
+Retransmitting message: 102: map_build [5, 6] to client number: 0
+Retransmitting message: 120: map_build [5, 7] to client number: 0
+Retransmitting message: 120: map_build [5, 9] to client number: 0
+Retransmitting message: 102: map_build [6, 1] to client number: 0
+Retransmitting message: 102: map_build [6, 2] to client number: 0
+Retransmitting message: 102: map_build [6, 10] to client number: 0
+Retransmitting message: 102: map_build [7, 0] to client number: 0
+Retransmitting message: 120: map_build [7, 1] to client number: 0
+Retransmitting message: 102: map_build [7, 2] to client number: 0
+Retransmitting message: 120: map_build [7, 3] to client number: 0
+Retransmitting message: 102: map_build [7, 4] to client number: 0
+Retransmitting message: 120: map_build [7, 5] to client number: 0
+Retransmitting message: 102: map_build [7, 6] to client number: 0
+Retransmitting message: 120: map_build [7, 7] to client number: 0
+Retransmitting message: 120: map_build [7, 9] to client number: 0
+Retransmitting message: 102: map_build [8, 1] to client number: 0
+Retransmitting message: 102: map_build [8, 2] to client number: 0
+Retransmitting message: 102: map_build [8, 3] to client number: 0
+Retransmitting message: 102: map_build [8, 7] to client number: 0
+Retransmitting message: 102: map_build [8, 8] to client number: 0
+Retransmitting message: 102: map_build [8, 9] to client number: 0
+Retransmitting message: 120: map_build [9, 1] to client number: 0
+Retransmitting message: 102: map_build [9, 2] to client number: 0
+Retransmitting message: 120: map_build [9, 3] to client number: 0
+Retransmitting message: 120: map_build [9, 5] to client number: 0
+Retransmitting message: 120: map_build [9, 7] to client number: 0
+Retransmitting message: 120: map_build [9, 9] to client number: 0
+Retransmitting message: 102: map_build [9, 10] to client number: 0
+Retransmitting message: 102: map_build [10, 2] to client number: 0
+Retransmitting message: 102: map_build [10, 3] to client number: 0
+Retransmitting message: 102: map_build [10, 4] to client number: 0
+Retransmitting message: 102: map_build [10, 5] to client number: 0
+Retransmitting message: 102: map_build [10, 7] to client number: 0
+Retransmitting message: 102: map_build [10, 8] to client number: 0
+Retransmitting message: 102: map_build [10, 10] to client number: 0
+Retransmitting message: 120: map_build [11, 1] to client number: 0
+Retransmitting message: 120: map_build [11, 3] to client number: 0
+Retransmitting message: 120: map_build [11, 5] to client number: 0
+Retransmitting message: 102: map_build [11, 6] to client number: 0
+Retransmitting message: 120: map_build [11, 7] to client number: 0
+Retransmitting message: 102: map_build [11, 8] to client number: 0
+Retransmitting message: 120: map_build [11, 9] to client number: 0
+Retransmitting message: 102: map_build [12, 0] to client number: 0
+Retransmitting message: 102: map_build [12, 4] to client number: 0
+Retransmitting message: 102: map_build [12, 6] to client number: 0
+Retransmitting message: 102: map_build [12, 7] to client number: 0
+Retransmitting message: 102: map_build [12, 8] to client number: 0
+Retransmitting message: 120: map_build [13, 1] to client number: 0
+Retransmitting message: 120: map_build [13, 3] to client number: 0
+Retransmitting message: 120: map_build [13, 5] to client number: 0
+Retransmitting message: 102: map_build [13, 6] to client number: 0
+Retransmitting message: 120: map_build [13, 7] to client number: 0
+Retransmitting message: 120: map_build [13, 9] to client number: 0
+Retransmitting message: 102: map_build [14, 0] to client number: 0
+Retransmitting message: 102: map_build [14, 4] to client number: 0
+Retransmitting message: 102: map_build [14, 7] to client number: 0
+Retransmitting message: 102: map_build [14, 8] to client number: 0
+Retransmitting message: 102: map_build [14, 10] to client number: 0
+Retransmitting message: 0: spawn_monster [480, 85] to client number: 0
+Retransmitting message: 0: spawn_monster [85, 160] to client number: 0
+Retransmitting message: 1: spawn_monster [325, 240] to client number: 0
+Retransmitting message: 1: spawn_monster [485, 80] to client number: 0
+Retransmitting message: 46: map_build [14, 10] to client number: 0
+Retransmitting message: 0: movement [0, 3.4] to client number: 0
+Retransmitting message: 0: movement [0, 6.8] to client number: 0
+Retransmitting message: 0: movement [0, 10.19] to client number: 0
+Retransmitting message: 0: movement [0, 13.39] to client number: 0
+Retransmitting message: 0: movement [0, 16.79] to client number: 0
+Retransmitting message: 0: movement [0, 20.19] to client number: 0
+Retransmitting message: 0: movement [0, 23.39] to client number: 0
+Retransmitting message: 0: movement [0, 26.79] to client number: 0
+Retransmitting message: 0: movement [0, 30.39] to client number: 0
+Retransmitting message: 0: movement [0, 33.79] to client number: 0
+Retransmitting message: 0: movement [0, 37.2] to client number: 0
+Retransmitting message: 0: movement [0, 40.4] to client number: 0
+Retransmitting message: 0: movement [0, 43.6] to client number: 0
+Retransmitting message: 0: movement [0, 46.8] to client number: 0
+Retransmitting message: 0: movement [0, 50.4] to client number: 0
+Retransmitting message: 0: movement [0, 53.6] to client number: 0
+Retransmitting message: 0: movement [0, 56.8] to client number: 0
+Retransmitting message: 0: movement [0, 60.2] to client number: 0
+Retransmitting message: 0: movement [0, 63.6] to client number: 0
+Retransmitting message: 0: movement [0, 66.8] to client number: 0
+Retransmitting message: 0: movement [0, 70.2] to client number: 0
+Retransmitting message: 0: movement [0, 73.6] to client number: 0
+Retransmitting message: 0: movement [0, 77] to client number: 0
+Retransmitting message: 0: movement [0, 80] to client number: 0
+Retransmitting message: 0: monster_move [475, 120] to client number: 0
+Retransmitting message: 1: monster_move [120, 155] to client number: 0
+Retransmitting message: 0: monster_move [480, 115] to client number: 0
+Retransmitting message: 1: monster_move [115, 160] to client number: 0
+Retransmitting message: 1: monster_move [125, 160] to client number: 0
+Retransmitting message: 3: monster_move [560, 85] to client number: 0
+Retransmitting message: 0: monster_move [475, 80] to client number: 0
+Retransmitting message: 1: monster_move [160, 155] to client number: 0
+Retransmitting message: 1: monster_move [165, 160] to client number: 0
+Retransmitting message: 1: monster_move [160, 155] to client number: 0
+Retransmitting message: 1: monster_move [155, 160] to client number: 0
+Retransmitting message: 0: put_bomb [0, 2] to client number: 0
+Retransmitting message: 0: movement [0, 76.59] to client number: 0
+Retransmitting message: 0: movement [0, 73.19] to client number: 0
+Retransmitting message: 0: movement [0, 70] to client number: 0
+Retransmitting message: 0: movement [0, 66.59] to client number: 0
+Retransmitting message: 0: movement [0, 63.19] to client number: 0
+Retransmitting message: 0: movement [0, 59.79] to client number: 0
+Retransmitting message: 2: monster_move [440, 235] to client number: 0
+Retransmitting message: 0: movement [0, 56.59] to client number: 0
+Retransmitting message: 2: monster_move [445, 240] to client number: 0
+Retransmitting message: 0: movement [0, 53.19] to client number: 0
+Retransmitting message: 0: monster_move [440, 75] to client number: 0
+Retransmitting message: 0: movement [0, 49.79] to client number: 0
+Retransmitting message: 0: monster_move [435, 80] to client number: 0
+Retransmitting message: 0: movement [0, 46.59] to client number: 0
+Retransmitting message: 0: monster_move [445, 80] to client number: 0
+Retransmitting message: 0: movement [0, 43.19] to client number: 0
+Retransmitting message: 0: movement [0, 39.79] to client number: 0
+Retransmitting message: 0: movement [0, 36.59] to client number: 0
+Retransmitting message: 3: monster_move [555, 160] to client number: 0
+Retransmitting message: 0: monster_move [480, 85] to client number: 0
+Retransmitting message: 1: monster_move [80, 155] to client number: 0
+Retransmitting message: 0: monster_move [475, 120] to client number: 0
+Retransmitting message: 0: monster_move [480, 125] to client number: 0
+Retransmitting message: 1: monster_move [85, 120] to client number: 0
+Retransmitting message: 0: monster_move [485, 120] to client number: 0
+Retransmitting message: 1: monster_move [80, 115] to client number: 0
+Retransmitting message: 0: monster_move [480, 125] to client number: 0
+Retransmitting message: 1: monster_move [85, 120] to client number: 0
+Retransmitting message: 0: monster_move [485, 120] to client number: 0
+Retransmitting message: 1: monster_move [75, 120] to client number: 0
+Retransmitting message: 0: monster_move [480, 115] to client number: 0
+Retransmitting message: 1: monster_move [80, 125] to client number: 0
+Retransmitting message: 2: monster_move [560, 235] to client number: 0
+Retransmitting message: 14: spawn_virus [0, 3] to client number: 0
+Retransmitting message: 0: die [1, 0] to client number: 0
+Retransmitting message: 0: scoreboard_data [0, 0] to client number: 0
+Retransmitting message: 0: scoreboard_data [1, 0] to client number: 0
+Retransmitting message: 0: scoreboard_data [2, 0] to client number: 0
+Retransmitting message: 0: scoreboard_data [3, 1] to client number: 0
+Retransmitting message: 0: scoreboard_data [4, 0] to client number: 0
+Retransmitting message: 1: scoreboard_data [1, 1] to client number: 0
+Retransmitting message: 1: scoreboard_data [2, 0] to client number: 0
+Retransmitting message: 1: scoreboard_data [3, 0] to client number: 0
+Retransmitting message: 1: scoreboard_data [4, 0] to client number: 0
+Client 0 disconnected.
+
+Server is now connected to: 0 client(s).
+

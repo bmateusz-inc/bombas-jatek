@@ -1,0 +1,92 @@
+\hypertarget{class_anim_object}{\section{Anim\-Object Class Reference}
+\label{class_anim_object}\index{Anim\-Object@{Anim\-Object}}
+}
+
+
+{\ttfamily \#include $<$animobject.\-h$>$}
+
+Inheritance diagram for Anim\-Object\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_anim_object}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_anim_object_a05d32294cceb9b869d5b4088c430f08b}{Anim\-Object} ()
+\item 
+\hyperlink{class_anim_object_a6f0092d3c69a4b3af920dd68eab73449}{Anim\-Object} (std\-::deque$<$ \hyperlink{class_animation}{Animation} $>$ $\ast$ianim, std\-::map$<$ std\-::string, \hyperlink{class_anim_file}{Anim\-File} $>$ $\ast$ianims, std\-::string iname, T\-I\-M\-E $\ast$inow)
+\item 
+void \hyperlink{class_anim_object_a93eda4562497de04bf7db6407d74e5aa}{draw} (float x, float y, float w, float h, std\-::string param=\char`\"{}\char`\"{})
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{class_animation}{Animation} to use in draw 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_anim_object_a05d32294cceb9b869d5b4088c430f08b}{\index{Anim\-Object@{Anim\-Object}!Anim\-Object@{Anim\-Object}}
+\index{Anim\-Object@{Anim\-Object}!AnimObject@{Anim\-Object}}
+\subsubsection[{Anim\-Object}]{\setlength{\rightskip}{0pt plus 5cm}Anim\-Object\-::\-Anim\-Object (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_anim_object_a05d32294cceb9b869d5b4088c430f08b}
+Default constructor \hypertarget{class_anim_object_a6f0092d3c69a4b3af920dd68eab73449}{\index{Anim\-Object@{Anim\-Object}!Anim\-Object@{Anim\-Object}}
+\index{Anim\-Object@{Anim\-Object}!AnimObject@{Anim\-Object}}
+\subsubsection[{Anim\-Object}]{\setlength{\rightskip}{0pt plus 5cm}Anim\-Object\-::\-Anim\-Object (
+\begin{DoxyParamCaption}
+\item[{std\-::deque$<$ {\bf Animation} $>$ $\ast$}]{ianim, }
+\item[{std\-::map$<$ std\-::string, {\bf Anim\-File} $>$ $\ast$}]{ianims, }
+\item[{std\-::string}]{iname, }
+\item[{T\-I\-M\-E $\ast$}]{inow}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_anim_object_a6f0092d3c69a4b3af920dd68eab73449}
+Constructor 
+\begin{DoxyParams}{Parameters}
+{\em ianim} & deque of animations from view \\
+\hline
+{\em ianims} & animation files \\
+\hline
+{\em iname} & name of animation \\
+\hline
+{\em inow} & pointer to current frame time \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_anim_object_a93eda4562497de04bf7db6407d74e5aa}{\index{Anim\-Object@{Anim\-Object}!draw@{draw}}
+\index{draw@{draw}!AnimObject@{Anim\-Object}}
+\subsubsection[{draw}]{\setlength{\rightskip}{0pt plus 5cm}void Anim\-Object\-::draw (
+\begin{DoxyParamCaption}
+\item[{float}]{x, }
+\item[{float}]{y, }
+\item[{float}]{w, }
+\item[{float}]{h, }
+\item[{std\-::string}]{param = {\ttfamily \char`\"{}\char`\"{}}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{class_anim_object_a93eda4562497de04bf7db6407d74e5aa}
+Draw animation 
+\begin{DoxyParams}{Parameters}
+{\em x} & coordinate \\
+\hline
+{\em y} & coordinate \\
+\hline
+{\em w} & width \\
+\hline
+{\em h} & height \\
+\hline
+{\em param} & graphic parameter \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \hyperlink{class_object_a13b99ec4da0a1c798104560c492c2a7e}{Object}.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+view/animobject.\-h\end{DoxyCompactItemize}

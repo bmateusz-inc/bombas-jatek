@@ -1,0 +1,160 @@
+\hypertarget{class_input}{\section{Input Class Reference}
+\label{class_input}\index{Input@{Input}}
+}
+
+
+{\ttfamily \#include $<$input.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_input_abae3f379d3f157cf42dc857309832dba}{Input} ()
+\item 
+\hyperlink{class_input_af2db35ba67c8a8ccd23bef6a482fc291}{$\sim$\-Input} ()
+\item 
+void \hyperlink{class_input_ad9217898fc129b639f659dfcf2051422}{update\-Joy\-Sticks} ()
+\item 
+bool \hyperlink{class_input_a92d0be97aef7c8a85e3ac079a953ddf5}{get\-Run} ()
+\item 
+bool \hyperlink{class_input_adf4c5d205abace51a84e0f22a01c5d1e}{get\-Run\-Soft} ()
+\item 
+int \hyperlink{class_input_a95d0ed505dd98df8e249cee84d42698e}{get\-N\-Joy} ()
+\item 
+int \hyperlink{class_input_a92810f124cfa07732cd4089db5223cf1}{get\-N\-Controllers} ()
+\item 
+void \hyperlink{class_input_a191467f0069994daa70d9e954cfcd057}{set\-Run} (bool irun)
+\item 
+void \hyperlink{class_input_afc125d0c884799e9f21c46aa87d1b43c}{set\-View} (\hyperlink{class_view}{View} $\ast$i\-View)
+\item 
+void \hyperlink{class_input_a0c58e9cd087973bfb6cb02e4856fb2b3}{set\-Mode} (bool m)
+\item 
+\hyperlink{class_control}{Control} $\ast$ \hyperlink{class_input_a2d4d3d1adde7fb767eb8f37f3d72f5da}{operator()} (int i)
+\item 
+\hyperlink{class_control}{Control} $\ast$ \hyperlink{class_input_acf1652c44b902096beddf17c286dd38b}{operator()} ()
+\item 
+void \hyperlink{class_input_acf9bd6cc4f3e108c71595dd016cf58f9}{poll} (T\-I\-M\-E delay)
+\item 
+void \hyperlink{class_input_a2f1652eeac94560e6f08bad11cff6ace}{set\-Delay} (T\-I\-M\-E delay)
+\item 
+void \hyperlink{class_input_a0882492ac62c79e87e38beb5b95fcfa6}{no\-Put} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{class_input}{Input} handling, with S\-D\-L. Do not forget to call \hyperlink{class_input_acf9bd6cc4f3e108c71595dd016cf58f9}{poll()} 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_input_abae3f379d3f157cf42dc857309832dba}{\index{Input@{Input}!Input@{Input}}
+\index{Input@{Input}!Input@{Input}}
+\subsubsection[{Input}]{\setlength{\rightskip}{0pt plus 5cm}Input\-::\-Input (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_input_abae3f379d3f157cf42dc857309832dba}
+Constructor, initialize controls \hypertarget{class_input_af2db35ba67c8a8ccd23bef6a482fc291}{\index{Input@{Input}!$\sim$\-Input@{$\sim$\-Input}}
+\index{$\sim$\-Input@{$\sim$\-Input}!Input@{Input}}
+\subsubsection[{$\sim$\-Input}]{\setlength{\rightskip}{0pt plus 5cm}Input\-::$\sim$\-Input (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_input_af2db35ba67c8a8ccd23bef6a482fc291}
+Destructor, release joysticks 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_input_a92810f124cfa07732cd4089db5223cf1}{\index{Input@{Input}!get\-N\-Controllers@{get\-N\-Controllers}}
+\index{get\-N\-Controllers@{get\-N\-Controllers}!Input@{Input}}
+\subsubsection[{get\-N\-Controllers}]{\setlength{\rightskip}{0pt plus 5cm}int Input\-::get\-N\-Controllers (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_input_a92810f124cfa07732cd4089db5223cf1}
+Get number of players \hypertarget{class_input_a95d0ed505dd98df8e249cee84d42698e}{\index{Input@{Input}!get\-N\-Joy@{get\-N\-Joy}}
+\index{get\-N\-Joy@{get\-N\-Joy}!Input@{Input}}
+\subsubsection[{get\-N\-Joy}]{\setlength{\rightskip}{0pt plus 5cm}int Input\-::get\-N\-Joy (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_input_a95d0ed505dd98df8e249cee84d42698e}
+Get number of joysticks \hypertarget{class_input_a92d0be97aef7c8a85e3ac079a953ddf5}{\index{Input@{Input}!get\-Run@{get\-Run}}
+\index{get\-Run@{get\-Run}!Input@{Input}}
+\subsubsection[{get\-Run}]{\setlength{\rightskip}{0pt plus 5cm}bool Input\-::get\-Run (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_input_a92d0be97aef7c8a85e3ac079a953ddf5}
+Program should run \hypertarget{class_input_adf4c5d205abace51a84e0f22a01c5d1e}{\index{Input@{Input}!get\-Run\-Soft@{get\-Run\-Soft}}
+\index{get\-Run\-Soft@{get\-Run\-Soft}!Input@{Input}}
+\subsubsection[{get\-Run\-Soft}]{\setlength{\rightskip}{0pt plus 5cm}bool Input\-::get\-Run\-Soft (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_input_adf4c5d205abace51a84e0f22a01c5d1e}
+Program should step back one level \hypertarget{class_input_a0882492ac62c79e87e38beb5b95fcfa6}{\index{Input@{Input}!no\-Put@{no\-Put}}
+\index{no\-Put@{no\-Put}!Input@{Input}}
+\subsubsection[{no\-Put}]{\setlength{\rightskip}{0pt plus 5cm}void Input\-::no\-Put (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_input_a0882492ac62c79e87e38beb5b95fcfa6}
+Set all fire buttons to false \hypertarget{class_input_a2d4d3d1adde7fb767eb8f37f3d72f5da}{\index{Input@{Input}!operator()@{operator()}}
+\index{operator()@{operator()}!Input@{Input}}
+\subsubsection[{operator()}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Control}$\ast$ Input\-::operator() (
+\begin{DoxyParamCaption}
+\item[{int}]{i}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_input_a2d4d3d1adde7fb767eb8f37f3d72f5da}
+Get \hyperlink{class_control}{Control} class of selected I\-D \hypertarget{class_input_acf1652c44b902096beddf17c286dd38b}{\index{Input@{Input}!operator()@{operator()}}
+\index{operator()@{operator()}!Input@{Input}}
+\subsubsection[{operator()}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Control}$\ast$ Input\-::operator() (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_input_acf1652c44b902096beddf17c286dd38b}
+Get universal control class \hypertarget{class_input_acf9bd6cc4f3e108c71595dd016cf58f9}{\index{Input@{Input}!poll@{poll}}
+\index{poll@{poll}!Input@{Input}}
+\subsubsection[{poll}]{\setlength{\rightskip}{0pt plus 5cm}void Input\-::poll (
+\begin{DoxyParamCaption}
+\item[{T\-I\-M\-E}]{delay}
+\end{DoxyParamCaption}
+)}}\label{class_input_acf9bd6cc4f3e108c71595dd016cf58f9}
+Poll events with S\-D\-L \hypertarget{class_input_a2f1652eeac94560e6f08bad11cff6ace}{\index{Input@{Input}!set\-Delay@{set\-Delay}}
+\index{set\-Delay@{set\-Delay}!Input@{Input}}
+\subsubsection[{set\-Delay}]{\setlength{\rightskip}{0pt plus 5cm}void Input\-::set\-Delay (
+\begin{DoxyParamCaption}
+\item[{T\-I\-M\-E}]{delay}
+\end{DoxyParamCaption}
+)}}\label{class_input_a2f1652eeac94560e6f08bad11cff6ace}
+Set delay between frames \hypertarget{class_input_a0c58e9cd087973bfb6cb02e4856fb2b3}{\index{Input@{Input}!set\-Mode@{set\-Mode}}
+\index{set\-Mode@{set\-Mode}!Input@{Input}}
+\subsubsection[{set\-Mode}]{\setlength{\rightskip}{0pt plus 5cm}void Input\-::set\-Mode (
+\begin{DoxyParamCaption}
+\item[{bool}]{m}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_input_a0c58e9cd087973bfb6cb02e4856fb2b3}
+Set mode\-: 0\-: menu, 1\-: in-\/game \hypertarget{class_input_a191467f0069994daa70d9e954cfcd057}{\index{Input@{Input}!set\-Run@{set\-Run}}
+\index{set\-Run@{set\-Run}!Input@{Input}}
+\subsubsection[{set\-Run}]{\setlength{\rightskip}{0pt plus 5cm}void Input\-::set\-Run (
+\begin{DoxyParamCaption}
+\item[{bool}]{irun}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_input_a191467f0069994daa70d9e954cfcd057}
+Set run \hypertarget{class_input_afc125d0c884799e9f21c46aa87d1b43c}{\index{Input@{Input}!set\-View@{set\-View}}
+\index{set\-View@{set\-View}!Input@{Input}}
+\subsubsection[{set\-View}]{\setlength{\rightskip}{0pt plus 5cm}void Input\-::set\-View (
+\begin{DoxyParamCaption}
+\item[{{\bf View} $\ast$}]{i\-View}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_input_afc125d0c884799e9f21c46aa87d1b43c}
+Set \hyperlink{class_view}{View} class \hypertarget{class_input_ad9217898fc129b639f659dfcf2051422}{\index{Input@{Input}!update\-Joy\-Sticks@{update\-Joy\-Sticks}}
+\index{update\-Joy\-Sticks@{update\-Joy\-Sticks}!Input@{Input}}
+\subsubsection[{update\-Joy\-Sticks}]{\setlength{\rightskip}{0pt plus 5cm}void Input\-::update\-Joy\-Sticks (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_input_ad9217898fc129b639f659dfcf2051422}
+Update joysticks, search for newly connected 
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+input.\-h\item 
+input.\-cpp\end{DoxyCompactItemize}

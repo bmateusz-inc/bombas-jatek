@@ -1,0 +1,346 @@
+\hypertarget{class_game_table}{\section{Game\-Table Class Reference}
+\label{class_game_table}\index{Game\-Table@{Game\-Table}}
+}
+
+
+{\ttfamily \#include $<$gametable.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_game_table_a8181bb1ba469353af8bb157439a0559f}{Game\-Table} (\hyperlink{class_view}{View} \&i\-View)
+\item 
+\hyperlink{class_game_table_a26af150d29ca306ce34bc4c21eff4434}{$\sim$\-Game\-Table} ()
+\item 
+void \hyperlink{class_game_table_aa038eb8097eec472d07778a3c637f439}{set\-Players} (int n)
+\item 
+std\-::string \hyperlink{class_game_table_a0d3a30f842c2a0a564a4a9790711a49d}{load\-Map} (std\-::string file)
+\item 
+void \hyperlink{class_game_table_a8a516c486ae6606739a9e3759351983c}{generate\-Map} ()
+\item 
+void \hyperlink{class_game_table_a74ce2ab48d21cdf50cc8cf0ca20dc6f6}{generate\-Base} ()
+\item 
+void \hyperlink{class_game_table_acb2b7d5332b5cd390e4d1c7f265c9f25}{set\-Start} (int x, int y, int i)
+\item 
+void \hyperlink{class_game_table_a833b9a8d434677b3186f83f29e4665f2}{spawn\-Player} (int i)
+\item 
+void \hyperlink{class_game_table_a8eec3746aac496efa42ccf855c09ee85}{spawn\-Monster} (int i=-\/1, int x=-\/1, int y=-\/1)
+\item 
+void \hyperlink{class_game_table_a32bf219b191b9dfec2ffb0944e3cba60}{spawn\-Walls} ()
+\item 
+void \hyperlink{class_game_table_adcbf40752d938e540143ae9f0557fe1d}{spawn\-Walls} (\hyperlink{class_point}{Point}$<$ int $>$ p, bool do\-Animation=true)
+\item 
+void \hyperlink{class_game_table_a7c069f3204763f1724ee32bbf811d8d2}{build\-Walls} ()
+\item 
+void \hyperlink{class_game_table_a792dea56e19cd3c484f43c2577a1ffbd}{main\-Loop} ()
+\item 
+void \hyperlink{class_game_table_a73190cc97fe6a3a3091433b205b470b2}{draw} ()
+\item 
+void \hyperlink{class_game_table_ab7b910524953383dd7038a389b0e5d51}{set\-Config} (\hyperlink{class_game_config}{Game\-Config} \&conf)
+\item 
+\hyperlink{class_game_config}{Game\-Config} \& \hyperlink{class_game_table_a3fe1e86315247151837f2df404329390}{get\-Config} ()
+\item 
+const std\-::vector$<$ \hyperlink{class_player}{Player} $>$ \& \hyperlink{class_game_table_ad5cf494f1d7d552807b571fa64bd917a}{get\-Players} () const 
+\item 
+const int \hyperlink{class_game_table_a0f12dc7e75a2358cc1ab88a407bf5042}{get\-N\-Players} () const 
+\item 
+bool \hyperlink{class_game_table_a0c830892ac64a23447a122de268357e0}{is\-Any\-Player\-Put} () const 
+\item 
+void \hyperlink{class_game_table_a168991df1df26c1f5a6f468910191b0d}{inc\-Score} (int p\-Id)
+\item 
+int \hyperlink{class_game_table_a006ac9866c9df6e59013076f31acb189}{count\-Monster} () const 
+\item 
+void \hyperlink{class_game_table_a5e4fb4d69f728df47a7c356fe0f9ec6b}{bind} (int i, \hyperlink{class_control}{Control} $\ast$c, int team, std\-::string skin)
+\item 
+void \hyperlink{class_game_table_a433175e6bb790a958d0061008512bd06}{execute} (\hyperlink{class_network_event}{Network\-Event} event)
+\item 
+std\-::vector$<$ \hyperlink{class_network_event}{Network\-Event} $>$ \& \hyperlink{class_game_table_aecff76fefb2d7da83ab9d9172645e764}{get\-Movement} ()
+\item 
+void \hyperlink{class_game_table_ac7d982938712ac3a96d8e4e5b14861e3}{set\-Calc} (bool i\-Calc)
+\item 
+bool \hyperlink{class_game_table_a83287376ac843c8ab8c0836ef3b366bb}{get\-Calc} () const 
+\item 
+G\-A\-M\-E\-\_\-\-G\-O\-A\-L \hyperlink{class_game_table_ac39323a670d7a25028acf4d0bbbf61fe}{get\-Goal} () const 
+\item 
+bool \hyperlink{class_game_table_a149298d7d55d483045f09281e2e491e9}{get\-Wait\-Round} ()
+\item 
+void \hyperlink{class_game_table_a6c5bb6acd3769d8a06286093ad58abb1}{set\-Wait\-Round} (bool i\-Wait\-Round)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The game table, lasts for a game's all rounds (5 or more if not terminated) 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_game_table_a8181bb1ba469353af8bb157439a0559f}{\index{Game\-Table@{Game\-Table}!Game\-Table@{Game\-Table}}
+\index{Game\-Table@{Game\-Table}!GameTable@{Game\-Table}}
+\subsubsection[{Game\-Table}]{\setlength{\rightskip}{0pt plus 5cm}Game\-Table\-::\-Game\-Table (
+\begin{DoxyParamCaption}
+\item[{{\bf View} \&}]{i\-View}
+\end{DoxyParamCaption}
+)}}\label{class_game_table_a8181bb1ba469353af8bb157439a0559f}
+Constructor 
+\begin{DoxyParams}{Parameters}
+{\em i\-View} & \hyperlink{class_view}{View} class \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_game_table_a26af150d29ca306ce34bc4c21eff4434}{\index{Game\-Table@{Game\-Table}!$\sim$\-Game\-Table@{$\sim$\-Game\-Table}}
+\index{$\sim$\-Game\-Table@{$\sim$\-Game\-Table}!GameTable@{Game\-Table}}
+\subsubsection[{$\sim$\-Game\-Table}]{\setlength{\rightskip}{0pt plus 5cm}Game\-Table\-::$\sim$\-Game\-Table (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_game_table_a26af150d29ca306ce34bc4c21eff4434}
+Destructor 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_game_table_a5e4fb4d69f728df47a7c356fe0f9ec6b}{\index{Game\-Table@{Game\-Table}!bind@{bind}}
+\index{bind@{bind}!GameTable@{Game\-Table}}
+\subsubsection[{bind}]{\setlength{\rightskip}{0pt plus 5cm}void Game\-Table\-::bind (
+\begin{DoxyParamCaption}
+\item[{int}]{i, }
+\item[{{\bf Control} $\ast$}]{c, }
+\item[{int}]{team, }
+\item[{std\-::string}]{skin}
+\end{DoxyParamCaption}
+)}}\label{class_game_table_a5e4fb4d69f728df47a7c356fe0f9ec6b}
+Bind player to \hyperlink{class_control}{Control} class 
+\begin{DoxyParams}{Parameters}
+{\em i} & player I\-D \\
+\hline
+{\em c} & \hyperlink{class_control}{Control} class \\
+\hline
+{\em team} & 1 or 2 \\
+\hline
+{\em skin} & the skin of player \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_game_table_a7c069f3204763f1724ee32bbf811d8d2}{\index{Game\-Table@{Game\-Table}!build\-Walls@{build\-Walls}}
+\index{build\-Walls@{build\-Walls}!GameTable@{Game\-Table}}
+\subsubsection[{build\-Walls}]{\setlength{\rightskip}{0pt plus 5cm}void Game\-Table\-::build\-Walls (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_game_table_a7c069f3204763f1724ee32bbf811d8d2}
+If the wall is build, then put it on the map (after animation) \hypertarget{class_game_table_a006ac9866c9df6e59013076f31acb189}{\index{Game\-Table@{Game\-Table}!count\-Monster@{count\-Monster}}
+\index{count\-Monster@{count\-Monster}!GameTable@{Game\-Table}}
+\subsubsection[{count\-Monster}]{\setlength{\rightskip}{0pt plus 5cm}int Game\-Table\-::count\-Monster (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_game_table_a006ac9866c9df6e59013076f31acb189}
+Count alive monsters \hypertarget{class_game_table_a73190cc97fe6a3a3091433b205b470b2}{\index{Game\-Table@{Game\-Table}!draw@{draw}}
+\index{draw@{draw}!GameTable@{Game\-Table}}
+\subsubsection[{draw}]{\setlength{\rightskip}{0pt plus 5cm}void Game\-Table\-::draw (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_game_table_a73190cc97fe6a3a3091433b205b470b2}
+Draw everything \hypertarget{class_game_table_a433175e6bb790a958d0061008512bd06}{\index{Game\-Table@{Game\-Table}!execute@{execute}}
+\index{execute@{execute}!GameTable@{Game\-Table}}
+\subsubsection[{execute}]{\setlength{\rightskip}{0pt plus 5cm}void Game\-Table\-::execute (
+\begin{DoxyParamCaption}
+\item[{{\bf Network\-Event}}]{event}
+\end{DoxyParamCaption}
+)}}\label{class_game_table_a433175e6bb790a958d0061008512bd06}
+Execute remote command \hypertarget{class_game_table_a74ce2ab48d21cdf50cc8cf0ca20dc6f6}{\index{Game\-Table@{Game\-Table}!generate\-Base@{generate\-Base}}
+\index{generate\-Base@{generate\-Base}!GameTable@{Game\-Table}}
+\subsubsection[{generate\-Base}]{\setlength{\rightskip}{0pt plus 5cm}void Game\-Table\-::generate\-Base (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_game_table_a74ce2ab48d21cdf50cc8cf0ca20dc6f6}
+Generate an empty map \hypertarget{class_game_table_a8a516c486ae6606739a9e3759351983c}{\index{Game\-Table@{Game\-Table}!generate\-Map@{generate\-Map}}
+\index{generate\-Map@{generate\-Map}!GameTable@{Game\-Table}}
+\subsubsection[{generate\-Map}]{\setlength{\rightskip}{0pt plus 5cm}void Game\-Table\-::generate\-Map (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_game_table_a8a516c486ae6606739a9e3759351983c}
+Generate a random map \hypertarget{class_game_table_a83287376ac843c8ab8c0836ef3b366bb}{\index{Game\-Table@{Game\-Table}!get\-Calc@{get\-Calc}}
+\index{get\-Calc@{get\-Calc}!GameTable@{Game\-Table}}
+\subsubsection[{get\-Calc}]{\setlength{\rightskip}{0pt plus 5cm}bool Game\-Table\-::get\-Calc (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_game_table_a83287376ac843c8ab8c0836ef3b366bb}
+Getter of calc, true if client \hypertarget{class_game_table_a3fe1e86315247151837f2df404329390}{\index{Game\-Table@{Game\-Table}!get\-Config@{get\-Config}}
+\index{get\-Config@{get\-Config}!GameTable@{Game\-Table}}
+\subsubsection[{get\-Config}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Game\-Config}\& Game\-Table\-::get\-Config (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_game_table_a3fe1e86315247151837f2df404329390}
+Get configuration of map \hypertarget{class_game_table_ac39323a670d7a25028acf4d0bbbf61fe}{\index{Game\-Table@{Game\-Table}!get\-Goal@{get\-Goal}}
+\index{get\-Goal@{get\-Goal}!GameTable@{Game\-Table}}
+\subsubsection[{get\-Goal}]{\setlength{\rightskip}{0pt plus 5cm}G\-A\-M\-E\-\_\-\-G\-O\-A\-L Game\-Table\-::get\-Goal (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_game_table_ac39323a670d7a25028acf4d0bbbf61fe}
+Get game goal, for score computing \hypertarget{class_game_table_aecff76fefb2d7da83ab9d9172645e764}{\index{Game\-Table@{Game\-Table}!get\-Movement@{get\-Movement}}
+\index{get\-Movement@{get\-Movement}!GameTable@{Game\-Table}}
+\subsubsection[{get\-Movement}]{\setlength{\rightskip}{0pt plus 5cm}std\-::vector$<$ {\bf Network\-Event} $>$ \& Game\-Table\-::get\-Movement (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_game_table_aecff76fefb2d7da83ab9d9172645e764}
+Get movement of player for network \hypertarget{class_game_table_a0f12dc7e75a2358cc1ab88a407bf5042}{\index{Game\-Table@{Game\-Table}!get\-N\-Players@{get\-N\-Players}}
+\index{get\-N\-Players@{get\-N\-Players}!GameTable@{Game\-Table}}
+\subsubsection[{get\-N\-Players}]{\setlength{\rightskip}{0pt plus 5cm}const int Game\-Table\-::get\-N\-Players (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_game_table_a0f12dc7e75a2358cc1ab88a407bf5042}
+Get players array (const) \hypertarget{class_game_table_ad5cf494f1d7d552807b571fa64bd917a}{\index{Game\-Table@{Game\-Table}!get\-Players@{get\-Players}}
+\index{get\-Players@{get\-Players}!GameTable@{Game\-Table}}
+\subsubsection[{get\-Players}]{\setlength{\rightskip}{0pt plus 5cm}const std\-::vector$<${\bf Player}$>$\& Game\-Table\-::get\-Players (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_game_table_ad5cf494f1d7d552807b571fa64bd917a}
+Get players array (const) \hypertarget{class_game_table_a149298d7d55d483045f09281e2e491e9}{\index{Game\-Table@{Game\-Table}!get\-Wait\-Round@{get\-Wait\-Round}}
+\index{get\-Wait\-Round@{get\-Wait\-Round}!GameTable@{Game\-Table}}
+\subsubsection[{get\-Wait\-Round}]{\setlength{\rightskip}{0pt plus 5cm}bool Game\-Table\-::get\-Wait\-Round (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_game_table_a149298d7d55d483045f09281e2e491e9}
+Wait round, for client \hypertarget{class_game_table_a168991df1df26c1f5a6f468910191b0d}{\index{Game\-Table@{Game\-Table}!inc\-Score@{inc\-Score}}
+\index{inc\-Score@{inc\-Score}!GameTable@{Game\-Table}}
+\subsubsection[{inc\-Score}]{\setlength{\rightskip}{0pt plus 5cm}void Game\-Table\-::inc\-Score (
+\begin{DoxyParamCaption}
+\item[{int}]{p\-Id}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_game_table_a168991df1df26c1f5a6f468910191b0d}
+Increase score of player 
+\begin{DoxyParams}{Parameters}
+{\em p\-Id} & player I\-D \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_game_table_a0c830892ac64a23447a122de268357e0}{\index{Game\-Table@{Game\-Table}!is\-Any\-Player\-Put@{is\-Any\-Player\-Put}}
+\index{is\-Any\-Player\-Put@{is\-Any\-Player\-Put}!GameTable@{Game\-Table}}
+\subsubsection[{is\-Any\-Player\-Put}]{\setlength{\rightskip}{0pt plus 5cm}bool Game\-Table\-::is\-Any\-Player\-Put (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{class_game_table_a0c830892ac64a23447a122de268357e0}
+Returns if any of the active players push bomb put button \hypertarget{class_game_table_a0d3a30f842c2a0a564a4a9790711a49d}{\index{Game\-Table@{Game\-Table}!load\-Map@{load\-Map}}
+\index{load\-Map@{load\-Map}!GameTable@{Game\-Table}}
+\subsubsection[{load\-Map}]{\setlength{\rightskip}{0pt plus 5cm}std\-::string Game\-Table\-::load\-Map (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{file}
+\end{DoxyParamCaption}
+)}}\label{class_game_table_a0d3a30f842c2a0a564a4a9790711a49d}
+Load map from file 
+\begin{DoxyParams}{Parameters}
+{\em file} & file name \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+name of the next map 
+\end{DoxyReturn}
+\hypertarget{class_game_table_a792dea56e19cd3c484f43c2577a1ffbd}{\index{Game\-Table@{Game\-Table}!main\-Loop@{main\-Loop}}
+\index{main\-Loop@{main\-Loop}!GameTable@{Game\-Table}}
+\subsubsection[{main\-Loop}]{\setlength{\rightskip}{0pt plus 5cm}void Game\-Table\-::main\-Loop (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_game_table_a792dea56e19cd3c484f43c2577a1ffbd}
+Move things on map and check collision \hypertarget{class_game_table_ac7d982938712ac3a96d8e4e5b14861e3}{\index{Game\-Table@{Game\-Table}!set\-Calc@{set\-Calc}}
+\index{set\-Calc@{set\-Calc}!GameTable@{Game\-Table}}
+\subsubsection[{set\-Calc}]{\setlength{\rightskip}{0pt plus 5cm}void Game\-Table\-::set\-Calc (
+\begin{DoxyParamCaption}
+\item[{bool}]{i\-Calc}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_game_table_ac7d982938712ac3a96d8e4e5b14861e3}
+Setter of calc, true if client \hypertarget{class_game_table_ab7b910524953383dd7038a389b0e5d51}{\index{Game\-Table@{Game\-Table}!set\-Config@{set\-Config}}
+\index{set\-Config@{set\-Config}!GameTable@{Game\-Table}}
+\subsubsection[{set\-Config}]{\setlength{\rightskip}{0pt plus 5cm}void Game\-Table\-::set\-Config (
+\begin{DoxyParamCaption}
+\item[{{\bf Game\-Config} \&}]{conf}
+\end{DoxyParamCaption}
+)}}\label{class_game_table_ab7b910524953383dd7038a389b0e5d51}
+Set configuration for map \hypertarget{class_game_table_aa038eb8097eec472d07778a3c637f439}{\index{Game\-Table@{Game\-Table}!set\-Players@{set\-Players}}
+\index{set\-Players@{set\-Players}!GameTable@{Game\-Table}}
+\subsubsection[{set\-Players}]{\setlength{\rightskip}{0pt plus 5cm}void Game\-Table\-::set\-Players (
+\begin{DoxyParamCaption}
+\item[{int}]{n}
+\end{DoxyParamCaption}
+)}}\label{class_game_table_aa038eb8097eec472d07778a3c637f439}
+Set number of players \hypertarget{class_game_table_acb2b7d5332b5cd390e4d1c7f265c9f25}{\index{Game\-Table@{Game\-Table}!set\-Start@{set\-Start}}
+\index{set\-Start@{set\-Start}!GameTable@{Game\-Table}}
+\subsubsection[{set\-Start}]{\setlength{\rightskip}{0pt plus 5cm}void Game\-Table\-::set\-Start (
+\begin{DoxyParamCaption}
+\item[{int}]{x, }
+\item[{int}]{y, }
+\item[{int}]{i}
+\end{DoxyParamCaption}
+)}}\label{class_game_table_acb2b7d5332b5cd390e4d1c7f265c9f25}
+Set start position of player 
+\begin{DoxyParams}{Parameters}
+{\em x} & coordinate x \\
+\hline
+{\em y} & coordinate y \\
+\hline
+{\em i} & player I\-D \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_game_table_a6c5bb6acd3769d8a06286093ad58abb1}{\index{Game\-Table@{Game\-Table}!set\-Wait\-Round@{set\-Wait\-Round}}
+\index{set\-Wait\-Round@{set\-Wait\-Round}!GameTable@{Game\-Table}}
+\subsubsection[{set\-Wait\-Round}]{\setlength{\rightskip}{0pt plus 5cm}void Game\-Table\-::set\-Wait\-Round (
+\begin{DoxyParamCaption}
+\item[{bool}]{i\-Wait\-Round}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_game_table_a6c5bb6acd3769d8a06286093ad58abb1}
+Set wait round, for client \hypertarget{class_game_table_a8eec3746aac496efa42ccf855c09ee85}{\index{Game\-Table@{Game\-Table}!spawn\-Monster@{spawn\-Monster}}
+\index{spawn\-Monster@{spawn\-Monster}!GameTable@{Game\-Table}}
+\subsubsection[{spawn\-Monster}]{\setlength{\rightskip}{0pt plus 5cm}void Game\-Table\-::spawn\-Monster (
+\begin{DoxyParamCaption}
+\item[{int}]{i = {\ttfamily -\/1}, }
+\item[{int}]{x = {\ttfamily -\/1}, }
+\item[{int}]{y = {\ttfamily -\/1}}
+\end{DoxyParamCaption}
+)}}\label{class_game_table_a8eec3746aac496efa42ccf855c09ee85}
+Spawn monster. Call it with -\/1 to get random position or type. 
+\begin{DoxyParams}{Parameters}
+{\em i} & type of monster \\
+\hline
+{\em x} & coordinate x \\
+\hline
+{\em y} & coordinate y \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_game_table_a833b9a8d434677b3186f83f29e4665f2}{\index{Game\-Table@{Game\-Table}!spawn\-Player@{spawn\-Player}}
+\index{spawn\-Player@{spawn\-Player}!GameTable@{Game\-Table}}
+\subsubsection[{spawn\-Player}]{\setlength{\rightskip}{0pt plus 5cm}void Game\-Table\-::spawn\-Player (
+\begin{DoxyParamCaption}
+\item[{int}]{i}
+\end{DoxyParamCaption}
+)}}\label{class_game_table_a833b9a8d434677b3186f83f29e4665f2}
+Spawn player on map 
+\begin{DoxyParams}{Parameters}
+{\em i} & player I\-D \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_game_table_a32bf219b191b9dfec2ffb0944e3cba60}{\index{Game\-Table@{Game\-Table}!spawn\-Walls@{spawn\-Walls}}
+\index{spawn\-Walls@{spawn\-Walls}!GameTable@{Game\-Table}}
+\subsubsection[{spawn\-Walls}]{\setlength{\rightskip}{0pt plus 5cm}void Game\-Table\-::spawn\-Walls (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_game_table_a32bf219b191b9dfec2ffb0944e3cba60}
+Start building maximum given number of walls on map \hypertarget{class_game_table_adcbf40752d938e540143ae9f0557fe1d}{\index{Game\-Table@{Game\-Table}!spawn\-Walls@{spawn\-Walls}}
+\index{spawn\-Walls@{spawn\-Walls}!GameTable@{Game\-Table}}
+\subsubsection[{spawn\-Walls}]{\setlength{\rightskip}{0pt plus 5cm}void Game\-Table\-::spawn\-Walls (
+\begin{DoxyParamCaption}
+\item[{{\bf Point}$<$ int $>$}]{p, }
+\item[{bool}]{do\-Animation = {\ttfamily true}}
+\end{DoxyParamCaption}
+)}}\label{class_game_table_adcbf40752d938e540143ae9f0557fe1d}
+Start building a wall at given position 
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+gametable.\-h\item 
+gametable.\-cpp\end{DoxyCompactItemize}

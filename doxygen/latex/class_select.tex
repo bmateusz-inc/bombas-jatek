@@ -1,0 +1,93 @@
+\hypertarget{class_select}{\section{Select Class Reference}
+\label{class_select}\index{Select@{Select}}
+}
+
+
+{\ttfamily \#include $<$select.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_select_a690e07f6c8de112fda9d8a586faf0c26}{Select} (\hyperlink{class_view}{View} \&iview, \hyperlink{class_input}{Input} \&iinput, \hyperlink{class_game_table}{Game\-Table} \&itable, \hyperlink{class_network}{Network} \&i\-Network, G\-A\-M\-E\-\_\-\-M\-O\-D\-E igame\-Mode, G\-A\-M\-E\-\_\-\-P\-L\-A\-C\-E igame\-Place)
+\item 
+bool \hyperlink{class_select_a59168f64ef8318b41ed37206fd12342e}{main\-Loop} ()
+\item 
+bool \hyperlink{class_select_a6596137a2f847b8d4f45f27a2b0cb47d}{get\-Run} ()
+\item 
+int \hyperlink{class_select_a5c032e93122841a71976e53f9d09a217}{get\-N} ()
+\item 
+G\-A\-M\-E\-\_\-\-M\-O\-D\-E \hyperlink{class_select_a914cea4278472e7c73642ddf61c8d0d4}{get\-Game\-Mode} () const 
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This class allows the users to select controllers before starting the game 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_select_a690e07f6c8de112fda9d8a586faf0c26}{\index{Select@{Select}!Select@{Select}}
+\index{Select@{Select}!Select@{Select}}
+\subsubsection[{Select}]{\setlength{\rightskip}{0pt plus 5cm}Select\-::\-Select (
+\begin{DoxyParamCaption}
+\item[{{\bf View} \&}]{iview, }
+\item[{{\bf Input} \&}]{iinput, }
+\item[{{\bf Game\-Table} \&}]{itable, }
+\item[{{\bf Network} \&}]{i\-Network, }
+\item[{G\-A\-M\-E\-\_\-\-M\-O\-D\-E}]{igame\-Mode, }
+\item[{G\-A\-M\-E\-\_\-\-P\-L\-A\-C\-E}]{igame\-Place}
+\end{DoxyParamCaption}
+)}}\label{class_select_a690e07f6c8de112fda9d8a586faf0c26}
+Constructor 
+\begin{DoxyParams}{Parameters}
+{\em iview} & \hyperlink{class_view}{View} class \\
+\hline
+{\em iinput} & \hyperlink{class_input}{Input} class \\
+\hline
+{\em itable} & Table class \\
+\hline
+{\em i\-Network} & \hyperlink{class_network}{Network} class \\
+\hline
+{\em igame\-Mode} & game mode selected \\
+\hline
+{\em igame\-Place} & game place \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_select_a914cea4278472e7c73642ddf61c8d0d4}{\index{Select@{Select}!get\-Game\-Mode@{get\-Game\-Mode}}
+\index{get\-Game\-Mode@{get\-Game\-Mode}!Select@{Select}}
+\subsubsection[{get\-Game\-Mode}]{\setlength{\rightskip}{0pt plus 5cm}G\-A\-M\-E\-\_\-\-M\-O\-D\-E Select\-::get\-Game\-Mode (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_select_a914cea4278472e7c73642ddf61c8d0d4}
+Getter of game mode \hypertarget{class_select_a5c032e93122841a71976e53f9d09a217}{\index{Select@{Select}!get\-N@{get\-N}}
+\index{get\-N@{get\-N}!Select@{Select}}
+\subsubsection[{get\-N}]{\setlength{\rightskip}{0pt plus 5cm}int Select\-::get\-N (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_select_a5c032e93122841a71976e53f9d09a217}
+Getter for number of players \hypertarget{class_select_a6596137a2f847b8d4f45f27a2b0cb47d}{\index{Select@{Select}!get\-Run@{get\-Run}}
+\index{get\-Run@{get\-Run}!Select@{Select}}
+\subsubsection[{get\-Run}]{\setlength{\rightskip}{0pt plus 5cm}bool Select\-::get\-Run (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_select_a6596137a2f847b8d4f45f27a2b0cb47d}
+Getter for run \hypertarget{class_select_a59168f64ef8318b41ed37206fd12342e}{\index{Select@{Select}!main\-Loop@{main\-Loop}}
+\index{main\-Loop@{main\-Loop}!Select@{Select}}
+\subsubsection[{main\-Loop}]{\setlength{\rightskip}{0pt plus 5cm}bool Select\-::main\-Loop (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_select_a59168f64ef8318b41ed37206fd12342e}
+The main loop, shows the menu for selecting input \begin{DoxyReturn}{Returns}
+selecting is not finished 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+select.\-h\item 
+select.\-cpp\end{DoxyCompactItemize}

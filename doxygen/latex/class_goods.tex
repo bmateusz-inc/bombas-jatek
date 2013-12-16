@@ -1,0 +1,157 @@
+\hypertarget{class_goods}{\section{Goods Class Reference}
+\label{class_goods}\index{Goods@{Goods}}
+}
+
+
+{\ttfamily \#include $<$goods.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_goods_a11ec1c9d1cf7df8c07419e3cbec4ccf3}{Goods} ()
+\item 
+\hyperlink{class_goods_a6107e093dffc503c9b490158b2c4931d}{Goods} (\hyperlink{class_point}{Point}$<$ int $>$ ipoint, G\-O\-O\-D\-S itype)
+\item 
+int \hyperlink{class_goods_a5e0062733281c329b74a33caa29843eb}{get\-X} ()
+\item 
+int \hyperlink{class_goods_a998939d13e143f6d0273c9f1033475b1}{get\-Y} ()
+\item 
+\hyperlink{class_point}{Point}$<$ int $>$ \hyperlink{class_goods_a4c8000347349db2880a9c3a117257985}{get\-Point} ()
+\item 
+G\-O\-O\-D\-S \hyperlink{class_goods_ab3e4db06673c19dbb824f31046ead735}{get\-Type} ()
+\item 
+std\-::string \hyperlink{class_goods_adcd12006e09bc2e1fa0248418f096cfb}{state} ()
+\item 
+int \hyperlink{class_goods_a68dcbdda6ea04ec570a07f87d773cf05}{effect} (\hyperlink{class_player}{Player} $\ast$p, std\-::string \&text)
+\item 
+P\-L\-A\-Y\-E\-R\-\_\-\-V\-I\-R\-U\-S \hyperlink{class_goods_aa0a58b7ee410f1a15e2ea50357fba1e1}{get\-Rand\-Virus} ()
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static std\-::string \hyperlink{class_goods_a770112fe71f29a1f54ebb9dfdd498e74}{effect} (\hyperlink{class_player}{Player} $\ast$p, int infection)
+\item 
+static G\-O\-O\-D\-S \hyperlink{class_goods_a4860ca001ddd33cbfa4772dcf1376dcd}{get\-Rand\-Good} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Bonuses (bomb and flame booster) and viruses 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_goods_a11ec1c9d1cf7df8c07419e3cbec4ccf3}{\index{Goods@{Goods}!Goods@{Goods}}
+\index{Goods@{Goods}!Goods@{Goods}}
+\subsubsection[{Goods}]{\setlength{\rightskip}{0pt plus 5cm}Goods\-::\-Goods (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_goods_a11ec1c9d1cf7df8c07419e3cbec4ccf3}
+Default constructor \hypertarget{class_goods_a6107e093dffc503c9b490158b2c4931d}{\index{Goods@{Goods}!Goods@{Goods}}
+\index{Goods@{Goods}!Goods@{Goods}}
+\subsubsection[{Goods}]{\setlength{\rightskip}{0pt plus 5cm}Goods\-::\-Goods (
+\begin{DoxyParamCaption}
+\item[{{\bf Point}$<$ int $>$}]{ipoint, }
+\item[{G\-O\-O\-D\-S}]{itype}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_goods_a6107e093dffc503c9b490158b2c4931d}
+Constructor 
+\begin{DoxyParams}{Parameters}
+{\em ipoint} & place of good \\
+\hline
+{\em itype} & type of good (virus, bomb+, flame+) \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_goods_a68dcbdda6ea04ec570a07f87d773cf05}{\index{Goods@{Goods}!effect@{effect}}
+\index{effect@{effect}!Goods@{Goods}}
+\subsubsection[{effect}]{\setlength{\rightskip}{0pt plus 5cm}int Goods\-::effect (
+\begin{DoxyParamCaption}
+\item[{{\bf Player} $\ast$}]{p, }
+\item[{std\-::string \&}]{text}
+\end{DoxyParamCaption}
+)}}\label{class_goods_a68dcbdda6ea04ec570a07f87d773cf05}
+Apply effect on player 
+\begin{DoxyParams}{Parameters}
+{\em p} & pointer to player \\
+\hline
+{\em text} & to show \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+code of infection 
+\end{DoxyReturn}
+\hypertarget{class_goods_a770112fe71f29a1f54ebb9dfdd498e74}{\index{Goods@{Goods}!effect@{effect}}
+\index{effect@{effect}!Goods@{Goods}}
+\subsubsection[{effect}]{\setlength{\rightskip}{0pt plus 5cm}std\-::string Goods\-::effect (
+\begin{DoxyParamCaption}
+\item[{{\bf Player} $\ast$}]{p, }
+\item[{int}]{infection}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_goods_a770112fe71f29a1f54ebb9dfdd498e74}
+Effect player with good 
+\begin{DoxyParams}{Parameters}
+{\em p} & player \\
+\hline
+{\em infection} & infection \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+text to show on table 
+\end{DoxyReturn}
+\hypertarget{class_goods_a4c8000347349db2880a9c3a117257985}{\index{Goods@{Goods}!get\-Point@{get\-Point}}
+\index{get\-Point@{get\-Point}!Goods@{Goods}}
+\subsubsection[{get\-Point}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Point}$<$int$>$ Goods\-::get\-Point (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_goods_a4c8000347349db2880a9c3a117257985}
+Get point \hypertarget{class_goods_a4860ca001ddd33cbfa4772dcf1376dcd}{\index{Goods@{Goods}!get\-Rand\-Good@{get\-Rand\-Good}}
+\index{get\-Rand\-Good@{get\-Rand\-Good}!Goods@{Goods}}
+\subsubsection[{get\-Rand\-Good}]{\setlength{\rightskip}{0pt plus 5cm}static G\-O\-O\-D\-S Goods\-::get\-Rand\-Good (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}}\label{class_goods_a4860ca001ddd33cbfa4772dcf1376dcd}
+Get a random \hyperlink{class_goods}{Goods} element (just type) \hypertarget{class_goods_aa0a58b7ee410f1a15e2ea50357fba1e1}{\index{Goods@{Goods}!get\-Rand\-Virus@{get\-Rand\-Virus}}
+\index{get\-Rand\-Virus@{get\-Rand\-Virus}!Goods@{Goods}}
+\subsubsection[{get\-Rand\-Virus}]{\setlength{\rightskip}{0pt plus 5cm}P\-L\-A\-Y\-E\-R\-\_\-\-V\-I\-R\-U\-S Goods\-::get\-Rand\-Virus (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_goods_aa0a58b7ee410f1a15e2ea50357fba1e1}
+Random virus \hypertarget{class_goods_ab3e4db06673c19dbb824f31046ead735}{\index{Goods@{Goods}!get\-Type@{get\-Type}}
+\index{get\-Type@{get\-Type}!Goods@{Goods}}
+\subsubsection[{get\-Type}]{\setlength{\rightskip}{0pt plus 5cm}G\-O\-O\-D\-S Goods\-::get\-Type (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_goods_ab3e4db06673c19dbb824f31046ead735}
+Get type of good \hypertarget{class_goods_a5e0062733281c329b74a33caa29843eb}{\index{Goods@{Goods}!get\-X@{get\-X}}
+\index{get\-X@{get\-X}!Goods@{Goods}}
+\subsubsection[{get\-X}]{\setlength{\rightskip}{0pt plus 5cm}int Goods\-::get\-X (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_goods_a5e0062733281c329b74a33caa29843eb}
+Get X coordinate \hypertarget{class_goods_a998939d13e143f6d0273c9f1033475b1}{\index{Goods@{Goods}!get\-Y@{get\-Y}}
+\index{get\-Y@{get\-Y}!Goods@{Goods}}
+\subsubsection[{get\-Y}]{\setlength{\rightskip}{0pt plus 5cm}int Goods\-::get\-Y (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_goods_a998939d13e143f6d0273c9f1033475b1}
+Get Y coordinate \hypertarget{class_goods_adcd12006e09bc2e1fa0248418f096cfb}{\index{Goods@{Goods}!state@{state}}
+\index{state@{state}!Goods@{Goods}}
+\subsubsection[{state}]{\setlength{\rightskip}{0pt plus 5cm}std\-::string Goods\-::state (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_goods_adcd12006e09bc2e1fa0248418f096cfb}
+Get graphic file name of good 
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+goods.\-h\item 
+goods.\-cpp\end{DoxyCompactItemize}

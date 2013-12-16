@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <data xmlns="http://www.netbeans.org/ns/make-project-private/1">
+        <activeConfTypeElem>1</activeConfTypeElem>
+        <activeConfIndexElem>1</activeConfIndexElem>
+    </data>
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/D:/dyna/scoreboard.cpp</file>
+            <file>file:/D:/dyna/network.cpp</file>
+            <file>file:/D:/dyna/game.h</file>
+            <file>file:/D:/dyna/player.cpp</file>
+            <file>file:/D:/dyna/main.cpp</file>
+            <file>file:/D:/dyna/scoreboard.h</file>
+            <file>file:/D:/dyna/client.cpp</file>
+            <file>file:/D:/dyna/gametable.cpp</file>
+            <file>file:/D:/dyna/gametable.h</file>
+            <file>file:/D:/dyna/networkevent.h</file>
+            <file>file:/D:/dyna/gamemanager.cpp</file>
+            <file>file:/D:/dyna/icon.rc</file>
+            <file>file:/D:/dyna/game.cpp</file>
+            <file>file:/D:/dyna/config.h</file>
+            <file>file:/D:/dyna/gameconfig.h</file>
+            <file>file:/D:/dyna/menu.cpp</file>
+            <file>file:/D:/dyna/gamemanager.h</file>
+            <file>file:/D:/dyna/textinput.cpp</file>
+            <file>file:/D:/dyna/select.cpp</file>
+            <file>file:/D:/dyna/network.h</file>
+            <file>file:/D:/dyna/config.cpp</file>
+            <file>file:/D:/dyna/client.h</file>
+            <file>file:/D:/dyna/server.cpp</file>
+            <file>file:/D:/dyna/menu.h</file>
+        </group>
+    </open-files>
+</project-private>

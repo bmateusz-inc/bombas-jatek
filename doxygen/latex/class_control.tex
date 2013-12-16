@@ -1,0 +1,163 @@
+\hypertarget{class_control}{\section{Control Class Reference}
+\label{class_control}\index{Control@{Control}}
+}
+
+
+{\ttfamily \#include $<$control.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_control_aa730aeda4517f40bc48ba1e46ebded77}{Control} ()
+\item 
+float \hyperlink{class_control_a8884ee3413a1e728750ca078c54debbb}{px} (float ix, float speed) const 
+\item 
+float \hyperlink{class_control_af20f59c16802372fb4f9778c9985c299}{py} (float iy, float speed) const 
+\item 
+void \hyperlink{class_control_a8143cd648439e87164f4199b8d5dbb4d}{set\-X} (float x)
+\item 
+void \hyperlink{class_control_a06aadb56b838ec4b3b594f929270378c}{set\-Y} (float y)
+\item 
+void \hyperlink{class_control_ab2a5593076c0ee41cd90f490a1fde83d}{set\-Delay} (float d)
+\item 
+void \hyperlink{class_control_a9b2ccced88b60c2f5eddcc7a69a41462}{set\-Put} (bool p)
+\item 
+float \hyperlink{class_control_a20677011cf6c8b0acb0914a6b38e3b24}{get\-X} () const 
+\item 
+float \hyperlink{class_control_a77287e717f1da098f6649801cc60e2c4}{get\-Y} () const 
+\item 
+float \hyperlink{class_control_a27dcab7b0295429cbd49ec00f6d06978}{get\-Delay} () const 
+\item 
+bool \hyperlink{class_control_a12442ff0f59914230dd7befeecc92f2d}{get\-Put} () const 
+\item 
+void \hyperlink{class_control_a40dcdbc8a1409217b3efe4ae97e5df8d}{reset} ()
+\item 
+void \hyperlink{class_control_a3734112d2e86f5f98172739028536f6e}{operator+=} (const \hyperlink{class_control}{Control} \&control)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Interface between \hyperlink{class_input}{Input} and \hyperlink{class_player}{Player} 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_control_aa730aeda4517f40bc48ba1e46ebded77}{\index{Control@{Control}!Control@{Control}}
+\index{Control@{Control}!Control@{Control}}
+\subsubsection[{Control}]{\setlength{\rightskip}{0pt plus 5cm}Control\-::\-Control (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_control_aa730aeda4517f40bc48ba1e46ebded77}
+Constructor 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_control_a27dcab7b0295429cbd49ec00f6d06978}{\index{Control@{Control}!get\-Delay@{get\-Delay}}
+\index{get\-Delay@{get\-Delay}!Control@{Control}}
+\subsubsection[{get\-Delay}]{\setlength{\rightskip}{0pt plus 5cm}float Control\-::get\-Delay (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_control_a27dcab7b0295429cbd49ec00f6d06978}
+Get time difference between frames \hypertarget{class_control_a12442ff0f59914230dd7befeecc92f2d}{\index{Control@{Control}!get\-Put@{get\-Put}}
+\index{get\-Put@{get\-Put}!Control@{Control}}
+\subsubsection[{get\-Put}]{\setlength{\rightskip}{0pt plus 5cm}bool Control\-::get\-Put (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_control_a12442ff0f59914230dd7befeecc92f2d}
+Get if the player wants to put bomb \hypertarget{class_control_a20677011cf6c8b0acb0914a6b38e3b24}{\index{Control@{Control}!get\-X@{get\-X}}
+\index{get\-X@{get\-X}!Control@{Control}}
+\subsubsection[{get\-X}]{\setlength{\rightskip}{0pt plus 5cm}float Control\-::get\-X (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_control_a20677011cf6c8b0acb0914a6b38e3b24}
+Get X vector \hypertarget{class_control_a77287e717f1da098f6649801cc60e2c4}{\index{Control@{Control}!get\-Y@{get\-Y}}
+\index{get\-Y@{get\-Y}!Control@{Control}}
+\subsubsection[{get\-Y}]{\setlength{\rightskip}{0pt plus 5cm}float Control\-::get\-Y (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_control_a77287e717f1da098f6649801cc60e2c4}
+Get Y vector \hypertarget{class_control_a3734112d2e86f5f98172739028536f6e}{\index{Control@{Control}!operator+=@{operator+=}}
+\index{operator+=@{operator+=}!Control@{Control}}
+\subsubsection[{operator+=}]{\setlength{\rightskip}{0pt plus 5cm}void Control\-::operator+= (
+\begin{DoxyParamCaption}
+\item[{const {\bf Control} \&}]{control}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_control_a3734112d2e86f5f98172739028536f6e}
+Implicit add operator \hypertarget{class_control_a8884ee3413a1e728750ca078c54debbb}{\index{Control@{Control}!px@{px}}
+\index{px@{px}!Control@{Control}}
+\subsubsection[{px}]{\setlength{\rightskip}{0pt plus 5cm}float Control\-::px (
+\begin{DoxyParamCaption}
+\item[{float}]{ix, }
+\item[{float}]{speed}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_control_a8884ee3413a1e728750ca078c54debbb}
+Get new X coordinate regarding current position, speed and frame time 
+\begin{DoxyParams}{Parameters}
+{\em ix} & current X position \\
+\hline
+{\em speed} & speed factor \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+new X position 
+\end{DoxyReturn}
+\hypertarget{class_control_af20f59c16802372fb4f9778c9985c299}{\index{Control@{Control}!py@{py}}
+\index{py@{py}!Control@{Control}}
+\subsubsection[{py}]{\setlength{\rightskip}{0pt plus 5cm}float Control\-::py (
+\begin{DoxyParamCaption}
+\item[{float}]{iy, }
+\item[{float}]{speed}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_control_af20f59c16802372fb4f9778c9985c299}
+Get new Y coordinate regarding current position, speed and frame time 
+\begin{DoxyParams}{Parameters}
+{\em iy} & current Y position \\
+\hline
+{\em speed} & speed factor \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+new Y position 
+\end{DoxyReturn}
+\hypertarget{class_control_a40dcdbc8a1409217b3efe4ae97e5df8d}{\index{Control@{Control}!reset@{reset}}
+\index{reset@{reset}!Control@{Control}}
+\subsubsection[{reset}]{\setlength{\rightskip}{0pt plus 5cm}void Control\-::reset (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_control_a40dcdbc8a1409217b3efe4ae97e5df8d}
+Set all values to default \hypertarget{class_control_ab2a5593076c0ee41cd90f490a1fde83d}{\index{Control@{Control}!set\-Delay@{set\-Delay}}
+\index{set\-Delay@{set\-Delay}!Control@{Control}}
+\subsubsection[{set\-Delay}]{\setlength{\rightskip}{0pt plus 5cm}void Control\-::set\-Delay (
+\begin{DoxyParamCaption}
+\item[{float}]{d}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_control_ab2a5593076c0ee41cd90f490a1fde83d}
+Set time difference between frames \hypertarget{class_control_a9b2ccced88b60c2f5eddcc7a69a41462}{\index{Control@{Control}!set\-Put@{set\-Put}}
+\index{set\-Put@{set\-Put}!Control@{Control}}
+\subsubsection[{set\-Put}]{\setlength{\rightskip}{0pt plus 5cm}void Control\-::set\-Put (
+\begin{DoxyParamCaption}
+\item[{bool}]{p}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_control_a9b2ccced88b60c2f5eddcc7a69a41462}
+Set if the player wants to put bomb \hypertarget{class_control_a8143cd648439e87164f4199b8d5dbb4d}{\index{Control@{Control}!set\-X@{set\-X}}
+\index{set\-X@{set\-X}!Control@{Control}}
+\subsubsection[{set\-X}]{\setlength{\rightskip}{0pt plus 5cm}void Control\-::set\-X (
+\begin{DoxyParamCaption}
+\item[{float}]{x}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_control_a8143cd648439e87164f4199b8d5dbb4d}
+Set X vector for local player \hypertarget{class_control_a06aadb56b838ec4b3b594f929270378c}{\index{Control@{Control}!set\-Y@{set\-Y}}
+\index{set\-Y@{set\-Y}!Control@{Control}}
+\subsubsection[{set\-Y}]{\setlength{\rightskip}{0pt plus 5cm}void Control\-::set\-Y (
+\begin{DoxyParamCaption}
+\item[{float}]{y}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_control_a06aadb56b838ec4b3b594f929270378c}
+Set Y vector for local player 
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+control.\-h\end{DoxyCompactItemize}

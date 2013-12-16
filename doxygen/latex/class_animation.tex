@@ -1,0 +1,82 @@
+\hypertarget{class_animation}{\section{Animation Class Reference}
+\label{class_animation}\index{Animation@{Animation}}
+}
+
+
+{\ttfamily \#include $<$animation.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_animation_a83f0a16cef7117f187ad596de38dd9d6}{Animation} ()
+\item 
+\hyperlink{class_animation_a97aee78e26558779ceaf1e9fe246720c}{Animation} (\hyperlink{struct_rect}{Rect} irect, T\-I\-M\-E istart, \hyperlink{class_anim_file}{Anim\-File} $\ast$ianim, std\-::string iparam=\char`\"{}\char`\"{})
+\item 
+std\-::string \hyperlink{class_animation_a1472a0972103d62a94f493f75ad91fa6}{draw} (T\-I\-M\-E time)
+\item 
+\hyperlink{struct_rect}{Rect} \hyperlink{class_animation_a62aeb060f1cc2b6cc012ca4461a4ff24}{get\-Rect} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Static animation 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_animation_a83f0a16cef7117f187ad596de38dd9d6}{\index{Animation@{Animation}!Animation@{Animation}}
+\index{Animation@{Animation}!Animation@{Animation}}
+\subsubsection[{Animation}]{\setlength{\rightskip}{0pt plus 5cm}Animation\-::\-Animation (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_animation_a83f0a16cef7117f187ad596de38dd9d6}
+Default constructor \hypertarget{class_animation_a97aee78e26558779ceaf1e9fe246720c}{\index{Animation@{Animation}!Animation@{Animation}}
+\index{Animation@{Animation}!Animation@{Animation}}
+\subsubsection[{Animation}]{\setlength{\rightskip}{0pt plus 5cm}Animation\-::\-Animation (
+\begin{DoxyParamCaption}
+\item[{{\bf Rect}}]{irect, }
+\item[{T\-I\-M\-E}]{istart, }
+\item[{{\bf Anim\-File} $\ast$}]{ianim, }
+\item[{std\-::string}]{iparam = {\ttfamily \char`\"{}\char`\"{}}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_animation_a97aee78e26558779ceaf1e9fe246720c}
+Constructor 
+\begin{DoxyParams}{Parameters}
+{\em irect} & rectangle where the animation will be shown \\
+\hline
+{\em istart} & start time of animation \\
+\hline
+{\em ianim} & previously loaded animation file \\
+\hline
+{\em iparam} & drawing parameters \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_animation_a1472a0972103d62a94f493f75ad91fa6}{\index{Animation@{Animation}!draw@{draw}}
+\index{draw@{draw}!Animation@{Animation}}
+\subsubsection[{draw}]{\setlength{\rightskip}{0pt plus 5cm}std\-::string Animation\-::draw (
+\begin{DoxyParamCaption}
+\item[{T\-I\-M\-E}]{time}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_animation_a1472a0972103d62a94f493f75ad91fa6}
+Draw animation frame regarding time 
+\begin{DoxyParams}{Parameters}
+{\em time} & current frame time \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+graphic string 
+\end{DoxyReturn}
+\hypertarget{class_animation_a62aeb060f1cc2b6cc012ca4461a4ff24}{\index{Animation@{Animation}!get\-Rect@{get\-Rect}}
+\index{get\-Rect@{get\-Rect}!Animation@{Animation}}
+\subsubsection[{get\-Rect}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Rect} Animation\-::get\-Rect (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_animation_a62aeb060f1cc2b6cc012ca4461a4ff24}
+Rectangle where animation is drawn 
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+view/animation.\-h\end{DoxyCompactItemize}

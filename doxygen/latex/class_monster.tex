@@ -1,0 +1,265 @@
+\hypertarget{class_monster}{\section{Monster Class Reference}
+\label{class_monster}\index{Monster@{Monster}}
+}
+
+
+{\ttfamily \#include $<$monster.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_monster_aa38e6e17f59a3112597a5ae7e01f447e}{Monster} (int itype, int isb, \hyperlink{class_point}{Point}$<$ float $>$ ipoint, int iid, T\-I\-M\-E inow)
+\item 
+bool \hyperlink{class_monster_af558bd1fd73a39d8b179d86656d8117f}{is\-Active} ()
+\item 
+bool \hyperlink{class_monster_a182b79c8d97b3fee25d25019fee43dbf}{collide} ()
+\item 
+std\-::string \hyperlink{class_monster_a393e45e15e584ab11bbadf20dde26a73}{die} ()
+\item 
+bool \hyperlink{class_monster_aaa9541f9ce3e205065bfbc1f24c5cef0}{alive} ()
+\item 
+void \hyperlink{class_monster_a15cc199da6293b74caab06a13791d374}{move} (T\-I\-M\-E inow)
+\item 
+bool \hyperlink{class_monster_af0ca0f158c1e1de2b498c9c8b2b9b69a}{change} ()
+\item 
+void \hyperlink{class_monster_ac939d27e784e74f3f83ff75d5b07d18a}{set\-X} (float x)
+\item 
+void \hyperlink{class_monster_a2e2439037a4133e2d9bf2e7d97e053a8}{set\-Y} (float y)
+\item 
+void \hyperlink{class_monster_ad8d29c4473062514986c23f88073a8d0}{set\-Dx} (float dx)
+\item 
+void \hyperlink{class_monster_a946db5465ec3edcf83d67120e9665aea}{set\-Dy} (float dy)
+\item 
+bool \hyperlink{class_monster_ac596b26c5192997b89f9f75a3bcd2745}{get\-Move} (\hyperlink{class_point}{Point}$<$ float $>$ \&p)
+\item 
+\hyperlink{class_point}{Point}$<$ float $>$ \hyperlink{class_monster_ac13c82f6368a4f0aa88d4fa18373413c}{get\-Point} ()
+\item 
+\hyperlink{class_point}{Point}$<$ int $>$ \hyperlink{class_monster_a8420f6b189642b5ce0d00c33a8538c88}{get\-Point\-Int} ()
+\item 
+float \hyperlink{class_monster_a098ed95cc3b7db039ba3d56c376c8c48}{get\-X} () const 
+\item 
+float \hyperlink{class_monster_afb990351774ec1e9771977dc6b6a3a38}{get\-Y} () const 
+\item 
+std\-::string \hyperlink{class_monster_a92d025698849788ef06e337f8a5413f1}{state} ()
+\item 
+bool \hyperlink{class_monster_a7e44e59c51a2bfcd8435455ab837b5e8}{get\-Goes\-Through\-Wall} ()
+\item 
+int \hyperlink{class_monster_ace362de3d9aba99bfaff938cd4e4e669}{get\-Id} ()
+\item 
+float \hyperlink{class_monster_a445db906382e3f745c757d114f2cbdb5}{get\-Network\-X} () const 
+\item 
+float \hyperlink{class_monster_aecc657595adcf45f1b393311d3b7a8a9}{get\-Network\-Y} () const 
+\item 
+void \hyperlink{class_monster_a043642ab1fccc26443d3d3688c90d437}{set\-Network\-X} (float ix)
+\item 
+void \hyperlink{class_monster_a52e4da28435fda501ce00313ed62ae6b}{set\-Network\-Y} (float iy)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This class contains a monster 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_monster_aa38e6e17f59a3112597a5ae7e01f447e}{\index{Monster@{Monster}!Monster@{Monster}}
+\index{Monster@{Monster}!Monster@{Monster}}
+\subsubsection[{Monster}]{\setlength{\rightskip}{0pt plus 5cm}Monster\-::\-Monster (
+\begin{DoxyParamCaption}
+\item[{int}]{itype, }
+\item[{int}]{isb, }
+\item[{{\bf Point}$<$ float $>$}]{ipoint, }
+\item[{int}]{iid, }
+\item[{T\-I\-M\-E}]{inow}
+\end{DoxyParamCaption}
+)}}\label{class_monster_aa38e6e17f59a3112597a5ae7e01f447e}
+Constructor 
+\begin{DoxyParams}{Parameters}
+{\em itype} & type of monster \\
+\hline
+{\em isb} & size of a brick on map, necessary for random way changes \\
+\hline
+{\em ipoint} & starting point \\
+\hline
+{\em iid} & monster id \\
+\hline
+{\em inow} & current frame time \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_monster_aaa9541f9ce3e205065bfbc1f24c5cef0}{\index{Monster@{Monster}!alive@{alive}}
+\index{alive@{alive}!Monster@{Monster}}
+\subsubsection[{alive}]{\setlength{\rightskip}{0pt plus 5cm}bool Monster\-::alive (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_monster_aaa9541f9ce3e205065bfbc1f24c5cef0}
+Is alive \hypertarget{class_monster_af0ca0f158c1e1de2b498c9c8b2b9b69a}{\index{Monster@{Monster}!change@{change}}
+\index{change@{change}!Monster@{Monster}}
+\subsubsection[{change}]{\setlength{\rightskip}{0pt plus 5cm}bool Monster\-::change (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_monster_af0ca0f158c1e1de2b498c9c8b2b9b69a}
+Change direction \hypertarget{class_monster_a182b79c8d97b3fee25d25019fee43dbf}{\index{Monster@{Monster}!collide@{collide}}
+\index{collide@{collide}!Monster@{Monster}}
+\subsubsection[{collide}]{\setlength{\rightskip}{0pt plus 5cm}bool Monster\-::collide (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_monster_a182b79c8d97b3fee25d25019fee43dbf}
+Is colliding with wall \hypertarget{class_monster_a393e45e15e584ab11bbadf20dde26a73}{\index{Monster@{Monster}!die@{die}}
+\index{die@{die}!Monster@{Monster}}
+\subsubsection[{die}]{\setlength{\rightskip}{0pt plus 5cm}std\-::string Monster\-::die (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_monster_a393e45e15e584ab11bbadf20dde26a73}
+Dies \begin{DoxyReturn}{Returns}
+animation of dying 
+\end{DoxyReturn}
+\hypertarget{class_monster_a7e44e59c51a2bfcd8435455ab837b5e8}{\index{Monster@{Monster}!get\-Goes\-Through\-Wall@{get\-Goes\-Through\-Wall}}
+\index{get\-Goes\-Through\-Wall@{get\-Goes\-Through\-Wall}!Monster@{Monster}}
+\subsubsection[{get\-Goes\-Through\-Wall}]{\setlength{\rightskip}{0pt plus 5cm}bool Monster\-::get\-Goes\-Through\-Wall (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_monster_a7e44e59c51a2bfcd8435455ab837b5e8}
+Return that the monster can walk through walls or not \hypertarget{class_monster_ace362de3d9aba99bfaff938cd4e4e669}{\index{Monster@{Monster}!get\-Id@{get\-Id}}
+\index{get\-Id@{get\-Id}!Monster@{Monster}}
+\subsubsection[{get\-Id}]{\setlength{\rightskip}{0pt plus 5cm}int Monster\-::get\-Id (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_monster_ace362de3d9aba99bfaff938cd4e4e669}
+Get monster id \hypertarget{class_monster_ac596b26c5192997b89f9f75a3bcd2745}{\index{Monster@{Monster}!get\-Move@{get\-Move}}
+\index{get\-Move@{get\-Move}!Monster@{Monster}}
+\subsubsection[{get\-Move}]{\setlength{\rightskip}{0pt plus 5cm}bool Monster\-::get\-Move (
+\begin{DoxyParamCaption}
+\item[{{\bf Point}$<$ float $>$ \&}]{p}
+\end{DoxyParamCaption}
+)}}\label{class_monster_ac596b26c5192997b89f9f75a3bcd2745}
+Get movement of monster. 
+\begin{DoxyParams}{Parameters}
+{\em p} & the new position +/-\/ 0.\-5 where it wants to go \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the player changes it's position or not 
+\end{DoxyReturn}
+\hypertarget{class_monster_a445db906382e3f745c757d114f2cbdb5}{\index{Monster@{Monster}!get\-Network\-X@{get\-Network\-X}}
+\index{get\-Network\-X@{get\-Network\-X}!Monster@{Monster}}
+\subsubsection[{get\-Network\-X}]{\setlength{\rightskip}{0pt plus 5cm}float Monster\-::get\-Network\-X (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{class_monster_a445db906382e3f745c757d114f2cbdb5}
+Get network x, which contains the place and {\bfseries direction} of monster \hypertarget{class_monster_aecc657595adcf45f1b393311d3b7a8a9}{\index{Monster@{Monster}!get\-Network\-Y@{get\-Network\-Y}}
+\index{get\-Network\-Y@{get\-Network\-Y}!Monster@{Monster}}
+\subsubsection[{get\-Network\-Y}]{\setlength{\rightskip}{0pt plus 5cm}float Monster\-::get\-Network\-Y (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{class_monster_aecc657595adcf45f1b393311d3b7a8a9}
+Get network y, which contains the place and {\bfseries direction} of monster \hypertarget{class_monster_ac13c82f6368a4f0aa88d4fa18373413c}{\index{Monster@{Monster}!get\-Point@{get\-Point}}
+\index{get\-Point@{get\-Point}!Monster@{Monster}}
+\subsubsection[{get\-Point}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Point}$<$ float $>$ Monster\-::get\-Point (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_monster_ac13c82f6368a4f0aa88d4fa18373413c}
+Get exact point on screen \hypertarget{class_monster_a8420f6b189642b5ce0d00c33a8538c88}{\index{Monster@{Monster}!get\-Point\-Int@{get\-Point\-Int}}
+\index{get\-Point\-Int@{get\-Point\-Int}!Monster@{Monster}}
+\subsubsection[{get\-Point\-Int}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Point}$<$ int $>$ Monster\-::get\-Point\-Int (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_monster_a8420f6b189642b5ce0d00c33a8538c88}
+Get rounded point, which rectangle is the nearest \hypertarget{class_monster_a098ed95cc3b7db039ba3d56c376c8c48}{\index{Monster@{Monster}!get\-X@{get\-X}}
+\index{get\-X@{get\-X}!Monster@{Monster}}
+\subsubsection[{get\-X}]{\setlength{\rightskip}{0pt plus 5cm}float Monster\-::get\-X (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{class_monster_a098ed95cc3b7db039ba3d56c376c8c48}
+Get exact X coordinate \hypertarget{class_monster_afb990351774ec1e9771977dc6b6a3a38}{\index{Monster@{Monster}!get\-Y@{get\-Y}}
+\index{get\-Y@{get\-Y}!Monster@{Monster}}
+\subsubsection[{get\-Y}]{\setlength{\rightskip}{0pt plus 5cm}float Monster\-::get\-Y (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{class_monster_afb990351774ec1e9771977dc6b6a3a38}
+Get exact Y coordinate \hypertarget{class_monster_af558bd1fd73a39d8b179d86656d8117f}{\index{Monster@{Monster}!is\-Active@{is\-Active}}
+\index{is\-Active@{is\-Active}!Monster@{Monster}}
+\subsubsection[{is\-Active}]{\setlength{\rightskip}{0pt plus 5cm}bool Monster\-::is\-Active (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_monster_af558bd1fd73a39d8b179d86656d8117f}
+Not yet active, false for a few seconds when the class is created \hypertarget{class_monster_a15cc199da6293b74caab06a13791d374}{\index{Monster@{Monster}!move@{move}}
+\index{move@{move}!Monster@{Monster}}
+\subsubsection[{move}]{\setlength{\rightskip}{0pt plus 5cm}void Monster\-::move (
+\begin{DoxyParamCaption}
+\item[{T\-I\-M\-E}]{inow}
+\end{DoxyParamCaption}
+)}}\label{class_monster_a15cc199da6293b74caab06a13791d374}
+Move the monster, with calculating the difference between current and previous frame time 
+\begin{DoxyParams}{Parameters}
+{\em inow} & current frame time \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_monster_ad8d29c4473062514986c23f88073a8d0}{\index{Monster@{Monster}!set\-Dx@{set\-Dx}}
+\index{set\-Dx@{set\-Dx}!Monster@{Monster}}
+\subsubsection[{set\-Dx}]{\setlength{\rightskip}{0pt plus 5cm}void Monster\-::set\-Dx (
+\begin{DoxyParamCaption}
+\item[{float}]{dx}
+\end{DoxyParamCaption}
+)}}\label{class_monster_ad8d29c4473062514986c23f88073a8d0}
+Set direction X \hypertarget{class_monster_a946db5465ec3edcf83d67120e9665aea}{\index{Monster@{Monster}!set\-Dy@{set\-Dy}}
+\index{set\-Dy@{set\-Dy}!Monster@{Monster}}
+\subsubsection[{set\-Dy}]{\setlength{\rightskip}{0pt plus 5cm}void Monster\-::set\-Dy (
+\begin{DoxyParamCaption}
+\item[{float}]{dy}
+\end{DoxyParamCaption}
+)}}\label{class_monster_a946db5465ec3edcf83d67120e9665aea}
+Set direction Y \hypertarget{class_monster_a043642ab1fccc26443d3d3688c90d437}{\index{Monster@{Monster}!set\-Network\-X@{set\-Network\-X}}
+\index{set\-Network\-X@{set\-Network\-X}!Monster@{Monster}}
+\subsubsection[{set\-Network\-X}]{\setlength{\rightskip}{0pt plus 5cm}void Monster\-::set\-Network\-X (
+\begin{DoxyParamCaption}
+\item[{float}]{ix}
+\end{DoxyParamCaption}
+)}}\label{class_monster_a043642ab1fccc26443d3d3688c90d437}
+Set network x, which contains the place and {\bfseries direction} of monster \hypertarget{class_monster_a52e4da28435fda501ce00313ed62ae6b}{\index{Monster@{Monster}!set\-Network\-Y@{set\-Network\-Y}}
+\index{set\-Network\-Y@{set\-Network\-Y}!Monster@{Monster}}
+\subsubsection[{set\-Network\-Y}]{\setlength{\rightskip}{0pt plus 5cm}void Monster\-::set\-Network\-Y (
+\begin{DoxyParamCaption}
+\item[{float}]{iy}
+\end{DoxyParamCaption}
+)}}\label{class_monster_a52e4da28435fda501ce00313ed62ae6b}
+Set network y, which contains the place and {\bfseries direction} of monster \hypertarget{class_monster_ac939d27e784e74f3f83ff75d5b07d18a}{\index{Monster@{Monster}!set\-X@{set\-X}}
+\index{set\-X@{set\-X}!Monster@{Monster}}
+\subsubsection[{set\-X}]{\setlength{\rightskip}{0pt plus 5cm}void Monster\-::set\-X (
+\begin{DoxyParamCaption}
+\item[{float}]{x}
+\end{DoxyParamCaption}
+)}}\label{class_monster_ac939d27e784e74f3f83ff75d5b07d18a}
+Set X coordinate \hypertarget{class_monster_a2e2439037a4133e2d9bf2e7d97e053a8}{\index{Monster@{Monster}!set\-Y@{set\-Y}}
+\index{set\-Y@{set\-Y}!Monster@{Monster}}
+\subsubsection[{set\-Y}]{\setlength{\rightskip}{0pt plus 5cm}void Monster\-::set\-Y (
+\begin{DoxyParamCaption}
+\item[{float}]{y}
+\end{DoxyParamCaption}
+)}}\label{class_monster_a2e2439037a4133e2d9bf2e7d97e053a8}
+Set Y coordinate \hypertarget{class_monster_a92d025698849788ef06e337f8a5413f1}{\index{Monster@{Monster}!state@{state}}
+\index{state@{state}!Monster@{Monster}}
+\subsubsection[{state}]{\setlength{\rightskip}{0pt plus 5cm}std\-::string Monster\-::state (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_monster_a92d025698849788ef06e337f8a5413f1}
+Get animation state 
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+monster.\-h\item 
+monster.\-cpp\end{DoxyCompactItemize}
